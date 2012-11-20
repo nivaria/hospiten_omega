@@ -271,6 +271,7 @@ input.form-submit{
     position: absolute;
     right: 26px;
     top: 19px;
+    background-color:transparent;
 }
 #block-search-api-page-solr-search .form-text{
     color:#999;
@@ -510,6 +511,8 @@ body.front h1,
     position: absolute;
     top: 140px;
     z-index: 10;
+    
+    left:4px;
 }
 #zone-menu-wrapper li a{
     color:#fff;
@@ -526,6 +529,9 @@ body.front h1,
     padding:0 16px;
     border-radius:4px;
     -webkit-border-radius:4px;
+    
+    margin: 0;
+    padding: 0 8px;
 }
 #zone-menu-wrapper li.first{
     margin:0;
