@@ -18,9 +18,15 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 ul li.leaf {
     list-style:none;
 }
+.field-type-taxonomy-term-reference ul,
 ul.menu li {
     margin: 0;
+    padding:0;
 }
+.field-type-taxonomy-term-reference{
+    margin:1em 0;
+}
+.field-type-taxonomy-term-reference li,
 .menu li {
     list-style: none outside none;
 }
@@ -40,6 +46,32 @@ a:visited:hover,
 li a.active:hover,
 a:hover{
     text-decoration:underline;
+}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+        border: 1px solid #E0E0E0;
+    color: #999999;
+    font-size: 11px;
+}
+.node-webform{
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+.node-webform label{
+    color:#666;
 }
 #messages{
     display: block;
@@ -182,25 +214,7 @@ input.form-submit,
 #block-menu-menu-menu-superior li a{
     color:#fff;
 }
-.visitorinfoid a,
-input.form-submit{
-    background-color: #999999;
-    background-image: none;
-    color: #FFFFFF;
-    display: block;
-    float: right;
-    font-size: 14px;
-    font-weight: normal;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 22px;
-    text-shadow: none;
-}
-.visitorinfoid a{
-    background-repeat:no-repeat;
-    background-image:url('../images/more-info-gray.png');
-    background-position: right center;
-}
+
 .views-exposed-form .views-exposed-widget.views-submit-button{
     float:none;
     padding:0;
@@ -580,10 +594,6 @@ body.front h1,
     float:left;
     margin-right:10px;
 }
-/* dev tweaks */
-#region-sidebar-first{
-    display:none;
-}
 .view-header,
 .view-filters{
     background-color: #666666;
@@ -862,10 +872,26 @@ body.front h1,
     float: left;
     margin: 0;
     padding: 0;
+    clear:none;
+}
+.view-nuestros-profesionales .view-filters .views-exposed-widgets div,
+.view-nuestros-profesionales .view-filters label {
+    float:none;
+}
+.view-nuestros-profesionales .view-filters label {
+    margin:0;
+    padding-top:1em;
 }
 .view-filters label {
     margin-left: 1.4em;
     margin-right: 1.4em;
+}
+.view-filters .views-exposed-widgets .tips,
+.view-filters .views-exposed-widgets .description {
+    color: #fff;
+    display:inline;
+    float:none;
+    display:none;
 }
 .std-list .views-exposed-form .views-exposed-widget.views-submit-button {
     float: right;
@@ -875,6 +901,14 @@ body.front h1,
 }
 .std-list .view-filters{
     margin-bottom:1em;
+    margin-top:1em;
+}
+.std-list .views-row{
+    border-bottom: 1px solid #E0E0E0;
+    clear: both;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding-bottom: 1em;
 }
 /* Pager */
 .item-list .pager {
@@ -913,4 +947,43 @@ body.front h1,
 }
 .pager li.pager-next {
     right: 58px;
+}
+.visitorinfoid a,
+input.form-submit{
+    background-color: #999999;
+    background-image: none;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 22px;
+    text-shadow: none;
+}
+.visitorinfoid a:hover,
+input.form-submit:hover{
+    background-color:#666;
+}
+.visitorinfoid a{
+    background-repeat:no-repeat;
+    background-image:url('../images/more-info-gray.png');
+    background-position: right center;
+}
+.views-field-field-zona .views-label{
+    font-weight:bold;
+}
+.views-field-field-zona li,
+.field-type-text li,
+.field-type-text-with-summary li{
+    list-style:none;
+}
+.views-field-field-zona li:before,
+.field-type-text li:before,
+.field-type-text-with-summary li:before{
+    content: "-  ";
+}
+body.node-type-cursos-y-eventos .node .field{
+    margin-bottom:1em;
 }
