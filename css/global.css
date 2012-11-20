@@ -65,6 +65,7 @@ input[type="week"] {
         border: 1px solid #E0E0E0;
     color: #999999;
     font-size: 11px;
+    min-height:28px;
 }
 .node-webform{
     background-color: #F9F9F9;
@@ -153,6 +154,7 @@ body.not-front #region-content{
     float:left;
     width:690px;
 }
+body.not-front #region-sidebar-first,
 body.not-front #region-sidebar-second{
     border: 0 none;
     display: block;
@@ -160,6 +162,12 @@ body.not-front #region-sidebar-second{
     margin: 60px 0 0 20px;
     padding: 0;
     width: 220px;
+}
+body.not-front #region-sidebar-first{
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 body.not-front #region-sidebar-second .block{
     margin-bottom:2em;
@@ -455,6 +463,10 @@ body.front h1,
     margin-bottom:12px;
     text-align:center;
 }
+.home-apartados .views-field-title{
+    height:38px;
+    line-height:38px;
+}
 .home-apartados .views-field-title span{
     color:#00B27A;
     font-size:16px;
@@ -603,14 +615,14 @@ body.front h1,
     line-height: 44px;
     padding: 0 16px;
 }
-.view-nuestros-profesionales .view-filters{
+.especialidades .view-filters{
     background-color: #F9F9F9;
     color: #666666;
     height: auto;
     padding: 20px;
     line-height:12px;
 }
-.view-nuestros-profesionales .view-filters .views-exposed-form label{
+.especialidades .view-filters .views-exposed-form label{
     padding-bottom:1em;
 }
 .view-content{
@@ -874,11 +886,11 @@ body.front h1,
     padding: 0;
     clear:none;
 }
-.view-nuestros-profesionales .view-filters .views-exposed-widgets div,
-.view-nuestros-profesionales .view-filters label {
+.especialidades .view-filters .views-exposed-widgets div,
+.especialidades .view-filters label {
     float:none;
 }
-.view-nuestros-profesionales .view-filters label {
+.especialidades .view-filters label {
     margin:0;
     padding-top:1em;
 }
@@ -974,16 +986,74 @@ input.form-submit:hover{
 .views-field-field-zona .views-label{
     font-weight:bold;
 }
+body.node-type-cursos-y-eventos .node .field{
+    margin-bottom:1em;
+}
+/*cv*/
+body.page-node-add .block-system-main{
+    background-color:#f9f9f9;
+    padding:20px;
+}
+body.page-node-add .block-system-main form input[type=text],
+body.page-node-add .block-system-main form select,
+body.page-node-add .block-system-main form textarea{
+    width:436px;
+}
+body.page-node-add .block-system-main form select.date-clear{
+    width:auto;
+}
+body.page-node-add .block-system-main form label{
+    padding-bottom:1em;
+}
+form .field-multiple-table th.field-label {
+    padding-left: 24px;
+    padding-top: 12px;
+}
+/*facetapi*/
+.block-facetapi{
+    background-color: #F9F9F9;
+    margin-bottom: 1em;
+    padding: 12px;
+}
+.block-facetapi h2{
+    padding-bottom:0.4em;
+}
+.block-facetapi .content .item-list li{
+    padding:0;
+    margin:0;
+    border:0 none;
+    border-bottom:1px solid #e8e8e8;
+    min-height:30px;
+    line-height:30px;
+}
+.block-facetapi .content .item-list li.expanded{
+    list-style:none;
+}
+/*.block-facetapi .content .item-list li a.facetapi-active{
+    background-color: #999999;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    color: #FFFFFF;
+    display: block;
+    padding: 0 16px;
+}*/
+.block-facetapi .content .item-list li li.first,
+.block-facetapi .content .item-list li li{
+    padding:0.3em 0;
+    margin:0 0 0 8px;
+    border:0 none;
+    height:auto;
+    line-height:100%;
+}
+.block-facetapi li,
 .views-field-field-zona li,
 .field-type-text li,
 .field-type-text-with-summary li{
     list-style:none;
 }
+.block-facetapi li li:before,
 .views-field-field-zona li:before,
 .field-type-text li:before,
 .field-type-text-with-summary li:before{
     content: "-  ";
-}
-body.node-type-cursos-y-eventos .node .field{
-    margin-bottom:1em;
 }
