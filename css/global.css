@@ -847,3 +847,70 @@ body.front h1,
 .field-name-otros-centros-zona{
     margin-top:0;
 }
+/* standard list */
+.std-list .group-left {
+    float: left;
+    margin-right: 1em;
+    width: 220px;
+}
+.std-list .group-right {
+    float: none;
+    width: 100%;
+}
+.view-filters .views-exposed-widgets div,
+.view-filters label {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.view-filters label {
+    margin-left: 1.4em;
+    margin-right: 1.4em;
+}
+.std-list .views-exposed-form .views-exposed-widget.views-submit-button {
+    float: right;
+}
+.std-list .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 7px;
+}
+.std-list .view-filters{
+    margin-bottom:1em;
+}
+/* Pager */
+.item-list .pager {
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.item-list .pager li {
+    background-image: none;
+    background:none;
+    display: block;
+    float:left;
+    padding: 0.5em;
+    border:0 none;
+    color:#00B27A;
+    font-weight:normal;
+    white-space:nowrap;
+}
+.pager li a,
+.pager li a:hover {
+    background-image: none;
+    background:none;
+    cursor: pointer;
+    color:#00B27A;
+    font-weight:normal;
+    padding:0;
+}
+.pager li.pager-first a,
+.pager li.pager-previous a,
+.pager li.pager-next a,
+.pager li.pager-last a {
+    padding: 0;
+    text-align: center;
+    width: auto;
+}
+.pager li.pager-next {
+    right: 58px;
+}
