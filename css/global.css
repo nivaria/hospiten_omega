@@ -81,6 +81,9 @@ input[type="week"] {
     width: 100%;
 }
 /* layout */
+#zone-menu{
+    width:742px;
+}
 #page{
     background-image:url('../images/body-bg.png');
     background-repeat:no-repeat;
@@ -282,6 +285,7 @@ input.form-submit,
 #block-search-api-page-solr-search h2{
     display:none;
 }
+#edit-submit-especialidades-node-index,
 #block-search-api-page-solr-search .form-submit{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
@@ -300,6 +304,11 @@ input.form-submit,
     right: 26px;
     top: 19px;
     background-color:transparent;
+}
+#edit-submit-especialidades-node-index{
+       position: relative;
+    right: 6px;
+    top: -22px;
 }
 #block-search-api-page-solr-search .form-text{
     color:#999;
@@ -940,11 +949,15 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     margin: 0;
     position: static;
     padding:0;
+    
+        padding: 0 20px; 
+    width: 143px;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li a{
-    font-family:arial;
-    font-size:12px;
-    color:#00b27a;
+    font-family:arial !important;
+    font-size:12px !important;
+    color:#00b27a !important;
+    font-weight: normal !important;
     
     border: 0 none;
     display: block;
@@ -952,17 +965,21 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     text-align:center;
     line-height: 39px;
     margin: 0;
-    padding: 0 62px;
+    padding: 0;
     position: static;
     background-repeat:no-repeat;
     background-position:left top;
     background-image:url('../images/tabs_sep.png');
+    padding-left:32px;
     
     height: 30px;
-    padding-top: 9px;
+    white-space:normal;
+    padding-top: 2px;
 }
-.quicktabs-wrapper ul.quicktabs-tabs li.first{
+.quicktabs-wrapper ul.quicktabs-tabs li.active + li a,
+.quicktabs-wrapper ul.quicktabs-tabs li.first a{
     background-image:none;
+    padding:0;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li.active{
     background-position:-3px -178px;
@@ -970,8 +987,8 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     background-image:url('../images/sprites.png');
     border:0 none;
     height: 78px;
-    padding: 0;
-    width: 183px;
+    padding: 0 20px; 
+    width: 143px;
     margin-top:-25px;
     position: relative;
     z-index: 10;
@@ -982,8 +999,8 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
 .quicktabs-wrapper ul.quicktabs-tabs li.active a{
     font-family:arial;
     font-size:12px;
-    color:#fff;
-    font-weight:bold;
+    color:#fff !important;
+    font-weight:bold !important;
     padding:0;
     background-image:none;
     padding-top:32px;
@@ -1018,7 +1035,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     font-size:12px;
 }
 .field-name-otros-centros-zona{
-    margin-top:0;
+    margin-top:1em;
 }
 /* standard list */
 .std-list .group-left {
@@ -1211,6 +1228,57 @@ body.node-type-especialidades .field-name-field-imagenes-article{
     margin-bottom: 1em;
     margin-right: 1em;
 }
+#block-views-especialidades-node-index-block .view-filters{
+    margin-bottom: 1em;
+    padding-bottom: 4px; 
+}
+#block-views-especialidades-node-index-block .view-filters .views-exposed-widgets {
+    margin:0;
+    padding:0;
+}
+#block-views-especialidades-node-index-block .view-filters .views-exposed-widgets  label{
+    float: left;
+    margin-right: 60px;
+    padding-top: 8px;
+}
+#block-views-especialidades-node-index-block .item-list ul{
+    margin:0;
+    padding:0;
+    color:#00B27A;
+}
+#block-views-especialidades-node-index-block .item-list li div{
+    display:inline;
+}
+#block-views-especialidades-node-index-block .item-list li a{
+    font-size:12px;
+}
+body.page-nuestros-profesionales #region-content .view-filters,
+body.page-nuestros-profesionales #region-sidebar-first,
+body.page-nuestros-profesionales #region-sidebar-second {
+    margin-top:20px;
+}
+body.page-nuestros-profesionales #zone-content {
+    position:relative;
+}
+body.page-nuestros-profesionales #region-content {
+    width: 450px;
+    position:static;
+}
+body.page-nuestros-profesionales #breadcrumb{
+    margin-bottom: 84px;
+}
+body.page-nuestros-profesionales h1{
+    border-bottom: 1px solid #E0E0E0;
+    left: 0;
+    padding-bottom: 16px;
+    position: absolute;
+    top: 43px;
+    width: 100%;
+}
+#views-exposed-form-nuestros-profesionales-page .form-text{
+    width:100%;
+}
+#block-views-especialidades-node-index-block .item-list li,
 .group-espec-unid-prof .field-item a,
 .views-field-field-centro li,
 .block-facetapi li,
@@ -1221,6 +1289,11 @@ body.node-type-especialidades .field-name-field-imagenes-article{
     list-style:none;
     padding-bottom:1em;
 }
+#block-views-especialidades-node-index-block .item-list li{
+    padding:0;
+    margin-bottom:0;
+}
+#block-views-especialidades-node-index-block .item-list li:before,
 .group-espec-unid-prof .field-item a:before,
 .views-field-field-centro li:before,
 .block-facetapi li li:before,
