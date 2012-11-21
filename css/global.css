@@ -697,12 +697,17 @@ body.front h1,
 }
 
 /* bloque pedir cita */
+.group-cita-previa{
+    width:176px;
+}
+.group-cita-previa,
 .block-pedir-cita{
     border: 1px solid #E0E0E0;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     padding: 8px;
 }
+.group-cita-previa legend span,
 .block-pedir-cita h2{
     font-size:16px;
     color:#666;
@@ -714,6 +719,7 @@ body.front h1,
     background-position:-220px -3px;
     padding-left:50px;
 }
+.group-cita-previa .field,
 .pedircitacorreo,
 .pedircitatelefono{
     border-radius: 6px;
@@ -723,45 +729,71 @@ body.front h1,
     font-size: 13px;
     line-height: 28px;
     margin-bottom: 8px;
-    padding: 8px 22px;
+    padding: 4px 22px;
 }
+.group-cita-previa .field a,
 .pedircitacorreo a,
 .pedircitatelefono a{
     color:#fff;
 }
+.group-cita-previa .field-type-ds,
 .pedircitacorreo{
     background-color: #00b27a;    
 }
+.group-cita-previa .field-name-field-telefono,
 .pedircitatelefono{
     background-color: #2DC6D6;
 }
-
+.view-id-mapa_centros.view-display-id-block_2 li{
+    border:1px solid #e0e0e0;
+    margin-top:48px;
+}
+.view-id-mapa_centros.view-display-id-block_2 li .group-left h2{
+    white-space:nowrap;
+    font-size:18px;
+    border:0 none;
+}
+.view-id-mapa_centros.view-display-id-block_2 li .group-right{
+    background-color: #FFFFFF;
+    margin-right: 18px;
+    margin-top: -30px;
+    width: auto;
+}
+.field-name-bloque-centros-relacionados h2{
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 24px;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+.field-name-bloque-centros-relacionados .attachment{
+    margin-top: 2em;
+}
 /*detalle hospitales*/
-.node-hospitales .group-left{
+body.node-type-hospitales .node-hospitales .group-left{
     overflow: hidden;
     padding-right: 16px;
     width: 220px; 
 }
-.node-hospitales .group-right{
+body.node-type-hospitales .node-hospitales .group-right{
     margin-bottom:2em;
 }
-.node-hospitales .group-footer{
+body.node-type-hospitales .node-hospitales .group-footer{
     padding-top:2em;
 }
-.node-hospitales .group-left .locality{
+body.node-type-hospitales .node-hospitales .group-left .locality{
     display:block;
     float:left;
 }
-.node-hospitales .group-left .state{
+body.node-type-hospitales .node-hospitales .group-left .state{
     display:block;
 }
-.node-hospitales .group-left .field{
+body.node-type-hospitales .node-hospitales .group-left .field{
     padding-left:46px;
 }
-.node-hospitales .group-left .field.field-name-field-imagenes-article{
+body.node-type-hospitales .node-hospitales .group-left .field.field-name-field-imagenes-article{
     padding-left:0;
 }
-.node-hospitales .field-name-field-direccion{
+body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-222px -54px;
@@ -1009,6 +1041,14 @@ form .field-multiple-table th.field-label {
     padding-left: 24px;
     padding-top: 12px;
 }
+.block-profesionales-block-1 h2{
+    color:#666;
+}
+.view-profesionales .views-field-title a{
+    color: #868686;
+    font-size: 12px;
+    font-weight: bold;
+}
 /*facetapi*/
 .block-facetapi{
     background-color: #F9F9F9;
@@ -1045,12 +1085,14 @@ form .field-multiple-table th.field-label {
     height:auto;
     line-height:100%;
 }
+.views-field-field-centro li,
 .block-facetapi li,
 .views-field-field-zona li,
 .field-type-text li,
 .field-type-text-with-summary li{
     list-style:none;
 }
+.views-field-field-centro li:before,
 .block-facetapi li li:before,
 .views-field-field-zona li:before,
 .field-type-text li:before,
