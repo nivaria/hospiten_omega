@@ -744,26 +744,63 @@ body.front h1,
 .pedircitatelefono{
     background-color: #2DC6D6;
 }
-.view-id-mapa_centros.view-display-id-block_2 li{
+.view-id-mapa_centros.view-display-id-block_2 ul{
+    margin:0;
+    padding:0;
+}
+.view-id-mapa_centros.view-display-id-block_2 li.views-row{
     border:1px solid #e0e0e0;
     margin-top:48px;
+    padding:16px;
+    margin-left:0;
 }
-.view-id-mapa_centros.view-display-id-block_2 li .group-left h2{
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left h2{
     white-space:nowrap;
     font-size:18px;
     border:0 none;
+    margin:0;
 }
-.view-id-mapa_centros.view-display-id-block_2 li .group-right{
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left .field-type-taxonomy-term-reference,
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left ul,
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left ul li{
+    margin:0;
+}
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left .field-type-taxonomy-term-reference a{
+    color:#333;
+}
+.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-right{
     background-color: #FFFFFF;
     margin-right: 18px;
-    margin-top: -30px;
+    margin-top: -48px;
     width: auto;
+    float:right;
 }
+.node-profesionales .field-name-field-otros-datos-profesional .field-label,
+.node-profesionales .field-name-field-publicaciones-profesional .field-label,
+.node-profesionales .field-name-field-lugar-est-profesional .field-label,
 .field-name-bloque-centros-relacionados h2{
     border-bottom: 1px solid #E0E0E0;
     font-size: 24px;
     margin-bottom: 1em;
     padding-bottom: 0.5em;
+}
+.field-name-bloque-centros-relacionados h2.block-title{
+    padding-top:1em;
+}
+.node-profesionales .field-name-field-otros-datos-profesional .field-label,
+.node-profesionales .field-name-field-publicaciones-profesional .field-label,
+.node-profesionales .field-name-field-lugar-est-profesional .field-label{
+    margin-top:1em;
+    color:#666;
+    font-weight:normal;
+}
+.node-profesionales .group-left{
+    margin-right: 1em;
+    width: 218px;
+}
+.node-profesionales .group-right{
+    float: none;
+    width: 100%;
 }
 .field-name-bloque-centros-relacionados .attachment{
     margin-top: 2em;
@@ -1043,6 +1080,7 @@ form .field-multiple-table th.field-label {
 }
 .block-profesionales-block-1 h2{
     color:#666;
+    padding:0;
 }
 .view-profesionales .views-field-title a{
     color: #868686;
@@ -1085,16 +1123,21 @@ form .field-multiple-table th.field-label {
     height:auto;
     line-height:100%;
 }
+.group-espec-unid-prof .field-item a,
 .views-field-field-centro li,
 .block-facetapi li,
 .views-field-field-zona li,
 .field-type-text li,
+.field-type-text-long li,
 .field-type-text-with-summary li{
     list-style:none;
+    padding-bottom:1em;
 }
+.group-espec-unid-prof .field-item a:before,
 .views-field-field-centro li:before,
 .block-facetapi li li:before,
 .views-field-field-zona li:before,
+.field-type-text-long li:before,
 .field-type-text li:before,
 .field-type-text-with-summary li:before{
     content: "-  ";
