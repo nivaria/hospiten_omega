@@ -153,12 +153,16 @@ body.not-front #section-content{
     margin: 0;
     width: 100%;
 }
-body.not-front #region-content{
+body.one-sidebar #region-content{
     float:left;
     width:690px;
 }
-body.not-front #region-sidebar-first,
-body.not-front #region-sidebar-second{
+body.two-sidebars #region-content{
+    float:left;
+    width:450px;
+}
+#region-sidebar-first,
+#region-sidebar-second{
     border: 0 none;
     display: block;
     float: right;
@@ -166,13 +170,13 @@ body.not-front #region-sidebar-second{
     padding: 0;
     width: 220px;
 }
-body.not-front #region-sidebar-first{
+#region-sidebar-first{
     float: left;
     margin-left: 0;
     margin-right: 20px;
     margin-top: 20px;
 }
-body.not-front #region-sidebar-second .block{
+#region-sidebar-second .block{
     margin-bottom:2em;
 }
 /* typograhy */
@@ -498,6 +502,9 @@ body.front h1,
     width:220px;
     height:210px;
     float:left;
+    
+    overflow:hidden;
+    margin-bottom:12px;
 }
 .home-apartados ul li.views-row-first{
     margin-left:0;
