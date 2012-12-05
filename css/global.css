@@ -209,12 +209,23 @@ h1{
     font-weight:normal;
 }
 .views-field-title span,
-h2{
+h2,
+h2.block-title{
     color:#666;
     font-size:24px;
     line-height:120%;
     font-weight:normal;
     letter-spacing: 1px;
+}
+.views-field-title span,
+h2,
+h2.block-title{
+    font-size:22px;
+    letter-spacing:0;
+}
+body.front h2.block-title{
+    color:#9d8c84;
+    margin-bottom:24px;
 }
 h2.grouping-title{
     font-size:12px;
@@ -227,6 +238,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+.more-link a,
 .visitorinfoid a,
 input.form-submit,
 .views-field-view-node a,
@@ -254,6 +266,7 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
+.more-link a,
 .visitorinfoid a,
 input.form-submit,
 .views-field-view-node a,
@@ -398,6 +411,66 @@ input.form-submit,
 #region-sidebar-second .view-campanyas .views-row{
     margin-bottom:1em;
 }
+body.front .view-especialidades-y-unidades .views-field-title a,
+body.front .view-noticias h2{
+    font-size:14px;
+    font-weight:bold;
+    color:#666;
+    line-height:20px;
+}
+body.front .view-noticias h2 a{
+    color:#666;
+}
+body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya{
+    float: left;
+    margin-right: 1em;
+    overflow: hidden;
+    width: 100px; 
+}
+.slideshow-nav,
+#slideshow-nav{
+    height: 15px;
+    margin-top: -27px;
+    text-align: center;
+}
+.slideshow-nav a,
+#slideshow-nav a{
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    display: inline-block;
+    height: 9px;
+    margin-left: 6px;
+    text-indent: -9999px;
+    width: 9px;
+    border:4px solid #fff;
+}
+.slideshow-nav a.activeSlide,
+#slideshow-nav a.activeSlide{
+    background-color: #999999;
+}
+body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row{
+    width:280px;
+}
+body.front .view-noticias .views-row{
+    border-top: 1px solid #EBEBEB;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+body.front .view-noticias .views-row:first-child{
+    border:0 none;
+    margin-top: 0;
+    padding-top: 0;
+}
+.view-noticias .view-mode-teaser .field-name-field-imagenes-article{
+        float: left;
+    height: 86px;
+    margin-right: 1em;
+    overflow: hidden;
+    width: 130px;
+}
+
 .view-campanyas .field-name-field-texto-campanya .field-item{
     font-size:16px;
     font-weight:bold;
@@ -413,8 +486,6 @@ input.form-submit,
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     display:block;
-    width:19px;
-    height:23px;
     margin:0;
     padding:0;
     cursor:pointer;
@@ -422,34 +493,45 @@ input.form-submit,
     text-indent:-9999px;
     border: 0 none;
     text-shadow: none;
-    float:left;
     z-index:10;
+    float:left
 }
 .views-slideshow-controls-text-next a{
+    float:right;
+}
+#region-branding .views-slideshow-controls-text-next a,
+#region-branding .views-slideshow-controls-text-previous a{
+    width:19px;
+    height:23px;
+    float:left;
+}
+#region-branding .views-slideshow-controls-text-next a{
     background-position: -58px -2px;
 }
-.views-slideshow-controls-text-previous a{
+#region-branding .views-slideshow-controls-text-previous a{
     background-position: -31px -2px;
     margin-right:20px;
 }
 .views-slideshow-controls-text-pause{
     display:none;
 }
-.views-slideshow-controls-text{
+#region-branding .views-slideshow-controls-text{
      bottom: 32px;
     left: 32px;
     position: absolute;
     z-index:10;
+     background-color: transparent;
+    border: 0 none;
 }
-.views-slideshow-cycle-main-frame-row,
-.views-slideshow-cycle-main-frame{
+#region-branding .views-slideshow-cycle-main-frame-row,
+#region-branding .views-slideshow-cycle-main-frame{
     width:914px !important;
 }
-.views-slideshow-cycle-main-frame-row .group-right{
+#region-branding .views-slideshow-cycle-main-frame-row .group-right{
     float:right;
     text-align:right;
 }
-#region-sidebar-second .views-slideshow-controls-text{
+.views-slideshow-controls-text{
     position:static;
     border: 4px solid #E6E6E6;
     border-radius: 24px;
@@ -468,16 +550,20 @@ input.form-submit,
     padding: 0;
     text-shadow: none;
 }
-#region-sidebar-second .views-slideshow-controls-text-next a,
-#region-sidebar-second .views-slideshow-controls-text-previous a{
+.views-slideshow-controls-text-previous a{
     width:19px;
     height:18px;
     margin:5px 0 0 5px;
 }
-#region-sidebar-second .views-slideshow-controls-text-next a{
+.views-slideshow-controls-text-next a{
+    width:19px;
+    height:18px;
+    margin:5px 5px 0 0;
+}
+.views-slideshow-controls-text-next a{
     background-position:-197px -20px;
 }
-#region-sidebar-second .views-slideshow-controls-text-previous a{
+.views-slideshow-controls-text-previous a{
     background-position:-197px -60px;
 }
 /* layout corners */
@@ -1179,6 +1265,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
 .pager li.pager-next {
     right: 58px;
 }
+.more-link a,
 .visitorinfoid a,
 input.form-submit{
     background-color: #999999;
@@ -1193,20 +1280,50 @@ input.form-submit{
     padding: 0 22px;
     text-shadow: none;
 }
+.more-link a:hover,
 .visitorinfoid a:hover,
 input.form-submit:hover{
     background-color:#666;
 }
+.more-link a,
 .visitorinfoid a{
     background-repeat:no-repeat;
     background-image:url('../images/more-info-gray.png');
     background-position: right center;
 }
+.more-link a{
+    float: none;
+    text-align: left;
+    width: auto;
+}
+.more-link-blue a{
+    background-color:#2dc6d6;
+    background-image:url('../images/more-info-blue.png');
+}
+.more-link-green a{
+    background-color:#00b27a;
+    background-image:url('../images/more-info-green.png');
+}
 .views-field-field-zona .views-label{
     font-weight:bold;
 }
+body.front #block-nodeblock-34{
+    margin-bottom:1em;
+}
 body.node-type-cursos-y-eventos .node .field{
     margin-bottom:1em;
+}
+#zone-postscript{
+    width:100%;
+}
+#region-postscript-first,
+#region-postscript-second{
+    width:314px;
+}
+#region-postscript-third{
+     float: right;
+    margin-right: 0;
+    width: 220px;
 }
 /*cv*/
 body.page-node-add .block-system-main{
