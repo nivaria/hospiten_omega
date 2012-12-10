@@ -661,22 +661,72 @@ body.front h1,
 .views-field-field-enlace-bloque a:hover{
     background-position:-117px -3px;
 }
-#block-menu-menu-menu-inferior{
+.region-footer-first-inner{
     border-top: 1px solid #939393;
     margin-top: 68px;
     padding-top: 26px;
+    overflow:hidden;
 }
-#block-menu-menu-menu-inferior ul,
-#block-menu-menu-menu-inferior ul li{
+#block-menu-menu-menu-inferior{
+  float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 220px;
+}
+.region-footer-first-inner #block-views-centros-block-6{
+    float:right;
+    width:668px;
+}
+.region-footer-first-inner #block-views-centros-block-6 li{
+    height:64px;
+}
+.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field {
+    margin: 0;
+}
+.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span,
+.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span a{
+    font-size:12px;
+}
+.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span a{
+    color:#999;
+}
+#block-menu-menu-menu-menu-pie{
+    float:right;
+}
+#block-menu-menu-menu-menu-pie h2{
+    display:none;
+}
+#block-menu-menu-menu-menu-pie ul li{
+    float:left;
+}
+#block-menu-menu-menu-menu-pie ul li a{
+       border-left: 1px solid #80D9BD;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+#block-menu-menu-menu-menu-pie ul li.first a{
+    padding:0;
+    margin:0;
+    border:0 none;
+}
+#region-footer-first ul,
+#region-footer-first ul li{
     margin:0;
     padding:0;
     list-style:none;
 }
-#block-menu-menu-menu-inferior ul li{
+#region-footer-first ul li{
     background-image:url('../images/footer-menu-bullet.png');
     background-repeat:no-repeat;
     background-position:0 7px;
     padding-left:15px;
+    border:0 none;
+    height:auto;
+}
+#region-footer-first h2.block-title{
+        color: #CCCCCC;
+    font-size: 16px;
+    margin-bottom:14px;
 }
 #footer_club,
 #footer_logo{
@@ -1276,7 +1326,6 @@ input.form-submit{
     font-size: 14px;
     font-weight: normal;
     height: 30px;
-    line-height: 30px;
     padding: 0 22px;
     text-shadow: none;
 }
@@ -1295,6 +1344,7 @@ input.form-submit:hover{
     float: none;
     text-align: left;
     width: auto;
+    line-height:30px;
 }
 .more-link-blue a{
     background-color:#2dc6d6;
