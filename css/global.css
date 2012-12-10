@@ -713,7 +713,7 @@ body.front h1,
     background-position:-147px -3px;
 }
 .views-field-field-enlace-bloque a:hover{
-    background-position:-117px -3px;
+    background-position:-118px -3px;
 }
 .region-footer-first-inner{
     border-top: 1px solid #939393;
@@ -721,6 +721,7 @@ body.front h1,
     padding-top: 26px;
     overflow:hidden;
 }
+
 #block-menu-menu-menu-inferior{
   float: left;
     padding-left: 10px;
@@ -990,7 +991,7 @@ body.front h1,
     font-size:16px;
     color:#666;
 }
-.block-informacion-visitante.contextual-links-region{
+.block-informacion-visitante{
     position:relative;
 }
 .block-informacion-visitante h2{
@@ -1465,20 +1466,20 @@ input.form-submit:hover{
 #quicktabs-informacion_adicional{
     margin-top:36px;
 }
-.view .attachment{
+body.page-node-informacion-visitante .view .attachment{
     overflow:hidden;
 }
-.view .attachment h2{
+body.page-node-informacion-visitante .view .attachment h2{
       border-bottom: 2px solid #EBEBEB;
     margin-top: 1em;
     padding-bottom: 0.4em;
 }
-.view .attachment .views-row{
+body.page-node-informacion-visitante .view .attachment .views-row{
     float:left;
     width:47%;
     height:188px;
 }
-.view .attachment .views-row-odd{
+body.page-node-informacion-visitante .view .attachment .views-row-odd{
     clear:both;
     margin-right:4em;
 }
