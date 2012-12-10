@@ -225,7 +225,7 @@ h2.block-title{
 }
 body.front h2.block-title{
     color:#9d8c84;
-    margin-bottom:24px;
+    margin-bottom:14px;
 }
 h2.grouping-title{
     font-size:12px;
@@ -459,11 +459,46 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya{
 body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row{
     width:280px;
 }
+.green_banner{
+       background-color: #4CC9A2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 1em;
+    padding: 11px 11px 11px 57px;
+    position: relative;
+}
+.green_banner .block_icon{
+    background-image:url('../images/sprites.png');
+    background-repeat:no-repeat;
+    width:33px;
+    height:30px;
+        left: 10px;
+    position: absolute;
+    top: 14px;
+}
+.green_banner.calendario-recomendaciones .block_icon{
+    background-position: -222px -148px;
+}
+.green_banner.hospiten-vanguardia .block_icon{
+    background-position: -222px -99px;    
+}
+.green_banner_title{
+    color:#fff;
+    font-weight:bold;
+    font-size:14px;
+}
+.green_banner_subtitle{
+    color:#99e0ca;
+}
+#region-postscript-first .region-inner .block,
+#region-postscript-second .region-inner .block,
 body.front .view-noticias .views-row{
-    border-top: 1px solid #EBEBEB;
+    border-top: 2px solid #EBEBEB;
     margin-top: 24px;
     padding-top: 24px;
 }
+#region-postscript-first .region-inner .block:first-child,
+#region-postscript-second .region-inner .block:first-child,
 body.front .view-noticias .views-row:first-child{
     border:0 none;
     margin-top: 0;
@@ -1369,8 +1404,11 @@ input.form-submit:hover{
 .views-field-field-zona .views-label{
     font-weight:bold;
 }
-body.front #block-nodeblock-34{
+#zone-postscript .block{
     margin-bottom:1em;
+}
+#block-nodeblock-1165{
+    padding-top:1em;
 }
 body.node-type-cursos-y-eventos .node .field{
     margin-bottom:1em;
