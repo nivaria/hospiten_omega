@@ -484,10 +484,10 @@ body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row
     top: 14px;
 }
 .green_banner.calendario-recomendaciones .block_icon{
-    background-position: -222px -148px;
+    background-position: -360px -3px;
 }
 .green_banner.hospiten-vanguardia .block_icon{
-    background-position: -222px -99px;    
+    background-position: -317px -3px;    
 }
 .green_banner_title{
     color:#fff;
@@ -990,12 +990,24 @@ body.front h1,
     font-size:16px;
     color:#666;
 }
+.block-informacion-visitante.contextual-links-region{
+    position:relative;
+}
 .block-informacion-visitante h2{
     padding-bottom:6px;
-    background-repeat:no-repeat;
+    padding-left:40px;
+    color: #82817B;
+    font-size: 18px;
+}
+.visitorinfoimage{
+        background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
-    background-position:-220px -3px;
-    padding-left:50px;
+    background-position:-269px -3px;
+    width:41px;
+    height:36px;
+       left: 0;
+    position: absolute;
+    top: 5px;
 }
 .group-cita-previa .field,
 .pedircitacorreo,
@@ -1121,9 +1133,32 @@ body.front h1,
     margin-right: 1em;
     width: 218px;
 }
+.view-nuestros-profesionales .node-profesionales .group-left{
+    margin-right: 20px;
+    width: 80px;
+}
+.view-nuestros-profesionales .node-profesionales .group-left .field-name-field-imagen-profesional{
+       height: 80px;
+    overflow: hidden;
+    width: 80px;
+}
 .node-profesionales .group-right{
     float: none;
     width: 100%;
+}
+.view-nuestros-profesionales .node-profesionales .group-right{
+    float:left;
+    width:348px;
+}
+.view-nuestros-profesionales .node-profesionales .field-name-apellidos-nombre-profesional a{
+    font-size:16px;
+    color:#666;
+}
+.view-nuestros-profesionales .node-profesionales .field-name-field-especialidades a{
+    color:#00D5C7;
+}
+.view-nuestros-profesionales .node-profesionales .field-name-field-centro a{
+    color:#00c5b2;
 }
 .field-name-bloque-centros-relacionados .attachment{
     margin-top: 2em;
@@ -1157,8 +1192,11 @@ body.node-type-hospitales .node-hospitales .group-left .field.field-name-field-i
 body.node-type-hospitales .node-hospitales .field-name-field-direccion{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
-    background-position:-222px -54px;
+    background-position:-269px -3px;
     margin-top:16px;
+}
+body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-item{
+    background-color:#fff;
 }
 /* tabs */
 .quicktabs-wrapper{
@@ -1411,6 +1449,7 @@ input.form-submit:hover{
     background-repeat:no-repeat;
     background-image:url('../images/more-info-gray.png');
     background-position: right center;
+    line-height:30px;
 }
 .inscripcion_oferta a,
 .more-link a{
@@ -1620,9 +1659,6 @@ body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-s
     position: absolute;
     top: 42px;
 }
-.contextual-links-region{
-    position:static;
-}
 body.page-nuestros-profesionales #region-content {
     width: 450px;
     position:static;
@@ -1639,6 +1675,12 @@ body.page-nuestros-profesionales h1{
     position: absolute;
     top: 43px;
     width: 100%;
+}
+body.page-especialidades-y-servicios .contextual-links-region > h1,
+body.page-nuestros-profesionales .contextual-links-region > h1{
+    top: -90px;
+width: 930px;
+left: -241px;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales h2.node-title{
     line-height:20px;
