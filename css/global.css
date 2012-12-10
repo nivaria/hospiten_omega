@@ -511,7 +511,7 @@ body.front .view-noticias .views-row:first-child{
     margin-top: 0;
     padding-top: 0;
 }
-.view-noticias .view-mode-teaser .field-name-field-imagenes-article{
+body.front .view-noticias .field-name-field-imagenes-article{
         float: left;
     height: 86px;
     margin-right: 1em;
