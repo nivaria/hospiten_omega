@@ -464,7 +464,12 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya{
     z-index:100;
 }
 body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row{
-    width:280px;
+    width:310px;
+}
+body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row .views-field-field-imagenes-article{
+       float: left;
+    margin-right: 1em;
+    width: 100px; 
 }
 .green_banner{
        background-color: #4CC9A2;
@@ -1569,6 +1574,22 @@ form .field-multiple-table th.field-label {
 #region-sidebar-first .content li.expanded{
     list-style:none;
 }
+#block-menu-menu-menu-pie{
+    float:right;
+}
+#block-menu-menu-menu-pie ul.menu li{
+    float:left;
+}
+#block-menu-menu-menu-pie ul.menu li a{
+    border-left: 1px solid;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+#block-menu-menu-menu-pie ul.menu li.first a{
+    margin:0;
+    padding:0;
+    border:0 none;
+}
 /*.block-facetapi .content .item-list li a.facetapi-active{
     background-color: #999999;
     border-radius: 16px;
@@ -1746,6 +1767,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     padding:0;
     margin-bottom:0;
 }
+#region-sidebar-first .block .content li li:before,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
 .views-field-field-dotacion-fisica-centro li:before,
 .views-field-field-actividad-asist-centro li:before,
