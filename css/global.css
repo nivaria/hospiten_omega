@@ -460,7 +460,7 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya{
     background-color: #999999;
 }
 #region-branding .slideshow-nav a.activeSlide{
-    background-color:#00B27A;
+    background-color:#46C3D2;
 }
 #region-branding .slideshow-nav a{
     background-color:#e6e6e6;
@@ -563,10 +563,10 @@ body.front .view-noticias .field-name-field-imagenes-article{
     height:23px;
 }
 #region-branding .views-slideshow-controls-text-next a{
-    background-position: -58px -2px;
+    background-position: -231px -86px;
 }
 #region-branding .views-slideshow-controls-text-previous a{
-    background-position: -31px -2px;
+    background-position: -231px -54px;
     margin-right:20px;
 }
 .views-slideshow-controls-text-pause{
@@ -1538,6 +1538,11 @@ input.form-submit:hover{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-398px -4px;
+}
+#block-nodeblock-1166 .field-name-title h2,
+#block-nodeblock-1164 .field-name-title h2{
+      background-color: #FFFFFF;
+    margin-left: 47px;
 }
 body.page-node-informacion-visitante .view .attachment{
     overflow:hidden;
