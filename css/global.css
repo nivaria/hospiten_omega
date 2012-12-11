@@ -238,6 +238,8 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+#block-nodeblock-1166 .field-name-field-enlace-bloque a,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a,
@@ -267,6 +269,8 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
+#block-nodeblock-1166 .field-name-field-enlace-bloque a,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -313,6 +317,7 @@ input.form-submit,
 .region-sidebar-second h2{
     color:#2cc5d6;
     padding-bottom:8px;
+    font-size:18px;
 }
 #region-footer-second a{
     color:#80D9BD;
@@ -837,7 +842,7 @@ body.front h1,
     border-radius:4px;
     -webkit-border-radius:4px;
     
-    margin: 0;
+    margin: 0 8px;
     padding: 0 8px;
 }
 #zone-menu-wrapper li.first{
@@ -1282,7 +1287,8 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     font-weight:bold !important;
     padding:0;
     background-image:none;
-    padding-top:32px;
+    padding-top:25px;
+    margin-left:-8px;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li:hover{
     border: 0 none;
@@ -1427,6 +1433,8 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager li.pager-next {
     right: 58px;
 }
+#block-nodeblock-1166 .field-name-field-enlace-bloque a,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a,
@@ -1443,12 +1451,16 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+#block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a:hover,
 .inscripcion_oferta a:hover,
 .more-link a:hover,
 .visitorinfoid a:hover,
 input.form-submit:hover{
     background-color:#666;
 }
+#block-nodeblock-1166 .field-name-field-enlace-bloque a,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a{
@@ -1457,6 +1469,8 @@ input.form-submit:hover{
     background-position: right center;
     line-height:30px;
 }
+#block-nodeblock-1166 .field-name-field-enlace-bloque a,
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a{
     float: none;
@@ -1492,6 +1506,7 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd{
         list-style-position: inside;
     padding: 1em 0;
 }
+#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .more-link-blue a{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
@@ -1767,6 +1782,29 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     padding:0;
     margin-bottom:0;
 }
+#block-nodeblock-1163{
+    position:relative;
+}
+#block-nodeblock-1163 .field-name-field-enlace-bloque a{
+        display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.views-display-top .ctools-button-processed {
+    top:-36px;
+}
+
+@media only screen and (max-width: 1030px){
+    #page{
+        width:100%;
+    }
+}
+
 #region-sidebar-first .block .content li li:before,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
 .views-field-field-dotacion-fisica-centro li:before,
