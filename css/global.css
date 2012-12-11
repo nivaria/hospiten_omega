@@ -595,6 +595,25 @@ body.front .view-noticias .field-name-field-imagenes-article{
     margin: 0;
     position: absolute; 
 }
+body.front .block-views-cursos-y-eventos-block-4 .views-row{
+     border-top: 2px solid #EBEBEB;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+body.front .block-views-cursos-y-eventos-block-4 .views-row-first{
+     border: 0 none;
+    margin:0;
+    padding:0;
+}
+body.front .block-views-cursos-y-eventos-block-4 .views-field-field-fecha-texto-evento .field-content{
+     color: #9D8C84;
+    font-size: 14px;
+}
+body.front .block-views-cursos-y-eventos-block-4 .view-field-title a{
+     color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
 .views-slideshow-controls-text{
     position:static;
     border: 4px solid #E6E6E6;
