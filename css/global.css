@@ -1529,6 +1529,16 @@ input.form-submit:hover{
 #quicktabs-informacion_adicional{
     margin-top:36px;
 }
+#block-nodeblock-1166 .field-name-title{
+    background-repeat:no-repeat;
+    background-image:url('../images/sprites.png');
+    background-position:-447px -3px;
+}
+#block-nodeblock-1164 .field-name-title{
+    background-repeat:no-repeat;
+    background-image:url('../images/sprites.png');
+    background-position:-398px -4px;
+}
 body.page-node-informacion-visitante .view .attachment{
     overflow:hidden;
 }
@@ -1550,7 +1560,6 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd{
         list-style-position: inside;
     padding: 1em 0;
 }
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
 .more-link-blue a{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
