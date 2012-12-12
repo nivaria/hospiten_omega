@@ -20,4 +20,34 @@ jQuery(document).ready(function($){
     jQuery("body.node-type-especialidades .pruebas_especialidad h3 span").bind("click",function(){
         jQuery("body.node-type-especialidades .pruebas_especialidad .field-name-field-pru-ser-especialidades").toggle();
     });
+
+    jQuery('.contenido_oferta').attr('style', "display:none");
+    jQuery('.show_oferta').click(function(){
+        if (jQuery(this).attr('class').indexOf('hide_oferta')==-1) {
+            jQuery(this).parent().parent().next().next().children().children().attr('style', "display:block");
+            jQuery(this).addClass("hide_oferta");
+            jQuery(this).html("ocultar información");
+        } else {
+            jQuery(this).parent().parent().next().next().children().children().attr('style', "display:none");
+            jQuery(this).removeClass("hide_oferta");
+            jQuery(this).html("más información");
+        }
+    });
+    jQuery('div.pruebas_especialidad > div').attr('style', 'display:none');
+    var elem = jQuery('div.pruebas_especialidad > h3');
+    if (elem) {
+        elem.append('<span class="show_pruebas" style="float:right;cursor:pointer">X</span>');
+    }
+    jQuery('.show_pruebas').click(function(){
+        if (jQuery(this).attr('class').indexOf('hide_pruebas')==-1) {
+            jQuery(this).parent().next().attr('style', "display:block");
+            jQuery(this).addClass("hide_pruebas");
+            jQuery(this).removeClass("show_pruebas");
+        } else {
+            jQuery(this).parent().next().attr('style', "display:none");
+            jQuery(this).addClass("show_pruebas");
+            jQuery(this).removeClass("hide_pruebas");
+        }
+    });
+
 })
