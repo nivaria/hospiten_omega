@@ -197,3 +197,22 @@ function hospiten_omega_file_link($variables) {
 
   return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
 }
+
+/**
+ * Theme the human-readable description for a Date Repeat rule.
+ *
+ * TODO -
+ * add in ways to store the description in the date so it isn't regenerated
+ * over and over and find a way to allow description to be shown or hidden.
+ */
+function hospiten_omega_date_repeat_display($vars) {
+  $field = $vars['field'];
+  $item = $vars['item'];
+  $entity = !empty($vars['node']) ? $vars['node'] : NULL;
+  $output = '';
+  if (!empty($item['rrule'])) {
+    $output = date_repeat_rrule_description($item['rrule'], variable_get('date_format_long', 'l, F j, Y - H:i'));
+    $output = '<div>' . $output . '</div>';
+  }
+  return $output;
+}
