@@ -1897,6 +1897,6 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .field-type-text-with-summary li:before{
     content: "-  ";
 }
-.olLayerGoogleV3 .olLayerGooglePoweredBy {
+.olLayerGoogleV3.olLayerGooglePoweredBy {
     display:none !important;
 }
