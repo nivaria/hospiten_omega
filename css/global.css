@@ -703,11 +703,31 @@ body.front h1,
     margin:0;
     margin-left:12px;
     width:220px;
-    height:210px;
+    height:186px;
     float:left;
     
     overflow:hidden;
     margin-bottom:12px;
+    border:1px solid #f9f9f9;
+    padding-top:24px;
+}
+.home-apartados ul li:hover{
+    border:1px solid #e0e0e0;
+    background-color:#fff;
+}
+.home-apartados ul li .views-field-view-node a{
+    background-color: transparent;
+    border: 0 none;
+    float: none;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    text-indent:-9999px;
 }
 .home-apartados ul li.views-row-first{
     margin-left:0;
