@@ -566,10 +566,11 @@ body.front .view-noticias .field-name-field-imagenes-article{
 }
 #region-branding .views-slideshow-controls-text-next a{
     background-position: -231px -86px;
+    position:absolute;
+    right:0;
 }
 #region-branding .views-slideshow-controls-text-previous a{
     background-position: -231px -54px;
-    margin-right:20px;
 }
 .views-slideshow-controls-text-pause{
     display:none;
@@ -581,7 +582,7 @@ body.front .view-noticias .field-name-field-imagenes-article{
     z-index:10;
      background-color: transparent;
     border: 0 none;
-    width:120px;
+    width:262px;
 }
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame{
@@ -685,6 +686,21 @@ body.not-front .top_left_layout_corner{
     background-position:-88px -15px;
     top:-13px;
     left:0px;
+}
+#block-views-slideshow-portada-block{
+    border: 1px solid #E0E0E0;
+    height: 240px;
+    background-color:#fff;
+    padding-top:28px;
+}
+#block-views-slideshow-portada-block .field-name-title h2{
+    color: #E0E0E0;
+    font-size: 40px;
+}
+#block-views-slideshow-portada-block .field-name-field-texto-campanya{
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
 }
 /* home tweaks */
 body.front h1,
@@ -1610,6 +1626,13 @@ input.form-submit:hover{
     text-align: left;
     width: auto;
     line-height:30px;
+}
+.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a{
+        bottom: -113px;
+    left: 42px;
+    position: absolute;
+    width: 131px;
+    z-index: 2000;
 }
 .inscripcion_oferta a{
     padding-right:44px;
