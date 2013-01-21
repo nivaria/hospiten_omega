@@ -1460,7 +1460,8 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
         display: block;
     margin: 0 auto;
     text-align: center;
-    width: 60%;
+    width: auto;
+    padding:0 136px;
     position:relative;
 }
 .item-list .pager li {
@@ -1468,7 +1469,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     background:none;
     display: inline-block;
     float:none;
-    padding: 0.5em;
+    padding: 0.5em 0.3em 0.5em 0.3em;
     border:0 none;
     color:#00B27A;
     font-weight:normal;
