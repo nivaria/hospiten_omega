@@ -1164,13 +1164,16 @@ body.front h1,
     width: 218px;
 }
 .view-nuestros-profesionales .node-profesionales .group-left{
-    margin-right: 20px;
-    width: 80px;
+    width:auto;
+    margin:0;
+    float:none;
 }
 .view-nuestros-profesionales .node-profesionales .group-left .field-name-field-imagen-profesional{
+    float:left;
        height: 80px;
     overflow: hidden;
     width: 80px;
+    margin-right: 20px;
 }
 .node-profesionales .group-right{
     float: none;
