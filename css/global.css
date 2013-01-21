@@ -917,11 +917,11 @@ body.front h1,
 }
 .view-header,
 .view-filters{
-    background-color: #666666;
+    /*background-color: #666666;
     color: #FFFFFF;
     font-weight: bold;
     height: 44px;
-    line-height: 44px;
+    line-height: 44px;*/
     padding: 0 16px;
 }
 .especialidades .view-filters{
