@@ -956,7 +956,15 @@ body.front h1,
     margin-right: 1.4em;
     margin-left: 1.4em;
 }
-
+#block-block-2{
+    float:left;
+}
+#block-block-2 p{
+    margin:0;
+}
+#block-block-2 img{
+    vertical-align:middle;
+}
 .view-centros h3{
     border-bottom: 1px solid #E0E0E0;
     color: #666666;
