@@ -761,8 +761,11 @@ body.front h1,
     float:right;
     width:668px;
 }
+#region-footer-first .region-footer-first-inner ul li{
+    margin-bottom:14px;
+}
 .region-footer-first-inner #block-views-centros-block-6 li{
-    height:64px;
+    height:auto !important;
 }
 .region-footer-first-inner #block-views-centros-block-6 .views-row .views-field {
     margin: 0;
