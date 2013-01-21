@@ -926,6 +926,16 @@ body.front h1,
     line-height: 44px;*/
     padding: 0 16px;
 }
+body.page-todos-cv .view-header,
+body.page-todos-cv .view-filters{
+    padding:0;
+}
+body.page-todos-cv .view-filters #edit-created-wrapper{
+    float: none;
+    margin-bottom: 1em;
+    overflow: hidden;
+    width: 100%;
+}
 .especialidades .view-filters{
     background-color: #F9F9F9;
     color: #666666;
