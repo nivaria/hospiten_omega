@@ -10,7 +10,7 @@ body{
     line-height:160%;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:arial;
+    font-family:lato;
 }
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
     margin-bottom: 0.5em;
@@ -1908,11 +1908,16 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .group-espec-unid-prof .field-item a:before,
 .views-field-field-centro li:before,
 .block-facetapi li li:before,
-.views-field-field-zona li:before,
-.field-type-text-long li:before,
-.field-type-text li:before,
-.field-type-text-with-summary li:before{
+.views-field-field-zona li:before{
     content: "-  ";
+}
+.field-type-text-long li,
+.field-type-text li,
+.field-type-text-with-summary li{
+    background-image:url('../images/bullet.png');
+    background-position:left 6px;
+    background-repeat:no-repeat;
+    padding-left:12px;
 }
 .olLayerGoogleV3.olLayerGooglePoweredBy {
     display:none !important;
