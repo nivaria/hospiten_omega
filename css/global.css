@@ -1577,11 +1577,12 @@ body.page-node-informacion-visitante .view .attachment h2{
 body.page-node-informacion-visitante .view .attachment .views-row{
     float:left;
     width:47%;
-    height:188px;
 }
 body.page-node-informacion-visitante .view .attachment .views-row-odd{
     clear:both;
-    margin-right:4em;
+}
+body.page-node-informacion-visitante .view .attachment .views-row-even{
+    float:right;
 }
 .views-field-field-info-visitante-centro .field-content li{
         list-style-position: inside;
