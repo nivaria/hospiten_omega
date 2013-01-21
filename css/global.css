@@ -936,6 +936,10 @@ body.page-todos-cv .view-filters #edit-created-wrapper{
     overflow: hidden;
     width: 100%;
 }
+.field-name-otros-centros-zona .view-header h2{
+       border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 20px;
+}
 .especialidades .view-filters{
     background-color: #F9F9F9;
     color: #666666;
