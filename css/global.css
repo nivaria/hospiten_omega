@@ -238,6 +238,7 @@ h2.grouping-title{
 /* block menu superior */
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a,
@@ -270,6 +271,7 @@ input.form-submit,
 }
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a,
 .visitorinfoid a,
@@ -1514,6 +1516,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 }
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a,
@@ -1533,6 +1536,7 @@ input.form-submit{
 }
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a:hover,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a:hover,
 .inscripcion_oferta a:hover,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a:hover,
 .more-link a:hover,
@@ -1542,6 +1546,7 @@ input.form-submit:hover{
 }
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a,
@@ -1553,6 +1558,7 @@ input.form-submit:hover{
 }
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a{
@@ -1601,15 +1607,12 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd{
 body.page-node-informacion-visitante .view .attachment .views-row-even{
     float:right;
 }
-.views-field-field-info-visitante-centro .field-content li{
-        list-style-position: inside;
-    padding: 1em 0;
-}
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 .more-link a{
     font-family:lato;
 }
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .more-link-blue a{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
@@ -1641,6 +1644,9 @@ body.node-type-cursos-y-eventos .node .field{
      float: right;
     margin-right: 0;
     width: 220px;
+}
+.views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section{
+    margin:0 auto;
 }
 /*cv*/
 body.page-node-add .block-system-main{
@@ -1920,9 +1926,11 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .views-field-field-zona li:before{
     content: "-  ";
 }
+.views-field-field-info-visitante-centro li,
 .field-type-text-long li,
 .field-type-text li,
 .field-type-text-with-summary li{
+    list-style:none;
     background-image:url('../images/bullet.png');
     background-position:left 6px;
     background-repeat:no-repeat;
