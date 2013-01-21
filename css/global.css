@@ -1216,16 +1216,16 @@ body.node-type-hospitales .node-hospitales .group-left .locality{
 body.node-type-hospitales .node-hospitales .group-left .state{
     display:block;
 }
-body.node-type-hospitales .node-hospitales .group-left .field{
+/*body.node-type-hospitales .node-hospitales .group-left .field{
     padding-left:46px;
-}
+}*/
 body.node-type-hospitales .node-hospitales .group-left .field.field-name-field-imagenes-article{
     padding-left:0;
 }
 body.node-type-hospitales .node-hospitales .field-name-field-direccion{
-    background-repeat:no-repeat;
+    /*background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
-    background-position:-269px -3px;
+    background-position:-269px -3px;*/
     margin-top:16px;
 }
 body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-item{
