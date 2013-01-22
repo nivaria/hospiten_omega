@@ -1190,12 +1190,17 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     margin:0;
     padding:0;
 }
-.node-type-especialidades .block-views-profesionales-block-3 .views-row,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row{
     border:1px solid #e0e0e0;
     margin-top:48px;
     padding:16px;
     margin-left:0;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row{
+    border:1px solid #e0e0e0;
+    margin-top:48px;
+    margin-left:0;
+    padding:0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .group-left h2,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left h2{
@@ -1203,6 +1208,11 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     font-size:18px;
     border:0 none;
     margin:0;
+}
+h2.grouping-title{
+      background-color: #FAFAFA;
+    margin: 0;
+    padding: 16px 16px 0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .field-type-taxonomy-term-reference,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left .field-type-taxonomy-term-reference,
@@ -1224,18 +1234,16 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales{
     position:relative;
-    height:56px;
     border-top: 1px solid #E0E0E0;
-    padding-top: 20px;
+    border:0 none;
+    padding:16px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales:first-child{
     border:0 none;
-    padding:0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-left{
-    margin-left: 80px;
-    margin-right: 0;
-    width: auto;
+    margin: 0 1em 0 0;
+    width:auto;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-left h2 a{
     color:#666;
@@ -1246,14 +1254,21 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     font-size:12px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-right{
-    width:56px;
-    height:56px;
-    float: none;
-    left: 0;
+    width:auto;
+    float:left;
+    margin:0;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-right h2{
+    line-height: 100%;
     margin: 0;
-    position: absolute;
-    top: 20px;
-    overflow:hidden;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-right h2 a{
+    color: #666666;
+    font-family: lato;
+    font-size: 16px;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-right .field-name-field-especialidades a{
+    color:#666;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales:first-child .group-right{
     top:0;
@@ -1655,6 +1670,7 @@ input.form-submit{
     background-color: #999999;
     background-image: none;
     color: #FFFFFF;
+    font-family:lato;
     display: block;
     float: right;
     font-size: 14px;
