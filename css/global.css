@@ -1293,6 +1293,16 @@ body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a{
+    color:#1EB890;
+}
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a{
+    color: #666666;
+    font-size: 16px;
+}
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row .field-name-field-especialidades a{
+    color:#2CC5D6;
+}
 body.node-type-hospitales .node-hospitales .group-footer{
     padding-top:2em;
 }
