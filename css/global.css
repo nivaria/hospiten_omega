@@ -1307,10 +1307,10 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     color:#666;
 }
 .view-nuestros-profesionales .node-profesionales .field-name-field-especialidades a{
-    color:#00D5C7;
+    color:#2CC5D6;
 }
-.view-nuestros-profesionales .node-profesionales .field-name-field-centro a{
-    color:#00c5b2;
+.view-nuestros-profesionales .node-profesionales a{
+    color:#1EB890;
 }
 .field-name-bloque-centros-relacionados .attachment{
     margin-top: 2em;
@@ -1338,7 +1338,7 @@ body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a{
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row a{
     color:#1EB890;
 }
 body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a{
