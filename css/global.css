@@ -74,6 +74,31 @@ input[type="week"] {
 .node-webform label{
     color:#666;
 }
+/* estilos para usuarios */
+.img-rounded-corners-right{
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    float: right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.img-rounded-corners-left{
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+.img-right{
+    float: right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.img-left{
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
 #messages{
     display: block;
     float: none;
