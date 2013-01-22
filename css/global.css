@@ -1847,14 +1847,22 @@ form .field-multiple-table th.field-label {
     padding:0;
     border:0 none;
 }
-/*.block-facetapi .content .item-list li a.facetapi-active{
+#page .block-facetapi .content .item-list li.facetapi-active-holder{
+    height:auto;
+    padding:6px 16px;
+    min-height:0;
+    line-height:140%;
+}
+#page .block-facetapi .content .item-list li.facetapi-active-holder{
     background-color: #999999;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     color: #FFFFFF;
     display: block;
-    padding: 0 16px;
-}*/
+}
+#page .block-facetapi .content .item-list li.facetapi-active-holder a{
+    color:#fff;
+}
 #region-sidebar-first .block .content li li.first,
 #region-sidebar-first .block .content li li{
     padding:0.3em 0;

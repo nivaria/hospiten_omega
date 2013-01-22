@@ -49,5 +49,7 @@ jQuery(document).ready(function($){
             jQuery(this).removeClass("hide_pruebas");
         }
     });
-
+    jQuery(".facetapi-active").each( function(){
+       jQuery(this).parent().addClass("facetapi-active-holder");
+    });
 })
