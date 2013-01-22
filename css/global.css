@@ -1962,6 +1962,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .quicktabs-tabpage .view-profesionales-node-index .item-list li .views-field-title span{
     font-size:12px;
 }
+#block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li,
 .views-field-field-dotacion-fisica-centro li,
 .views-field-field-actividad-asist-centro li,
@@ -1976,6 +1977,12 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .field-type-text-with-summary li{
     list-style:none;
     padding-bottom:1em;
+}
+#block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li{
+    margin:0;
+}
+#block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li div{
+    display:inline;
 }
 #block-views-especialidades-node-index-block .item-list li{
     padding:0;
@@ -2003,7 +2010,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
         width:100%;
     }
 }
-
+#block-views-7a9e68cc65273113cf9b494dd5efca64 li:before,
 #region-sidebar-first .block .content li li:before,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
 .views-field-field-dotacion-fisica-centro li:before,
@@ -2032,4 +2039,44 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 body.node-type-article .field-name-slideshow-imagen .view-slideshow-imagen{
     margin:0 auto;
     width:220px;
+}
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1728,
+body.page-especialidades-y-servicios #region-content #block-views-7a9e68cc65273113cf9b494dd5efca64{
+    float:left;
+    width:44%;
+    clear:both;
+    margin-top:1em;
+    border-top:1px solid #e0e0e0;
+    padding-top:1em;
+}
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1737,
+body.page-especialidades-y-servicios #region-content #block-views-especialidades-y-unidades-block{
+    float:right;
+    width:44%;
+    margin-top:1em;
+    border-top:1px solid #e0e0e0;
+    padding-top:1em;
+}
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1737,
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1728{
+    padding-top:0;
+    border:0 none;
+}
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1728 h2,
+body.page-especialidades-y-servicios #region-content #block-views-7a9e68cc65273113cf9b494dd5efca64 h2,
+body.page-especialidades-y-servicios #region-content #block-nodeblock-1737 h2,
+body.page-especialidades-y-servicios #region-content #block-views-especialidades-y-unidades-block h2{
+    margin-bottom:0.5em;
+}
+#block-views-especialidades-y-unidades-block .views-field-field-imagenes-article{
+    float:left;
+    margin-right:1em;
+    margin-bottom:1em;
+}
+#block-views-especialidades-y-unidades-block .views-field-title span{
+    font-size:16px;
+    line-height:100%;
+}
+#block-views-especialidades-y-unidades-block .views-field-title span a{
+ color:#666;   
 }
