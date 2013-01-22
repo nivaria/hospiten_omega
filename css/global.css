@@ -1936,6 +1936,9 @@ body.node-type-especialidades .pruebas_especialidad h3 span{
     display: inline-block;
     padding-right: 83px;
 }
+body.node-type-especialidades .pruebas_especialidad h3 span.show_pruebas{
+    display:none;
+}
 body.node-type-especialidades .pruebas_especialidad .field-name-field-pru-ser-especialidades{
     display:none;
 }
@@ -1962,6 +1965,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .quicktabs-tabpage .view-profesionales-node-index .item-list li .views-field-title span{
     font-size:12px;
 }
+.field-name-informaci-n-relacionada .item-list li,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li,
 .views-field-field-dotacion-fisica-centro li,
@@ -1978,11 +1982,23 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     list-style:none;
     padding-bottom:1em;
 }
+.field-name-informaci-n-relacionada .item-list li,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li{
     margin:0;
 }
+.field-name-informaci-n-relacionada .item-list ul{
+    margin:0;
+    padding:0;
+}
+.field-name-informaci-n-relacionada .item-list li div,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li div{
     display:inline;
+}
+.field-name-informaci-n-relacionada h2.block-title{
+    color: #00C6D7;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom:0.5em;
 }
 #block-views-especialidades-node-index-block .item-list li{
     padding:0;
@@ -1990,6 +2006,11 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 #block-nodeblock-1163{
     position:relative;
+}
+.view-campanyas.view-display-id-block_4{
+    border: 0 none;
+    height: auto;
+    padding: 0;
 }
 #block-nodeblock-1163 .field-name-field-enlace-bloque a{
         display: block;
@@ -2010,6 +2031,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
         width:100%;
     }
 }
+.field-name-informaci-n-relacionada .item-list li:before,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 li:before,
 #region-sidebar-first .block .content li li:before,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
