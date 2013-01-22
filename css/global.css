@@ -276,6 +276,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
@@ -309,6 +310,7 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
@@ -1640,6 +1642,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager li.pager-next {
     right: 58px;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
@@ -1660,6 +1663,7 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a:hover,
@@ -1670,6 +1674,7 @@ input.form-submit{
 input.form-submit:hover{
     background-color:#666;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
@@ -1682,6 +1687,7 @@ input.form-submit:hover{
     background-position: right center;
     line-height:30px;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
@@ -1744,6 +1750,7 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 .more-link a{
     font-family:lato;
 }
+#block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .more-link-blue a{
