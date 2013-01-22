@@ -1276,9 +1276,22 @@ body.node-type-hospitales .node-hospitales .group-left{
     padding-right: 16px;
     width: 220px; 
 }
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-left{
+    width:auto;
+}
 body.node-type-hospitales .node-hospitales .group-right{
     margin-bottom:2em;
     width:454px;
+}
+
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-right{
+    margin:0;
+    width:auto;
+}
+body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
 }
 body.node-type-hospitales .node-hospitales .group-footer{
     padding-top:2em;
