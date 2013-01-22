@@ -73,6 +73,21 @@ input[type="week"] {
 }
 .node-webform label{
     color:#666;
+    display: block;
+    float: left;
+    width: 33%;
+}
+.node-webform textarea,
+.node-webform input.form-text{
+    width:60%;
+}
+.node-webform .grippie{
+       margin-left: 33%;
+    width: 60%;
+}
+.node-webform .form-type-checkbox label{
+    padding-right: 1em;
+    width: auto;
 }
 /* estilos para usuarios */
 .img-rounded-corners-right{
