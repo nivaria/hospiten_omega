@@ -824,6 +824,7 @@ body.front h1,
     background-repeat:no-repeat;
     background-position:-147px -3px;
 }
+.home-apartados ul li:hover .views-field-field-enlace-bloque a,
 .views-field-field-enlace-bloque a:hover{
     background-position:-118px -3px;
 }
