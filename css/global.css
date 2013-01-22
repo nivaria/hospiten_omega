@@ -760,7 +760,9 @@ body.front h1,
     margin-left:12px;
     width:220px;
     height:186px;
+    display:block;
     float:left;
+    position:relative;
     
     overflow:hidden;
     margin-bottom:12px;
@@ -770,6 +772,9 @@ body.front h1,
 .home-apartados ul li:hover{
     border:1px solid #e0e0e0;
     background-color:#fff;
+}
+#views_slideshow_cycle_main_slideshow_portada-block{
+    overflow:hidden;
 }
 .home-apartados ul li .views-field-view-node a{
     background-color: transparent;
@@ -789,9 +794,7 @@ body.front h1,
     margin-left:0;
 }
 .home-apartados .views-field-field-imagen-campanya{
-    height: 120px;
     overflow: hidden;
-    width: 220px;
     margin-bottom:12px;
     text-align:center;
 }
