@@ -841,7 +841,7 @@ body.front #zone-postscript-wrapper{
 }
 .region-footer-first-inner{
     border-top: 1px solid #939393;
-    margin-top: 68px;
+    margin-top: 78px;
     padding-top: 26px;
     overflow:hidden;
 }
@@ -936,11 +936,11 @@ body.front #zone-postscript-wrapper{
     height:41px;
 }
 #footer_instituto{
-    background-position:-215 -179px;
-    right:30px;
-    top:15px;
-    width:70px;
-    height:60px;
+    background-position: -215px -179px;
+    height: 60px;
+    right: 242px;
+    top: 24px;
+    width: 70px;
 }
 /* main menu */
 #zone-menu-wrapper{
