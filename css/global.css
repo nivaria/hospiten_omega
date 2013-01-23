@@ -518,7 +518,7 @@ body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row
 body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row .views-field-field-imagenes-article{
        float: left;
     margin-right: 1em;
-    width: 100px; 
+    width: auto;
 }
 .green_banner{
        background-color: #4CC9A2;
@@ -910,6 +910,7 @@ body.front #zone-postscript-wrapper{
     font-size: 16px;
     margin-bottom:14px;
 }
+#footer_instituto,
 #footer_club,
 #footer_logo{
     display:block;
@@ -933,6 +934,13 @@ body.front #zone-postscript-wrapper{
     top:29px;
     width:168px;
     height:41px;
+}
+#footer_instituto{
+    background-position:-215 -179px;
+    right:30px;
+    top:15px;
+    width:70px;
+    height:60px;
 }
 /* main menu */
 #zone-menu-wrapper{
@@ -1732,7 +1740,7 @@ input.form-submit:hover{
     left: 42px;
     position: absolute;
     width: 258px;
-    z-index: 2000;
+    z-index: 488;
 }
 .inscripcion_oferta a{
     padding-right:44px;
@@ -1815,6 +1823,7 @@ body.node-type-cursos-y-eventos .node .field{
 }
 .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section{
     margin:0 auto;
+    overflow:hidden;
 }
 /*cv*/
 body.page-node-add .block-system-main{
@@ -2196,4 +2205,19 @@ body.front #section-content{
 body.front #block-views-apartados-de-la-home-block{
         background-color: #F9F9F9;
     padding: 18px 0;
+}
+body.page-cursos-y-eventos .view-eventos-node-index .group-left{
+        margin-right: 1em;
+    width: auto;
+}
+body.page-cursos-y-eventos  .view-filters label{
+    margin-left:0;
+}
+body.page-cursos-y-eventos  .view-header,
+body.page-cursos-y-eventos  .view-filters{
+    margin-top:1em;
+    padding:0;
+}
+body.node-type-cursos-y-eventos .view-profesionales-relacionados .group-left{
+    width:auto;
 }
