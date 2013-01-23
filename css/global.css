@@ -624,7 +624,7 @@ body.front .view-noticias .field-name-field-imagenes-article{
     z-index:10;
      background-color: transparent;
     border: 0 none;
-    width:262px;
+    width:392px;
 }
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame{
@@ -736,13 +736,22 @@ body.not-front .top_left_layout_corner{
     padding-top:28px;
 }
 #block-views-slideshow-portada-block .field-name-title h2{
-    color: #E0E0E0;
+    color: #666;
     font-size: 40px;
 }
 #block-views-slideshow-portada-block .field-name-field-texto-campanya{
     color: #666666;
     font-size: 16px;
     font-weight: bold;
+}
+#block-views-slideshow-portada-block .field-name-field-texto-slideshow-portada h3{
+       color: #666666;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+#block-views-slideshow-portada-block .field-name-field-texto-slideshow-portada p{
+    color: #A3A3A3;
 }
 /* home tweaks */
 body.front h1,
@@ -1719,10 +1728,10 @@ input.form-submit:hover{
     line-height:30px;
 }
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a{
-        bottom: -113px;
+        bottom: 0;
     left: 42px;
     position: absolute;
-    width: 131px;
+    width: 258px;
     z-index: 2000;
 }
 .inscripcion_oferta a{
