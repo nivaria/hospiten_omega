@@ -90,6 +90,49 @@ input[type="week"] {
     width: auto;
 }
 /* estilos para usuarios */
+.text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:140%;
+    color:rgb(102,102,102);
+}
+.slideshow-h1{
+    font-family:"Museo 300";
+    font-size:40px;
+    line-height:120%;
+    color:rgb(102,102,102);
+}
+.slideshow-h2{
+    font-family:"Arial Bold";
+    font-size:16px;
+    font-weight:bold;
+    line-height:130%;
+    color:rgba(102,102,102,0.6);
+}
+.title-h2{
+    font-family:"Museo 300";
+    font-size:24px;
+    line-height:110%;
+    color:rgb(157,140,132);
+}
+.title-h3{
+    font-family:"Museo 200";
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 24px;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+
+}
+.paragraf{
+    font-size:14px;
+    font-weight:bold;
+    line-height:130%;
+    color:rgb(102,102,102);
+}
+hr{
+    border: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
 .img-rounded-corners-right{
     border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
