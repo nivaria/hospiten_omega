@@ -1287,13 +1287,19 @@ h2.grouping-title{
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left .field-type-taxonomy-term-reference a{
     color:#333;
 }
-.node-type-especialidades .block-views-profesionales-block-3 .views-row .group-right,
-.view-id-mapa_centros.view-display-id-block_2 li.views-row .group-right{
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2 .group-right,
+.view-id-mapa_centros.view-display-id-block_2 li.views-row h2 .group-right{
     background-color: #FFFFFF;
     margin-right: 18px;
     margin-top: -48px;
     width: auto;
     float:right;
+    
+    float: none;
+    margin: 0;
+    position: absolute;
+    right: 18px;
+    top: -48px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales{
     position:relative;
