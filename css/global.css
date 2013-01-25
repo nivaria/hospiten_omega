@@ -1359,7 +1359,67 @@ h2.grouping-title{
 }
 .node-profesionales .group-left{
     margin-right: 1em;
-    width: 218px;
+    width: auto;
+}
+body.node-type-profesionales .node-profesionales > .group-left{
+    background-color: #F9F9F9;
+    padding: 16px 0;
+}
+body.node-type-profesionales .node-profesionales > .group-right{
+    background-color: #F9F9F9;
+    padding: 16px 44px 16px 0;
+    width:auto;
+}
+body.node-type-profesionales #region-sidebar-second #block-views-profesionales-block-4{
+    background-color: #F9F9F9;
+    padding: 16px 22px;
+}
+body.node-type-profesionales #region-sidebar-second #block-views-profesionales-block-4 h2.block-title{
+    color: #8D817B;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .view-content{
+    float: left;
+    margin-right: 1em;
+    width: 222px;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment .view-content{
+    float:none;
+    margin:0;
+    width:auto;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment{
+    float: left;
+    margin: 0;
+    width: 454px;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row{
+    border:0 none;
+    border-bottom:1px solid #e0e0e0;
+    margin: 0 0 16px;
+    padding: 0 0 16px;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right{
+    margin:0;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset{
+    border: 2px solid #E0E0E0;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset legend{
+  color: #666666;
+    float: left;
+    font-family: lato;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper{
+    clear:both;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro{
+    background-color: #2DC6D6;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro .field-label{
+    display:none;
 }
 .view-nuestros-profesionales .node-profesionales .group-left{
     width:auto;

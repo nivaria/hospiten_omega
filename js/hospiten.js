@@ -52,4 +52,5 @@ jQuery(document).ready(function($){
     jQuery(".facetapi-active").each( function(){
        jQuery(this).parent().addClass("facetapi-active-holder");
     });
+    jQuery("body.node-type-profesionales .node-profesionales > .group-right").height( jQuery("body.node-type-profesionales .node-profesionales > .group-left").height()+"px" );
 })
