@@ -1521,6 +1521,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 /* tabs */
 .quicktabs-wrapper{
     border: 1px solid #E0E0E0;
+    clear:both;
 }
 .quicktabs-wrapper ul.quicktabs-tabs{
     border-color: #E0E0E0;
@@ -2175,7 +2176,6 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .quicktabs-tabpage .view-profesionales-node-index .item-list li,
 .views-field-field-dotacion-fisica-centro li,
 .views-field-field-actividad-asist-centro li,
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row,
 #block-views-especialidades-node-index-block .item-list li,
 .group-espec-unid-prof .field-item a,
 .views-field-field-centro li,
@@ -2242,13 +2242,26 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
 .views-field-field-dotacion-fisica-centro li:before,
 .views-field-field-actividad-asist-centro li:before,
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:before,
 #block-views-especialidades-node-index-block .item-list li:before,
 .group-espec-unid-prof .field-item a:before,
 .views-field-field-centro li:before,
 .block-facetapi li li:before,
 .views-field-field-zona li:before{
     content: "-  ";
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2{
+    left: 26px;
+    position: absolute;
+    top: 174px;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul{
+    margin:0;
+    padding-top:32px;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row{
+    list-style:none;
+    padding:0.5em;
+    margin:0;
 }
 .views-field-field-info-visitante-centro li,
 .field-type-text-long li,

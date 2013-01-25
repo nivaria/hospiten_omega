@@ -53,4 +53,12 @@ jQuery(document).ready(function($){
        jQuery(this).parent().addClass("facetapi-active-holder");
     });
     jQuery("body.node-type-profesionales .node-profesionales > .group-right").height( jQuery("body.node-type-profesionales .node-profesionales > .group-left").height()+"px" );
+    
+    var i=1;
+    while(i<120){
+        jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff");
+        i=i+1;
+        jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff"); 
+        i=i+3;
+    }
 })
