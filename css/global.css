@@ -1863,16 +1863,22 @@ input.form-submit:hover{
 #block-nodeblock-1166 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
-    background-position:-447px -3px;
+    background-position:-317px -168px;
+}
+#block-nodeblock-1728 .field-name-title{
+    background-repeat:no-repeat;
+    background-image:url('../images/sprites.png');
+    background-position:-376px -129px;
 }
 #block-nodeblock-1164 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-398px -4px;
 }
+#block-nodeblock-1728 .field-name-title h2,
 #block-nodeblock-1166 .field-name-title h2,
 #block-nodeblock-1164 .field-name-title h2{
-      background-color: #FFFFFF;
+    background-color: #FFFFFF;
     margin-left: 47px;
 }
 body.page-node-informacion-visitante .view .attachment{
