@@ -2076,12 +2076,17 @@ body.page-nuestros-profesionales #region-sidebar-first,
 body.page-nuestros-profesionales #region-sidebar-second {
     margin-top:20px;
 }
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty,
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{
       background-color: #F9F9F9;
     border: 1px solid #E1E1E1;
     padding: 20px;
     overflow:hidden;
     margin-top:30px;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty{
+    padding-left: 26px;
+    padding-top: 64px;
 }
 body.page-especialidades-y-servicios #zone-content,
 body.page-nuestros-profesionales #zone-content {
@@ -2249,10 +2254,14 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .views-field-field-zona li:before{
     content: "-  ";
 }
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2{
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header{
     left: 26px;
     position: absolute;
     top: 174px;
+    padding:0;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2{
+    margin:0;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul{
     margin:0;
