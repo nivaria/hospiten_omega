@@ -54,11 +54,14 @@ jQuery(document).ready(function($){
     });
     jQuery("body.node-type-profesionales .node-profesionales > .group-right").height( jQuery("body.node-type-profesionales .node-profesionales > .group-left").height()+"px" );
     
-    var i=1;
-    while(i<120){
-        jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff");
-        i=i+1;
-        jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff"); 
-        i=i+3;
+    if( jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row").length >0 ){
+        var i=1;
+        var j=jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row").length;
+        while(i<j){
+            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff");
+            i=i+1;
+            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff"); 
+            i=i+3;
+        }
     }
 })

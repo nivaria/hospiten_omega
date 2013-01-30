@@ -324,7 +324,7 @@ h2.grouping-title{
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -357,7 +357,7 @@ input.form-submit,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -671,6 +671,7 @@ body.front .view-noticias .field-name-field-imagenes-article{
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame{
     width:914px !important;
+    height: 240px !important;
 }
 #region-branding .views-slideshow-cycle-main-frame-row .group-right{
     float:right;
@@ -911,7 +912,7 @@ body.front #zone-postscript-wrapper{
 .region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span a{
     font-size:12px;
 }
-.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span a{
+.region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-field-zona .field-content{
     color:#999;
 }
 #block-menu-menu-menu-menu-pie{
@@ -1300,6 +1301,9 @@ h2.grouping-title{
     right: 18px;
     top: -48px;
 }
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2 .node-hospitales{
+    position:relative;
+}
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales{
     position:relative;
     border-top: 1px solid #E0E0E0;
@@ -1342,6 +1346,7 @@ h2.grouping-title{
     top:0;
 }
 .node-type-especialidades .block-main h3,
+.node-profesionales .field-name-field-exp-profesional .field-label,
 .node-profesionales .field-name-field-otros-datos-profesional .field-label,
 .node-profesionales .field-name-field-publicaciones-profesional .field-label,
 .node-profesionales .field-name-field-lugar-est-profesional .field-label,
@@ -1354,12 +1359,14 @@ h2.grouping-title{
 .field-name-bloque-centros-relacionados h2.block-title{
     padding-top:1em;
 }
+.node-profesionales .field .field-name-bloque-centros-relacionados h2.block-title,
+.node-profesionales .field-name-field-exp-profesional .field-label,
 .node-type-espcialidades .block-main h3,
 .node-profesionales .field-name-field-otros-datos-profesional .field-label,
 .node-profesionales .field-name-field-publicaciones-profesional .field-label,
 .node-profesionales .field-name-field-lugar-est-profesional .field-label{
     margin-top:1em;
-    color:#666;
+    color:#9D8C84;
     font-weight:normal;
 }
 .node-profesionales .group-left{
@@ -1404,7 +1411,9 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
     padding: 0 0 16px;
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right{
-    margin:0;
+    float: right;
+    margin: 0;
+    width: auto;
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset{
     border: 2px solid #E0E0E0;
@@ -1792,7 +1801,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit{
@@ -1825,7 +1834,7 @@ input.form-submit:hover{
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a{
     background-repeat:no-repeat;
@@ -1836,7 +1845,7 @@ input.form-submit:hover{
 #slideshownav_home{
         height: 15px;
     margin-left: 35px;
-    margin-top: -2px;
+    margin-top: -23px;
     text-align: center;
     width: 384px;
 }
@@ -1845,7 +1854,7 @@ input.form-submit:hover{
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a{
     float: none;
     text-align: left;
@@ -1885,7 +1894,7 @@ input.form-submit:hover{
 #block-nodeblock-1164 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
-    background-position:-398px -4px;
+    background-position:-398px 0;
 }
 #block-nodeblock-1737 .field-name-title h2,
 #block-nodeblock-1728 .field-name-title h2,
@@ -1893,14 +1902,24 @@ input.form-submit:hover{
 #block-nodeblock-1164 .field-name-title h2{
     background-color: #FFFFFF;
     margin-left: 47px;
+    min-height:32px;
+}
+#region-sidebar-first #block-nodeblock-1737 .field-name-title h2,
+#region-sidebar-first #block-nodeblock-1728 .field-name-title h2,
+#region-sidebar-first #block-nodeblock-1166 .field-name-title h2,
+#region-sidebar-first #block-nodeblock-1164 .field-name-title h2{
+    background-color: #F9F9F9;
 }
 body.page-node-informacion-visitante .view .attachment{
     overflow:hidden;
 }
+body.page-node-informacion-visitante .view .attachment .views-field-title a,
 body.page-node-informacion-visitante .view .attachment h2{
       border-bottom: 2px solid #EBEBEB;
     margin-top: 1em;
     padding-bottom: 0.4em;
+    display:block;
+    margin-bottom:0.5em;
 }
 body.page-node-informacion-visitante .view .attachment .views-row{
     float:left;
@@ -1912,12 +1931,12 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd{
 body.page-node-informacion-visitante .view .attachment .views-row-even{
     float:right;
 }
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a{
     font-family:lato;
 }
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a,
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .more-link-blue a{
     background-color:#2dc6d6;
@@ -2033,9 +2052,20 @@ form .field-multiple-table th.field-label {
     -webkit-border-radius: 16px;
     color: #FFFFFF;
     display: block;
+    position:relative;
+    padding-left:32px;
 }
 #page .block-facetapi .content .item-list li.facetapi-active-holder a{
     color:#fff;
+        cursor: pointer;
+    display: block;
+    left: 0;
+    padding: 6px 16px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:80%;
+    z-index: 10;
 }
 #region-sidebar-first .block .content li li.first,
 #region-sidebar-first .block .content li li{
@@ -2052,10 +2082,14 @@ form .field-multiple-table th.field-label {
     font-weight: normal;
     margin-top: 20px;
 }
+body.node-type-profesionales #block-system-main .node-profesionales .field-name-body .field-label,
 #node_profesionales_full_group_espec_unid_prof span.fieldset-legend{
       display: block;
     font-size: 18px;
-    padding-bottom: 0.5em;  
+    padding-bottom: 0.5em;
+    color:#666;
+    font-family:lato;
+    font-weight:normal;
 }
 /* detalle de especialidades y servicios */
 body.node-type-especialidades .field-name-field-imagenes-article{
@@ -2105,7 +2139,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty{
     padding-left: 26px;
-    padding-top: 64px;
+    padding-top: 80px;
 }
 body.page-especialidades-y-servicios #zone-content,
 body.page-nuestros-profesionales #zone-content {
@@ -2273,14 +2307,18 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .views-field-field-zona li:before{
     content: "-  ";
 }
+body.page-especialidades-y-servicios #zone-content .view.especialidades{
+    position:relative;
+}
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header{
     left: 26px;
     position: absolute;
     top: 174px;
+    top: 158px;
     padding:0;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2{
-    margin:0;
+    margin: 0 0 6px;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul{
     margin:0;
@@ -2291,6 +2329,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     padding:0.5em;
     margin:0;
 }
+.views-field .field-content li,
 .views-field-field-info-visitante-centro li,
 .field-type-text-long li,
 .field-type-text li,
@@ -2300,6 +2339,9 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     background-position:left 6px;
     background-repeat:no-repeat;
     padding-left:12px;
+}
+.views-field .field-content li:before{
+    content:none;
 }
 .olLayerGoogleV3.olLayerGooglePoweredBy {
     display:none !important;
@@ -2371,4 +2413,56 @@ body.page-cursos-y-eventos  .view-filters{
 }
 body.node-type-cursos-y-eventos .view-profesionales-relacionados .group-left{
     width:auto;
+}
+body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo{
+    border: 4px solid #E6E6E6;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 1em;
+    padding: 0;
+}
+body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo:hover{
+       background-color: #666666;
+}
+body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo a{
+        display: block;
+    font-family: lato;
+    font-size: 14px;
+    padding: 4px 22px;
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
+    
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title{
+    width:564px;
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title .field-content{
+    line-height:140%;
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title a{
+    color: #666666;
+    font-family: lato;
+    font-size: 40px;
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p,
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada h3{
+    font-size:16px;
+    font-weight:normal;
+    color:#666;    
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p{
+    font-weight:normal;
+}
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-imagen-slideshow-portada a{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a{
+       bottom: 27px;
+    left: 40px;
+    position: absolute;
+    width: 258px;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
