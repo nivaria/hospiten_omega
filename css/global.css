@@ -1354,10 +1354,7 @@ h2.grouping-title{
     top:0;
 }
 .node-type-especialidades .block-main h3,
-.node-profesionales .field-name-field-exp-profesional .field-label,
-.node-profesionales .field-name-field-otros-datos-profesional .field-label,
-.node-profesionales .field-name-field-publicaciones-profesional .field-label,
-.node-profesionales .field-name-field-lugar-est-profesional .field-label,
+.node-profesionales .group-footer .field-label,
 .field-name-bloque-centros-relacionados h2{
     border-bottom: 1px solid #E0E0E0;
     font-size: 24px;
@@ -1368,11 +1365,8 @@ h2.grouping-title{
     padding-top:1em;
 }
 .node-profesionales .field .field-name-bloque-centros-relacionados h2.block-title,
-.node-profesionales .field-name-field-exp-profesional .field-label,
-.node-type-espcialidades .block-main h3,
-.node-profesionales .field-name-field-otros-datos-profesional .field-label,
-.node-profesionales .field-name-field-publicaciones-profesional .field-label,
-.node-profesionales .field-name-field-lugar-est-profesional .field-label{
+.node-profesionales .group-footer .field-label,
+.node-type-espcialidades .block-main h3{
     margin-top:1em;
     color:#9D8C84;
     font-weight:normal;
@@ -1889,15 +1883,24 @@ input.form-submit:hover{
     background-position:-376px -73px;
     padding-bottom:12px;
 }
+#block-nodeblock-1737 .field-name-title h2{
+    color:#28b992;
+}
 #block-nodeblock-1166 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-317px -168px;
 }
+#block-nodeblock-1166 .field-name-title h2{
+    color:#2cc5d6;
+}
 #block-nodeblock-1728 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-376px -129px;
+}
+#block-nodeblock-1728 .field-name-title h2{
+    color:#9d8c84;
 }
 #block-nodeblock-1164 .field-name-title{
     background-repeat:no-repeat;
@@ -2083,6 +2086,7 @@ form .field-multiple-table th.field-label {
     height:auto;
     line-height:100%;
     min-height:18px;
+    position:relative;
 }
 .group-servicios-complem h3 span{
        color: #666666;
@@ -2147,6 +2151,9 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty{
     padding-left: 26px;
+    padding-top: 80px;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{ 
     padding-top: 80px;
 }
 body.page-especialidades-y-servicios #zone-content,
@@ -2330,7 +2337,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-he
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul{
     margin:0;
-    padding-top:32px;
+    padding-top:0;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row{
     list-style:none;
@@ -2436,6 +2443,7 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
     font-family: lato;
     font-size: 14px;
     padding: 4px 22px;
+    text-align:center;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
     
@@ -2451,6 +2459,7 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     font-family: lato;
     font-size: 40px;
 }
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada a,
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p,
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada h3{
     font-size:16px;
