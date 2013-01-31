@@ -1886,7 +1886,7 @@ input.form-submit:hover{
 #block-nodeblock-1737 .field-name-title h2{
     color:#28b992;
        line-height: 41px;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 #block-nodeblock-1166 .field-name-title{
     background-repeat:no-repeat;
