@@ -2451,7 +2451,7 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
     border: 4px solid #E6E6E6;
     border-radius: 20px 20px 20px 20px;
     margin-top: 1em;
-    padding: 0;
+    padding: 0;    
 }
 body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo:hover{
        background-color: #666666;
@@ -2460,8 +2460,9 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
         display: block;
     font-family: lato;
     font-size: 14px;
-    padding: 4px 22px;
     text-align:center;
+    height:30px;
+    line-height:30px;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
     
