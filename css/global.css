@@ -672,25 +672,23 @@ body.front .view-noticias .field-name-field-imagenes-article{
 #region-branding .views-slideshow-controls-text-previous a{
     width:19px;
     height:23px;
+    position:absolute;
+    bottom:32px;
 }
 #region-branding .views-slideshow-controls-text-next a{
     background-position: -231px -86px;
-    position:absolute;
-    right:0;
+    left:392px;
 }
 #region-branding .views-slideshow-controls-text-previous a{
     background-position: -231px -54px;
+    left:32px;
 }
 .views-slideshow-controls-text-pause{
     display:none;
 }
 #region-branding .views-slideshow-controls-text{
-     bottom: 32px;
-    left: 32px;
-    position: absolute;
-     background-color: transparent;
+    background-color: transparent;
     border: 0 none;
-    width:392px;
 }
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame{
@@ -1861,11 +1859,12 @@ input.form-submit:hover{
     line-height:30px;
 }
 #slideshownav_home{
-        height: 15px;
-    margin-left: 35px;
-    margin-top: -23px;
+    bottom: 5px;
+    height: 15px;
+    margin: 0;
+    position: absolute;
     text-align: center;
-    width: 384px;
+    width: 454px;
 }
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2378,8 +2377,9 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     display:none !important;
 }
 body.node-type-article .field-name-slideshow-imagen .view-slideshow-imagen{
-    margin:0 auto;
-    width:220px;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1em;
 }
 body.page-especialidades-y-servicios #region-content #block-nodeblock-1728,
 body.page-especialidades-y-servicios #region-content #block-views-7a9e68cc65273113cf9b494dd5efca64{
@@ -2493,10 +2493,18 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     top: 0;
 }
 #block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a{
-       bottom: 27px;
-    left: 40px;
+       bottom: 24px;
+    left: 38px;
     position: absolute;
     width: 258px;
     overflow:hidden;
     text-overflow:ellipsis;
+}
+.node-article.view-mode-teaser .group-left{
+    margin-right: 1em;
+    width: auto;
+}
+.node-article.view-mode-teaser .group-right{
+    float: none;
+    width: auto;
 }
