@@ -155,6 +155,15 @@ hr{
     margin-bottom: 1em;
     margin-right: 1em;
 }
+.titulo-raya{
+    color: #9D8C84;
+    font-weight: normal;
+    margin-top: 1em;
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 24px;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
 .img-right{
     float: right;
     margin-bottom: 1em;
