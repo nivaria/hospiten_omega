@@ -155,6 +155,8 @@ hr{
     margin-bottom: 1em;
     margin-right: 1em;
 }
+#block-views-eventos-node-index-block-1 h2.block-title,
+#block-views-eventos-node-index-block h2.block-title,
 #block-views-revista-humana-block h2.block-title,
 .titulo-raya{
     color: #9D8C84;
@@ -2360,6 +2362,10 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     padding:0.5em;
     margin:0;
 }
+.view-eventos-node-index .views-row .field-name-field-centro .field-item,
+.view-eventos-node-index .views-row .field-name-field-especialidades .field-item,
+#block-views-eventos-node-index-block .views-row .field-name-field-centro .field-item,
+#block-views-eventos-node-index-block .views-row .field-name-field-especialidades .field-item,
 .view-revista-humana ul li.views-row,
 .views-field .field-content li,
 .views-field-field-info-visitante-centro li,
@@ -2549,4 +2555,25 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
 .view-revista-humana .views-field-field-imagenes-article{
     float:left;
     margin-right:1em;
+}
+#block-views-eventos-node-index-block .views-row,
+#block-views-eventos-node-index-block-1 .views-row{
+    border-top:1px solid #e0e0e0;
+    margin-top:1em;
+    padding-top:1em;
+}
+#block-views-eventos-node-index-block-1 .views-row h2{
+    font-family:arial;
+    font-size:12px;
+}
+#block-views-eventos-node-index-block-1 .views-exposed-form .views-exposed-widget .form-submit {
+    margin:0;
+}
+#block-views-eventos-node-index-block .views-row .node-cursos-y-eventos.view-mode-dos_columnas clearfix .group-right{
+    float:none;
+    width:auto;
+}
+.view-eventos-node-index .group-right{
+    float:left;
+    width:auto;
 }
