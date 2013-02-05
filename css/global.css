@@ -339,6 +339,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
@@ -373,6 +374,7 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
+#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
@@ -1377,6 +1379,7 @@ h2.grouping-title{
     font-size: 24px;
     margin-bottom: 1em;
     padding-bottom: 0.5em;
+    font-family:lato;
 }
 .field-name-bloque-centros-relacionados h2.block-title{
     padding-top:1em;
@@ -1387,6 +1390,7 @@ h2.grouping-title{
     margin-top:1em;
     color:#9D8C84;
     font-weight:normal;
+    font-family:lato;
 }
 .node-profesionales .group-left{
     margin-right: 1em;
@@ -1793,7 +1797,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     left:0;
 }
 .pager li.pager-previous{
-    left:66px;
+    left:16px;
 }
 .pager li a,
 .pager li a:hover {
@@ -1813,8 +1817,9 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     width: auto;
 }
 .pager li.pager-next {
-    right: 58px;
+    right: 16px;
 }
+#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
@@ -1837,6 +1842,7 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+#block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a:hover,
@@ -1848,6 +1854,7 @@ input.form-submit{
 input.form-submit:hover{
     background-color:#666;
 }
+#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
@@ -1869,6 +1876,7 @@ input.form-submit:hover{
     text-align: center;
     width: 454px;
 }
+#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
@@ -1895,16 +1903,19 @@ input.form-submit:hover{
 #quicktabs-informacion_adicional{
     margin-top:36px;
 }
+#block-nodeblock-1736 .field-name-title,
 #block-nodeblock-1737 .field-name-title{
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
     background-position:-376px -73px;
-    padding-bottom:12px;
+    padding:0;
+    margin-bottom:12px;
 }
+#block-nodeblock-1736 .field-name-title h2,
 #block-nodeblock-1737 .field-name-title h2{
     color:#28b992;
-       line-height: 41px;
     margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 #block-nodeblock-1166 .field-name-title{
     background-repeat:no-repeat;
@@ -1927,6 +1938,7 @@ input.form-submit:hover{
     background-image:url('../images/sprites.png');
     background-position:-398px 0;
 }
+#block-nodeblock-1736 .field-name-title h2,
 #block-nodeblock-1737 .field-name-title h2,
 #block-nodeblock-1728 .field-name-title h2,
 #block-nodeblock-1166 .field-name-title h2,
@@ -1935,6 +1947,7 @@ input.form-submit:hover{
     margin-left: 47px;
     min-height:32px;
 }
+#region-sidebar-first #block-nodeblock-1736 .field-name-title h2,
 #region-sidebar-first #block-nodeblock-1737 .field-name-title h2,
 #region-sidebar-first #block-nodeblock-1728 .field-name-title h2,
 #region-sidebar-first #block-nodeblock-1166 .field-name-title h2,
@@ -2033,22 +2046,24 @@ form .field-multiple-table th.field-label {
     font-weight: bold;
 }
 /*facetapi*/
-#region-sidebar-first .block{
+.block.block-facetapi{
     background-color: #F9F9F9;
-    margin-bottom: 1em;
     padding: 12px;
 }
-#region-sidebar-first .block h2{
+.block.block-facetapi h2{
     padding-bottom:0.4em;
     letter-spacing: -1.1px;
 }
-#region-sidebar-first .block .content li{
+.block.block-facetapi .content li{
     padding:0;
     margin:0;
     border:0 none;
     border-bottom:1px solid #e8e8e8;
     min-height:30px;
     line-height:30px;
+}
+#region-sidebar-first .block{
+    margin-bottom: 2em;
 }
 #region-sidebar-first .content li.expanded{
     list-style:none;
@@ -2096,8 +2111,8 @@ form .field-multiple-table th.field-label {
     height:80%;
     z-index: 10;
 }
-#region-sidebar-first .block .content li li.first,
-#region-sidebar-first .block .content li li{
+.block.block-facetapi .content li li.first,
+.block.block-facetapi .content li li{
     padding:0.3em 0;
     margin:0 0 0 8px;
     border:0 none;
@@ -2169,10 +2184,10 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty{
     padding-left: 26px;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{ 
-    padding-top: 80px;
+    /*padding-top: 80px;*/
 }
 body.page-especialidades-y-servicios #zone-content,
 body.page-nuestros-profesionales #zone-content {
@@ -2329,7 +2344,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 .field-name-informaci-n-relacionada .item-list li:before,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 li:before,
-#region-sidebar-first .block .content li li:before,
+.block.block-facetapi .content li li:before,
 .quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
 .views-field-field-dotacion-fisica-centro li:before,
 .views-field-field-actividad-asist-centro li:before,
@@ -2344,11 +2359,11 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades{
     position:relative;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header{
-    left: 26px;
+    /*left: 26px;
     position: absolute;
     top: 174px;
     top: 158px;
-    padding:0;
+    padding:0;*/
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2{
     margin: 0 0 6px;
@@ -2562,9 +2577,11 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     margin-top:1em;
     padding-top:1em;
 }
-#block-views-eventos-node-index-block-1 .views-row h2{
-    font-family:arial;
-    font-size:12px;
+#block-views-eventos-node-index-block-1 .views-row .field-name-field-fecha-texto-evento .field-item{
+    color: #9D8C84;
+}
+#block-views-eventos-node-index-block-1 .views-row h2{    
+    font-size:16px;
 }
 #block-views-eventos-node-index-block-1 .views-exposed-form .views-exposed-widget .form-submit {
     margin:0;
@@ -2576,4 +2593,61 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
 .view-eventos-node-index .group-right{
     float:left;
     width:auto;
+}
+#page #block-nodeblock-1728,
+#page #block-nodeblock-1736{
+    padding:0 !important;
+}
+#page #block-nodeblock-1728,
+#page #block-nodeblock-1728 h2,
+#page #block-nodeblock-1736,
+#page #block-nodeblock-1736 h2{
+    background-color:transparent !important;
+}
+#node_article_full_group_related_content{
+    background-color: #F9F9F9;
+    margin-top: 1em;
+    padding: 1em;
+}
+#node_article_full_group_related_content legend{
+    float:left;
+}
+#node_article_full_group_related_content legend span{
+   color: #666666;
+    font-family: lato;
+    font-size: 18px;
+}
+#node_article_full_group_related_content .fieldset-wrapper{
+    clear: both;
+    padding-top: 0.5em;
+}
+#node_article_full_group_related_content .fieldset-wrapper .field-label{
+    display:none;
+}
+#node_article_full_group_related_content .fieldset-wrapper .field-item{
+    color:#00B27A;
+}
+#node_article_full_group_related_content .fieldset-wrapper .field-item:before{
+    content:', ';
+}
+#node_article_full_group_related_content .fieldset-wrapper .field-item:first-child:before{
+    content:none;
+}
+#block-menu-menu-men-lateral.block{
+    background-color:transparent;
+    padding:0;
+}
+#block-menu-menu-men-lateral li{
+    
+}
+#block-menu-menu-men-lateral li a{
+    background-image: url('../images/topo-menu.png');
+    background-position: left 14px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #E0E0E0;
+    color: #7D7D7D;
+    display: block;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px;
+    width: auto;
 }
