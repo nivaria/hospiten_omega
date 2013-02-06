@@ -2060,6 +2060,7 @@ form .field-multiple-table th.field-label {
     border:0 none;
     border-bottom:1px solid #e8e8e8;
     min-height:30px;
+    position:relative;
     line-height:30px;
 }
 #region-sidebar-first .block{
@@ -2084,13 +2085,19 @@ form .field-multiple-table th.field-label {
     padding:0;
     border:0 none;
 }
-#page .block-facetapi .content .item-list li.facetapi-active-holder{
+#page .block-facetapi .content .item-list li.facetapi-active-holder:before{
+    content:none;
+}
+#page .block-facetapi .content .item-list li.facetapi-active-holder li.facetapi-active-holder{
+    line-height:34px;
+}
+#page .block-facetapi .content .item-list li .facet_active_title{
     height:auto;
     padding:6px 16px;
     min-height:0;
     line-height:140%;
 }
-#page .block-facetapi .content .item-list li.facetapi-active-holder{
+#page .block-facetapi .content .item-list li .facet_active_title{
     background-color: #999999;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -2099,7 +2106,7 @@ form .field-multiple-table th.field-label {
     position:relative;
     padding-left:32px;
 }
-#page .block-facetapi .content .item-list li.facetapi-active-holder a{
+#page .block-facetapi .content .item-list li a.facetapi-active{
     color:#fff;
         cursor: pointer;
     display: block;
@@ -2110,6 +2117,10 @@ form .field-multiple-table th.field-label {
     width: 100%;
     height:80%;
     z-index: 10;
+    
+    height:auto;
+    padding:0;
+    text-indent:14px;
 }
 .block.block-facetapi .content li li.first,
 .block.block-facetapi .content li li{
