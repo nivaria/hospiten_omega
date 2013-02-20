@@ -1220,7 +1220,7 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
 }
 .group-cita-previa,
 .block-pedir-cita{
-    border: 1px solid #E0E0E0;
+    border: 2px solid #E0E0E0;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     padding: 8px;
@@ -1259,7 +1259,7 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     font-size: 13px;
     line-height: 28px;
     margin-bottom: 8px;
-    padding: 4px 22px;
+    padding: 2px 22px;
     white-space:nowrap;
 }
 .group-cita-previa .field a,
@@ -1269,8 +1269,10 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
 }
 .group-cita-previa .field-type-ds,
 .pedircitacorreo{
-    background-color: #00b27a;    
+    background-color: #00b27a;
+    margin:0;
 }
+.group-cita-previa .field-name-field-tfno-cp-centro,
 .group-cita-previa .field-name-field-telefono,
 .pedircitatelefono{
     background-color: #2DC6D6;
@@ -1287,10 +1289,46 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     margin-left:0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row{
-    border:1px solid #e0e0e0;
-    margin-top:48px;
-    margin-left:0;
-    padding:0;
+    background-color: #FAFAFA;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    padding: 16px;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row.views-row-last{
+    border-bottom: 1px solid #E0E0E0;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title{
+    margin-left: 0;
+    margin-top: 48px;
+    padding: 0 0 16px;
+    position: relative;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row legend{
+    float:left;
+    margin-bottom:0.5em;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .group-cita-previa .fieldset-wrapper{
+    clear:both;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title:before{
+    content:' ';
+    display:block;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    height:48px;
+    left: -17px;
+    position: absolute;
+    top: -65px;
+    width: 690px;
+    background-color:#fff;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales{
+    position:relative;
+    padding:16px;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .view-mode-profesionales_listado{
+    border-top: 1px solid #E0E0E0;
+    padding: 16px 0 0 0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .group-left h2,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left h2{
@@ -1326,19 +1364,14 @@ h2.grouping-title{
     margin: 0;
     position: absolute;
     right: 18px;
-    top: -48px;
+    top: -56px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row h2 .node-hospitales{
     position:relative;
 }
-.node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales{
-    position:relative;
-    border-top: 1px solid #E0E0E0;
-    border:0 none;
-    padding:16px;
-}
+
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales:first-child{
-    border:0 none;
+    
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-left{
     margin: 0 1em 0 0;
