@@ -59,10 +59,12 @@ jQuery(document).ready(function($){
         var i=1;
         var j=jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row").length;
         while(i<j){
-            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff");
+            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#F9F9F9");
             i=i+1;
-            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#ffffff"); 
+            jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row:nth-child("+i+")").css("background-color","#F9F9F9"); 
             i=i+3;
         }
     }
+    jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2").addClass("page-title");
+    jQuery("body.page-especialidades-y-servicios h1").after( jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2") );
 })
