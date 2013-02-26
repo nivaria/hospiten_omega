@@ -880,12 +880,13 @@ body.front h1,
     overflow: hidden;
     margin-bottom:12px;
     text-align:center;
+    min-height: 72px;
 }
-.home-apartados .views-field-title{
+.home-apartados .views-field-title-field{
     height:38px;
     line-height:38px;
 }
-.home-apartados .views-field-title span{
+.home-apartados .views-field-title-field .field-content{
     color:#00B27A;
     font-size:16px;
     line-height:120%;
@@ -941,6 +942,7 @@ body.front #zone-postscript-wrapper{
 .region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span,
 .region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-title span a{
     font-size:12px;
+    font-family: arial;
 }
 .region-footer-first-inner #block-views-centros-block-6 .views-row .views-field-field-zona .field-content{
     color:#999;
@@ -1720,6 +1722,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .field-name-otros-centros-zona{
     margin-top:1em;
 }
+.pager-contract,
 .pager-expand{
         background-color: #666666;
     height: 60px;
@@ -1729,6 +1732,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     top:1em;
     clear:both;
 }
+.pager-contract .item-list .pager,
 .pager-expand .item-list .pager{
         float: left;
     height: 60px;
@@ -1736,11 +1740,12 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     text-align: left;
     width:auto;
 }
-.pager-expand .pager li.pager-last,
-.pager-expand .pager li.pager-next.last{
-    position:static;
-    width:auto;
+.pager-contract .pager li,
+.pager-expand .pager li{
+    position:static !important;
+    width:auto !important;
 }
+.block .pager-contract .pager li a,
 .block .pager-expand .pager li a{
     float: none;
     background-image: url('../images/more-info-gray.png');
@@ -1761,7 +1766,10 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     border-radius: 24px 24px 24px 24px;
     margin-top:-3px;
     padding-right:48px;
+    margin-top: 10px;
+    width:auto;
 }
+.pager-contract .pager-summary,
 .pager-expand .pager-summary{
         color: #FFFFFF;
     float: right;
@@ -1877,6 +1885,18 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 }
 .pager li.pager-next {
     right: 16px;
+}
+.item-list .pager li.pager-current,
+.item-list .pager li:hover a{
+    font-weight: bold;
+}
+.pager-contract .item-list .pager li:hover a,
+.pager-expand .item-list .pager li:hover a{
+    font-weight: normal;
+}
+.pager-contract .item-list .pager li,
+.pager-expand .item-list .pager li{
+    padding: 0;
 }
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -2328,14 +2348,24 @@ body.page-nuestros-profesionales .contextual-links-region > h1{
 width: 930px;
 left: -241px;
 }
+body.page-hospitales-cita-previa #page h1{
+    top: -81px;
+    width: 930px;
+    left: -241px;
+    padding-bottom: 20px;
+}
 body.page-hospitales-cita-previa .view-centros-node-index .views-row{
     border-top: 1px solid #E0E0E0;
     margin-top: 24px;
     padding-top: 24px;
 }
+body.page-hospitales-cita-previa .view-centros-node-index .views-row:first-child{
+    border: 0 none;
+    padding: 0;
+}
 body.node-type-campanya .view-centros .views-row{
        border: 0 none;
-    margin-top: 24px;
+    margin-top: 0;
     padding-left: 0;
     padding-right: 0;
     padding-top: 24px;
@@ -2343,6 +2373,9 @@ body.node-type-campanya .view-centros .views-row{
     float:none;
     border-top:1px solid #E0E0E0;
     height:auto !important;
+}
+body.node-type-campanya .view-centros .views-row .field-name-field-tfno-cp-centro .field-label{
+    display: none;
 }
 body.node-type-campanya .view-profesionales .views-row{
         border-top: 1px solid #E0E0E0;
@@ -2434,6 +2467,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row .views-field-title span{
     font-size:12px;
+    font-family: arial;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row{
     float:left;
@@ -2514,13 +2548,13 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
         width:100%;
     }
 }
-.field-name-informaci-n-relacionada .item-list li:before,
+.field-name-informaci-n-relacionada .item-list li.views-row:before,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 li:before,
 .block.block-facetapi .content li li:before,
-.quicktabs-tabpage .view-profesionales-node-index .item-list li:before,
+.quicktabs-tabpage .view-profesionales-node-index .item-list li.views-row:before,
 .views-field-field-dotacion-fisica-centro li:before,
 .views-field-field-actividad-asist-centro li:before,
-#block-views-especialidades-node-index-block .item-list li:before,
+#block-views-especialidades-node-index-block .item-list li.views-row:before,
 .group-espec-unid-prof .field-item a:before,
 .views-field-field-centro li:before,
 .block-facetapi li li:before,
@@ -2852,6 +2886,10 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     background-image: none;
     border: 0 none;    
     padding: 4px 4px 4px 0;
+}
+#block-menu-menu-men-lateral li li a:before{
+    content: '-';
+    padding-right: 4px;
 }
 body.node-type-campanya .field-name-bl-prof-relacionados-prod-,
 body.node-type-campanya .field-name-bl-centros-relacionados-prof-{
