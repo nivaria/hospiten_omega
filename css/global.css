@@ -2705,7 +2705,7 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
     line-height:30px;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
-    
+    position:relative;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title{
     width:564px;
@@ -2876,6 +2876,9 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     padding: 10px 10px 10px 20px;
     width: auto;
 }
+#block-menu-menu-men-lateral li a.active{
+    
+}
 #block-menu-menu-men-lateral li ul{
     padding-left:20px;
 }
@@ -2886,6 +2889,18 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     background-image: none;
     border: 0 none;    
     padding: 4px 4px 4px 0;
+}
+#block-menu-menu-men-lateral li li a.active{
+    background-image: url("../images/menu-select.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 46px;
+    line-height: 26px;
+    margin-left: -31px;
+    padding-bottom: 0;
+    width: 273px;
 }
 #block-menu-menu-men-lateral li li a:before{
     content: '-';
