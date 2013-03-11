@@ -2884,9 +2884,10 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     color: #FFFFFF;
     height: 46px;
     line-height: 26px;
-    margin-left: -31px;
+    margin-left: -25px;
     padding-bottom: 0;
-    width: 273px;    
+    width: 254px;
+    padding-right:0;
 }
 #block-menu-menu-men-lateral li ul{
     padding-left:20px;
@@ -2898,9 +2899,16 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     background-image: none;
     border: 0 none;    
     padding: 4px 4px 4px 0;
+    font-weight:normal;
 }
 #block-menu-menu-men-lateral li li a.active{
-
+    background-image: none;
+    color: #7D7D7D;
+    font-weight: bold;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
 }
 #block-menu-menu-men-lateral li li a:before{
     content: '-';
