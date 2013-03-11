@@ -2877,7 +2877,16 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     width: auto;
 }
 #block-menu-menu-men-lateral li a.active{
-    
+    background-image: url("../images/menu-select.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 46px;
+    line-height: 26px;
+    margin-left: -31px;
+    padding-bottom: 0;
+    width: 273px;    
 }
 #block-menu-menu-men-lateral li ul{
     padding-left:20px;
@@ -2891,16 +2900,7 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     padding: 4px 4px 4px 0;
 }
 #block-menu-menu-men-lateral li li a.active{
-    background-image: url("../images/menu-select.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    border: 0 none;
-    color: #FFFFFF;
-    height: 46px;
-    line-height: 26px;
-    margin-left: -31px;
-    padding-bottom: 0;
-    width: 273px;
+
 }
 #block-menu-menu-men-lateral li li a:before{
     content: '-';
