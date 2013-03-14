@@ -184,6 +184,7 @@ function hospiten_omega_file_link($variables) {
   $options = array(
     'attributes' => array(
       'type' => $file->filemime . '; length=' . $file->filesize,
+      'target' =>'_blank',
     ),
   );
   
