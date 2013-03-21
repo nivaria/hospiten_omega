@@ -2577,7 +2577,7 @@ body.page-especialidades-y-servicios h2.page-title{
     top: 100px;
     font-size:20px;
 }
-body.page-especialidades-y-servicios .contextual-links-region h2.page-title{
+body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title{
     left: -240px;
     top: -38px;
 }
