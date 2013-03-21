@@ -67,6 +67,7 @@ jQuery(document).ready(function($){
     }
     jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2").addClass("page-title");
     jQuery("body.page-especialidades-y-servicios h1").after( jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2") );
+    jQuery("#block-locale-language .language-switcher-locale-url li").removeClass("first");
     jQuery("#block-menu-menu-menu-superior ul").append( jQuery("#block-locale-language .language-switcher-locale-url li").not(".active") );
     jQuery("#block-locale-language").remove();
 })
