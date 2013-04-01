@@ -1706,11 +1706,31 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .quicktabs-wrapper ul.quicktabs-tabs li.active a .tab_icon{
     display:block;
     margin:0 auto;
+    background-image:url('../images/sprites.png');
+    background-repeat:no-repeat;
+    position:absolute;
+    top:4px;
+    left:42%;
+}
+.tab_icon_0{
     width:19px;
     height:20px;
     background-position:-57px -276px;
-    background-image:url('../images/sprites.png');
-    background-repeat:no-repeat;
+}
+.tab_icon_1{
+    width:23px;
+    height:15px;
+    background-position:-3px -276px;
+}
+.tab_icon_2{
+    width:21px;
+    height:14px;
+    background-position:-31px -276px;
+}
+.tab_icon_3{
+    width:21px;
+    height:17px;
+    background-position:-83px -276px;
 }
 
 

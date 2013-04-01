@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
     
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").css("width",size/number_of_normal_tabs+"px");
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li a").each( function(index,element){
-        jQuery(this).append( jQuery("<span class='tab_icon tab_icon_'"+index+" ></span>") );
+        jQuery(this).append( jQuery("<span class='tab_icon tab_icon_"+index+"' ></span>") );
     });
     jQuery(".view-centros .views-row.views-row-odd").each( function(){
         var current=jQuery(this);
