@@ -374,9 +374,6 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-menu-superior li.last a{
-    font-weight:bold;
-}
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1732,7 +1729,11 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     height:17px;
     background-position:-83px -276px;
 }
-
+.tab_icon_4{
+    width:23px;
+    height:15px;
+    background-position:-3px -276px;
+}
 
 .quicktabs_main.quicktabs-style-basic {
     border: 0 none;
@@ -2310,6 +2311,18 @@ body.page-nuestros-profesionales #region-content .view-filters,
 body.page-nuestros-profesionales #region-sidebar-first,
 body.page-nuestros-profesionales #region-sidebar-second {
     margin-top:20px;
+}
+body.page-especialidades-y-servicios #block-system-main:before{
+    content:' ';
+    position:absolute;
+    display:block;
+    background-image:url('../images/sprites.png');
+    background-repeat:no-repeat;
+    width:180px;
+    height:121px;
+    background-position:-197px -276px;
+    right:0;
+    top:0;
 }
 body.page-especialidades-y-servicios #region-content .view-filters{
     margin-top: 0;
