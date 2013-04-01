@@ -2321,8 +2321,10 @@ body.page-especialidades-y-servicios #block-system-main:before{
     width:180px;
     height:121px;
     background-position:-197px -276px;
-    right:0;
-    top:0;
+    right:-12px;
+    top:101px;
+    background-color:#fff;
+    z-index:10;
 }
 body.page-especialidades-y-servicios #region-content .view-filters{
     margin-top: 0;
