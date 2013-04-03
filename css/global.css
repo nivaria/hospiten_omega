@@ -2760,6 +2760,8 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title{
     width:564px;
+    z-index:10;
+    position:relative;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title .field-content{
     line-height:140%;
