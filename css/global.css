@@ -374,6 +374,9 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
+#block-menu-menu-menu-superior li a.language-link{
+    font-weight:bold;
+}
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
