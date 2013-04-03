@@ -2315,7 +2315,7 @@ body.page-nuestros-profesionales #region-sidebar-first,
 body.page-nuestros-profesionales #region-sidebar-second {
     margin-top:20px;
 }
-body.page-especialidades-y-servicios #block-system-main:before{
+/*body.page-especialidades-y-servicios #block-system-main:before{
     content:' ';
     position:absolute;
     display:block;
@@ -2328,7 +2328,7 @@ body.page-especialidades-y-servicios #block-system-main:before{
     top:101px;
     background-color:#fff;
     z-index:10;
-}
+}*/
 body.page-especialidades-y-servicios #region-content .view-filters{
     margin-top: 0;
     padding-top: 10px;
