@@ -339,6 +339,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2125,6 +2126,7 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
