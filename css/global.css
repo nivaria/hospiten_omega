@@ -1110,6 +1110,12 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters{
 body.page-hospitales-y-centros .view-mapa-centros .view-filters{
     width:530px;
 }
+body.page-hospitales-y-centros .view-mapa-centros .view-header{
+    width:212px;
+}
+body.page-hospitales-y-centros .view-mapa-centros .view-filters{
+    width:462px;
+}
 body.page-todos-cv .view-header,
 body.page-todos-cv .view-filters{
     padding:0;
