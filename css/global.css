@@ -1945,6 +1945,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager-expand .item-list .pager li{
     padding: 0;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1968,6 +1969,7 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
@@ -1980,6 +1982,7 @@ input.form-submit{
 input.form-submit:hover{
     background-color:#666;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2010,6 +2013,7 @@ input.form-submit:hover{
     text-align: center;
     width: 454px;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
