@@ -1108,14 +1108,14 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters{
     line-height: 44px;
     float:left;
 }
-body.page-hospitales-y-centros .view-mapa-centros .view-filters{
-    width:530px;
-}
 body.page-hospitales-y-centros .view-mapa-centros .view-header{
-    width:212px;
+    width:252px;
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-filters{
-    width:462px;
+    width:422px;
+}
+body.page-hospitales-y-centros .view-mapa-centros .view-filters #edit-field-zona-tid{
+    width:140px;
 }
 body.page-todos-cv .view-header,
 body.page-todos-cv .view-filters{
@@ -2130,6 +2130,9 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
+}
+#block-nodeblock-34 .field-name-field-enlace-bloque a{
+    margin-bottom:1em;
 }
 .views-field-field-zona .views-label{
     font-weight:bold;
