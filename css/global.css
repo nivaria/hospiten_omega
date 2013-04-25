@@ -3066,9 +3066,9 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
 .show_oferta{
     color: #00B27A;
     cursor: pointer;
-    background-image:'/misc/menu-collapsed.png';
+    background-image: url('/misc/menu-collapsed.png');
     background-repeat:no-repeat;
 }
 .show_oferta.hide_oferta{
-    background-image:'/misc/menu-expanded.png';
+    background-image: url('/misc/menu-expanded.png');
 }
