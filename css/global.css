@@ -339,6 +339,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -378,6 +379,7 @@ input.form-submit,
 #block-menu-menu-menu-superior li a.language-link{
     font-weight:bold;
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1626,6 +1628,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 }
 #webform-component-politica-de-privacidad-cita-previa{
     clear:both;
+    padding-top:1em;
 }
 /* tabs */
 .quicktabs-wrapper{
@@ -1957,6 +1960,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager-expand .item-list .pager li{
     padding: 0;
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -1981,6 +1985,7 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
 #block-nodeblock-34 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
@@ -1994,6 +1999,7 @@ input.form-submit{
 input.form-submit:hover{
     background-color:#666;
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -2025,6 +2031,7 @@ input.form-submit:hover{
     text-align: center;
     width: 454px;
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -2137,10 +2144,16 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
+}
+body.node-type-cursos-y-eventos .field .field-label{
+    color:#999;
+    font-family:lato;
+    font-size:18px;
 }
 #block-nodeblock-34 .field-name-field-enlace-bloque a{
     margin-bottom:1em;
@@ -2156,6 +2169,9 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 }
 body.node-type-cursos-y-eventos .node .field{
     margin-bottom:1em;
+}
+body.node-type-cursos-y-eventos .node-cursos-y-eventos .field-name-slideshow-imagen{
+    float:right;
 }
 #zone-postscript{
     width:100%;
