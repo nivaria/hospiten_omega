@@ -2999,3 +2999,17 @@ body.node-type-campanya .field-name-bl-centros-relacionados-prof- h2.block-title
 body.node-type-campanya .field-name-bl-prof-relacionados-prod- h2.block-title{
     margin-bottom:20px;
 }
+body.page-node-22 #block-hospiten-generic-info-centro .center-name{
+    margin-bottom:0.5em;
+}
+body.page-node-22 #block-hospiten-generic-info-centro .center-image{
+    float: left;
+    margin-right: 1em;
+}
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-email,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-fax-centro,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-telefono,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccion{
+    width:288px;
+    float:left;
+}
