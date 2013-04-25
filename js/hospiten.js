@@ -71,4 +71,6 @@ jQuery(document).ready(function($){
     jQuery("#block-locale-language .language-switcher-locale-url li").removeClass("first");
     jQuery("#block-menu-menu-menu-superior ul").append( jQuery("#block-locale-language .language-switcher-locale-url li").not(".active") );
     jQuery("#block-locale-language").remove();
+    jQuery(".pager-last.last a").text("»");
+    jQuery(".pager-first.first a").text("«");
 })
