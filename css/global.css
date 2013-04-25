@@ -3057,3 +3057,18 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
     width:288px;
     float:left;
 }
+.views-field-field-requisitos-oferta{
+    background-color: #F9F9F9;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 16px 22px;   
+}
+.show_oferta{
+    color: #00B27A;
+    cursor: pointer;
+    background-image:'/misc/menu-collapsed.png';
+    background-repeat:no-repeat;
+}
+.show_oferta.hide_oferta{
+    background-image:'/misc/menu-expanded.png';
+}
