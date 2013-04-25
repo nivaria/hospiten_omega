@@ -341,6 +341,7 @@ h2.grouping-title{
 /* block menu superior */
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
+#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1962,6 +1963,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
+#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1987,6 +1989,7 @@ input.form-submit{
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
 #block-nodeblock-34 .field-name-field-enlace-bloque a:hover,
+#block-nodeblock-35 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
@@ -2001,6 +2004,7 @@ input.form-submit:hover{
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
+#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2033,6 +2037,7 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
+#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2139,6 +2144,7 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 .more-link a{
     font-family:lato;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,,
 #block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link-blue a{
     background-color:#2dc6d6;
