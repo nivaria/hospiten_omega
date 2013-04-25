@@ -339,6 +339,7 @@ h2.grouping-title{
     border-bottom:1px solid #e0e0e0;
 }*/
 /* block menu superior */
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -374,7 +375,7 @@ input.form-submit,
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-menu-superior li.last a{
+#block-menu-menu-menu-superior li a.language-link{
     font-weight:bold;
 }
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
@@ -1107,8 +1108,14 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters{
     line-height: 44px;
     float:left;
 }
+body.page-hospitales-y-centros .view-mapa-centros .view-header{
+    width:252px;
+}
 body.page-hospitales-y-centros .view-mapa-centros .view-filters{
-    width:530px;
+    width:422px;
+}
+body.page-hospitales-y-centros .view-mapa-centros .view-filters #edit-field-zona-tid{
+    width:140px;
 }
 body.page-todos-cv .view-header,
 body.page-todos-cv .view-filters{
@@ -1656,7 +1663,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     white-space:normal;
     padding-top: 2px;
     padding-left:0;
-    width:100%;
+    width:96%;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li.active + li a,
 .quicktabs-wrapper ul.quicktabs-tabs li.first a{
@@ -1688,6 +1695,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     background-image:none;
     padding-top:25px;
     margin-left:-8px;
+    width:100%;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li:hover{
     border: 0 none;
@@ -1698,6 +1706,46 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .quicktabs-wrapper ul.quicktabs-tabs li.active a:hover{
     color:#fff;
 }
+
+.quicktabs-wrapper ul.quicktabs-tabs li a .tab_icon{
+    display:none;
+}
+.quicktabs-wrapper ul.quicktabs-tabs li:hover a .tab_icon,
+.quicktabs-wrapper ul.quicktabs-tabs li.active a .tab_icon{
+    display:block;
+    margin:0 auto;
+    background-image:url('../images/sprites.png');
+    background-repeat:no-repeat;
+    position:absolute;
+    top:4px;
+    left:42%;
+}
+.tab_icon_0{
+    width:19px;
+    height:20px;
+    background-position:-57px -276px;
+}
+.tab_icon_1{
+    width:23px;
+    height:15px;
+    background-position:-3px -276px;
+}
+.tab_icon_2{
+    width:21px;
+    height:14px;
+    background-position:-31px -276px;
+}
+.tab_icon_3{
+    width:21px;
+    height:17px;
+    background-position:-83px -276px;
+}
+.tab_icon_4{
+    width:17px;
+    height:15px;
+    background-position:-109px -276px;
+}
+
 .quicktabs_main.quicktabs-style-basic {
     border: 0 none;
     padding:32px 16px;
@@ -1898,6 +1946,7 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager-expand .item-list .pager li{
     padding: 0;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1921,6 +1970,7 @@ input.form-submit{
     text-shadow: none;
     white-space:nowrap;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
@@ -1933,6 +1983,7 @@ input.form-submit{
 input.form-submit:hover{
     background-color:#666;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -1963,6 +2014,7 @@ input.form-submit:hover{
     text-align: center;
     width: 454px;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2035,7 +2087,7 @@ input.form-submit:hover{
 #block-nodeblock-1164 .field-name-title h2{
     background-color: #FFFFFF;
     margin-left: 47px;
-    min-height:32px;
+    min-height:40px;
 }
 #region-sidebar-first #block-nodeblock-1736 .field-name-title h2,
 #region-sidebar-first #block-nodeblock-1737 .field-name-title h2,
@@ -2074,9 +2126,13 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
+}
+#block-nodeblock-34 .field-name-field-enlace-bloque a{
+    margin-bottom:1em;
 }
 .views-field-field-zona .views-label{
     font-weight:bold;
@@ -2275,6 +2331,20 @@ body.page-nuestros-profesionales #region-sidebar-first,
 body.page-nuestros-profesionales #region-sidebar-second {
     margin-top:20px;
 }
+/*body.page-especialidades-y-servicios #block-system-main:before{
+    content:' ';
+    position:absolute;
+    display:block;
+    background-image:url('../images/sprites.png');
+    background-repeat:no-repeat;
+    width:180px;
+    height:121px;
+    background-position:-197px -276px;
+    right:-12px;
+    top:101px;
+    background-color:#fff;
+    z-index:10;
+}*/
 body.page-especialidades-y-servicios #region-content .view-filters{
     margin-top: 0;
     padding-top: 10px;
@@ -2577,7 +2647,7 @@ body.page-especialidades-y-servicios h2.page-title{
     top: 100px;
     font-size:20px;
 }
-body.page-especialidades-y-servicios .contextual-links-region h2.page-title{
+body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title{
     left: -240px;
     top: -38px;
 }
@@ -2709,6 +2779,8 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title{
     width:564px;
+    z-index:10;
+    position:relative;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title .field-content{
     line-height:140%;
@@ -2926,4 +2998,18 @@ body.node-type-campanya .field-name-bl-centros-relacionados-prof- h2.block-title
 }
 body.node-type-campanya .field-name-bl-prof-relacionados-prod- h2.block-title{
     margin-bottom:20px;
+}
+body.page-node-22 #block-hospiten-generic-info-centro .center-name{
+    margin-bottom:0.5em;
+}
+body.page-node-22 #block-hospiten-generic-info-centro .center-image{
+    float: left;
+    margin-right: 1em;
+}
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-email,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-fax-centro,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-telefono,
+body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccion{
+    width:288px;
+    float:left;
 }

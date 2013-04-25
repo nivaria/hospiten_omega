@@ -5,8 +5,9 @@ jQuery(document).ready(function($){
     /*size=size-(number_of_normal_tabs*40);*/
     
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").css("width",size/number_of_normal_tabs+"px");
-    
-    
+    jQuery(".quicktabs-wrapper ul.quicktabs-tabs li a").each( function(index,element){
+        jQuery(this).append( jQuery("<span class='tab_icon tab_icon_"+index+"' ></span>") );
+    });
     jQuery(".view-centros .views-row.views-row-odd").each( function(){
         var current=jQuery(this);
         var next=current.next();
@@ -67,4 +68,7 @@ jQuery(document).ready(function($){
     }
     jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2").addClass("page-title");
     jQuery("body.page-especialidades-y-servicios h1").after( jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2") );
+    jQuery("#block-locale-language .language-switcher-locale-url li").removeClass("first");
+    jQuery("#block-menu-menu-menu-superior ul").append( jQuery("#block-locale-language .language-switcher-locale-url li").not(".active") );
+    jQuery("#block-locale-language").remove();
 })
