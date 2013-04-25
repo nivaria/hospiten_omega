@@ -2160,6 +2160,8 @@ body.node-type-cursos-y-eventos .field .field-label{
     font-family:lato;
     font-size:18px;
     padding-bottom:0.5em;
+    font-weight:normal;
+    display:inline-block;
 }
 #block-nodeblock-34 .field-name-field-enlace-bloque a{
     margin-bottom:1em;
