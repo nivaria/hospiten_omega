@@ -2150,10 +2150,16 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
 }
+body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a{
+    display:inline-block;
+    padding-right:38px;
+}
+body.node-type-cursos-y-eventos a.fieldset-title,
 body.node-type-cursos-y-eventos .field .field-label{
     color:#999;
     font-family:lato;
     font-size:18px;
+    padding-bottom:0.5em;
 }
 #block-nodeblock-34 .field-name-field-enlace-bloque a{
     margin-bottom:1em;
