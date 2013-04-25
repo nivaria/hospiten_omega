@@ -2144,11 +2144,14 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 .more-link a{
     font-family:lato;
 }
-#block-nodeblock-34 .field-name-field-enlace-bloque a,,
+#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link-blue a{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
+}
+#block-nodeblock-34 .field-name-field-enlace-bloque a{
+    margin-bottom:1em;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a,
