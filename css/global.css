@@ -1597,6 +1597,7 @@ body.node-type-hospitales .node-hospitales .group-footer{
 body.node-type-hospitales .node-hospitales .group-left .locality{
     display:block;
     float:left;
+    padding-right:0.5em;
 }
 body.node-type-hospitales .node-hospitales .group-left .state{
     display:block;
@@ -1615,6 +1616,16 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion{
 }
 body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-item{
     background-color:#fff;
+}
+
+#edit-submitted-prefiere-que-contactemos-cita-previa .form-item{
+    float:left;
+}
+#edit-submitted-prefiere-que-contactemos-cita-previa .form-item-submitted-prefiere-que-contactemos-cita-previa-1{
+    padding-left:1em;
+}
+#webform-component-politica-de-privacidad-cita-previa{
+    clear:both;
 }
 /* tabs */
 .quicktabs-wrapper{
