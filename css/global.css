@@ -3063,6 +3063,9 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
     overflow: hidden;
     padding: 16px 22px;   
 }
+#node_cursos_y_eventos_full_group_lugar_evento{
+    margin-top:1em;
+}
 .show_oferta{
     background-position: 0 6px;
     background-repeat: no-repeat;
