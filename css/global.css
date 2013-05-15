@@ -2764,15 +2764,12 @@ body.page-especialidades-y-servicios #region-content #block-views-especialidades
     margin-right:1em;
     margin-bottom:1em;
 }
-#block-views-especialidades-y-unidades-block .views-field-title-field span{
+#block-views-especialidades-y-unidades-block .views-field-title span{
     font-size:16px;
     line-height:100%;
 }
-#block-views-especialidades-y-unidades-block .views-field-title-field span a{
+#block-views-especialidades-y-unidades-block .views-field-title span a{
  color:#666;   
-}
-#block-views-especialidades-y-unidades-block .views-field-field-texto-slideshow-portada{
- width:524px;
 }
 body.front #section-content{
        background-color: #FFFFFF;
@@ -2824,15 +2821,15 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block{
     position:relative;
 }
-body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title{
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title-field{
     width:564px;
     z-index:10;
     position:relative;
 }
-body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title .field-content{
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title-field .field-content{
     line-height:140%;
 }
-body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title a{
+body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title-field a{
     color: #666666;
     font-family: lato;
     font-size: 40px;
@@ -2846,6 +2843,7 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p{
     font-weight:normal;
+    width:524px;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-imagen-slideshow-portada a{
     display: block;
