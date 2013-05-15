@@ -2764,12 +2764,15 @@ body.page-especialidades-y-servicios #region-content #block-views-especialidades
     margin-right:1em;
     margin-bottom:1em;
 }
-#block-views-especialidades-y-unidades-block .views-field-title span{
+#block-views-especialidades-y-unidades-block .views-field-title-field span{
     font-size:16px;
     line-height:100%;
 }
-#block-views-especialidades-y-unidades-block .views-field-title span a{
+#block-views-especialidades-y-unidades-block .views-field-title-field span a{
  color:#666;   
+}
+#block-views-especialidades-y-unidades-block .views-field-field-texto-slideshow-portada{
+ width:524px;
 }
 body.front #section-content{
        background-color: #FFFFFF;
