@@ -2833,6 +2833,9 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     color: #666666;
     font-family: lato;
     font-size: 40px;
+ line-height: 100%;
+    padding-bottom: 0.4em;
+    display:block;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada a,
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p,
