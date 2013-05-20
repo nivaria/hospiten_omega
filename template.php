@@ -251,3 +251,17 @@ function hospiten_omega_facetapi_link_active($variables) {
   $variables['options']['html'] = TRUE;
   return theme_link($variables) . "<span class='facet_active_title'>".$link_text."</span>";
 }
+
+
+/**
+ * Returns HTML for the inactive facet item's count.
+ *
+ * @param $variables
+ *   An associative array containing:
+ *   - count: The item's facet count.
+ *
+ * @ingroup themeable
+ */
+function hospiten_omega_facetapi_count($variables) {
+  return '';
+}
