@@ -451,8 +451,8 @@ input.form-submit,
 #block-views-exp-busqueda-general-page h2{
     display:none;
 }
+/*#edit-submit-especialidades-node-index,*/
 .quicktabs-tabpage #edit-submit-profesionales-node-index,
-#edit-submit-especialidades-node-index,
 #block-search-api-page-solr-search .form-submit,
 #block-views-exp-busqueda-general-page .form-submit{
     background-repeat:no-repeat;
@@ -2425,11 +2425,11 @@ body.page-especialidades-y-servicios #region-content .views-exposed-form{
 body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-search-api-views-fulltext{
     width:408px;
 }
-body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-submit-especialidades-node-index{
+/*body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-submit-especialidades-node-index{
     left: 382px;
     position: absolute;
     top: 42px;
-}
+}*/
 body.page-nuestros-profesionales #region-content {
     width: 450px;
     position:static;
