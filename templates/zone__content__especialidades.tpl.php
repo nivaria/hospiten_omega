@@ -3,12 +3,7 @@
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb" class="grid-<?php print $columns; ?>"><div id="breadcrumb_icon"></div><?php print $breadcrumb; ?></div>      
     <?php endif; ?>
-    
-    <?
-      var_dump( $_SERVER['REQUEST_URI'] );
-    ?>
-    
-        <div id="page_banner">
+        <div id="inner_page_banner">
           <img src="/sites/default/files/especialidades-y-servicios-medicos.png" alt="">
         </div>
     <?php if ($messages): ?>

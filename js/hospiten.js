@@ -73,4 +73,12 @@ jQuery(document).ready(function($){
     jQuery("#block-locale-language").remove();
     jQuery(".pager-last.last a").text("»");
     jQuery(".pager-first.first a").text("«");
+    
+    $("#region-sidebar-second img").hover(
+    function() {
+    $(this).stop().animate({"opacity": "0.5"}, "slow");
+    },
+    function() {
+    $(this).stop().animate({"opacity": "1"}, "slow");
+    });
 })
