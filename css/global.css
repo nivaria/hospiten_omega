@@ -4,11 +4,14 @@
 .button_light_green {
   border-radius: 20px;
   border: 0 none;
-  background-color: #8cd600;
+  background-color: #8cd600 !important;
   color: #fff;
   font-size: 15px;
   font-family: lato;
   padding: 10px 22px;
+  background-image: none !important;
+  text-shadow: none;
+  box-shadow: none !important;
 }
 .light_green_arrow {
   background-image: url('../images/sprites.png');
@@ -53,8 +56,62 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
+}
+#page #block-block-1 {
+  border: 0 none;
+}
+#page #block-block-1 a {
+  border-radius: 20px;
+  border: 0 none;
+  background-color: #8cd600 !important;
+  color: #fff;
+  font-size: 15px;
+  font-family: lato;
+  padding: 10px 22px;
+  background-image: none !important;
+  text-shadow: none;
+  box-shadow: none !important;
 }
 /* END mixins*/
+#block-nodeblock-35 {
+  position: relative;
+}
+#block-nodeblock-35 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#block-nodeblock-1735 {
+  position: relative;
+}
+#block-nodeblock-1735 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 #block-nodeblock-1736 {
   position: relative;
 }
@@ -72,6 +129,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 #block-nodeblock-1164 {
   position: relative;
@@ -90,6 +148,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 #block-nodeblock-1166 {
   position: relative;
@@ -108,6 +167,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 #block-nodeblock-1728 {
   position: relative;
@@ -126,6 +186,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 #page #block-views-campanyas-block-3 .views-row {
   position: relative;
@@ -144,6 +205,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 /* BEGIN bloque pedir cita */
 #block-nodeblock-34 {
@@ -181,6 +243,7 @@
   border: 0 none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 #block-nodeblock-34 h2 {
   color: #FFFFFF;
@@ -201,8 +264,10 @@
 /* BEGIN bloque subscribete */
 #block-nodeblock-35 .field-name-field-enlace-bloque a {
   font-size: 18px;
-  text-decoration: underline;
-  padding: 0.4em 0;
+}
+.more-link a {
+  font-size: 14px;
+  font-weight: normal;
 }
 /* END bloque subscribete */
 body {
@@ -533,6 +598,8 @@ h1 {
   line-height: 120%;
   margin-top: 16px;
   font-weight: normal;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 .views-field-title span,
 h2,
@@ -564,10 +631,20 @@ h2.grouping-title {
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.more-link a,
 .visitorinfoid a,
 input.form-submit,
-.views-field-view-node a,
+.views-field-view-node a {
+  border-radius: 20px;
+  border: 0 none;
+  background-color: #8cd600 !important;
+  color: #fff;
+  font-size: 15px;
+  font-family: lato;
+  padding: 10px 22px;
+  background-image: none !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
 #block-menu-menu-menu-superior {
   background-color: #00B27A;
   border: 4px solid #E6E6E6;
@@ -582,11 +659,14 @@ input.form-submit,
 #block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a {
   border-radius: 20px;
   border: 0 none;
-  background-color: #8cd600;
+  background-color: #8cd600 !important;
   color: #fff;
   font-size: 15px;
   font-family: lato;
   padding: 10px 22px;
+  background-image: none !important;
+  text-shadow: none;
+  box-shadow: none !important;
   position: absolute;
   bottom: 24px;
   left: 0;
@@ -606,12 +686,6 @@ input.form-submit,
 #block-menu-menu-menu-superior li a.language-link {
   font-weight: bold;
 }
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1737 .field-name-field-enlace-bloque a,
-.more-link a,
-.visitorinfoid a,
-input.form-submit,
-.views-field-view-node a,
 #block-menu-menu-menu-superior li a {
   color: #fff;
 }
@@ -674,7 +748,7 @@ input.form-submit,
 #block-search-api-page-solr-search .form-submit,
 #block-views-exp-busqueda-general-page .form-submit {
   background-repeat: no-repeat;
-  background-image: url('../images/sprites.png');
+  background-image: url('../images/sprites.png') !important;
   display: block;
   width: 17px;
   height: 17px;
@@ -689,7 +763,7 @@ input.form-submit,
   position: absolute;
   right: 10px;
   top: 7px;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 #block-search-api-page-solr-search .form-submit,
 #block-views-exp-busqueda-general-page .form-submit {
@@ -789,7 +863,6 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya {
 }
 .slideshow-nav {
   height: 15px;
-  margin-top: -27px;
   text-align: right;
   margin-right: 24px;
 }
@@ -831,6 +904,11 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya {
   width: 13px;
   height: 23px;
   position: relative;
+  top: 27px;
+}
+#block-views-slideshow-portada-block .views-slideshow-controls-text-next a,
+#block-views-slideshow-portada-block .views-slideshow-controls-text-previous a {
+  top: 0;
 }
 .views-slideshow-controls-text-next a {
   float: right;
@@ -1073,6 +1151,9 @@ body.front h1,
   width: 63px;
   height: 65px;
 }
+#block-views-apartados-de-la-home-block .home-apartados ul li.views-row-1:hover .home-campanyas-icon {
+  background-position: 0 -484px;
+}
 #block-views-apartados-de-la-home-block .home-apartados ul li.views-row-2 .home-campanyas-icon {
   background-position: -68px -408px;
   width: 69px;
@@ -1086,10 +1167,16 @@ body.front h1,
   width: 67px;
   height: 67px;
 }
+#block-views-apartados-de-la-home-block .home-apartados ul li.views-row-3:hover .home-campanyas-icon {
+  background-position: -144px -484px;
+}
 #block-views-apartados-de-la-home-block .home-apartados ul li.views-row-4 .home-campanyas-icon {
   background-position: -218px -408px;
   width: 65px;
   height: 70px;
+}
+#block-views-apartados-de-la-home-block .home-apartados ul li.views-row-4:hover .home-campanyas-icon {
+  background-position: -218px -484px;
 }
 #block-views-apartados-de-la-home-block .home-apartados ul .views-field-view-node a {
   background-color: transparent;
@@ -2185,52 +2272,49 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .pager-expand .item-list .pager li {
   padding: 0;
 }
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
+/*body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.more-link a,
 .visitorinfoid a,
-input.form-submit {
-  background-color: #999999;
-  background-image: none;
-  color: #FFFFFF;
-  font-family: lato;
-  display: block;
-  float: right;
-  font-size: 14px;
-  font-weight: normal;
-  height: 30px;
-  padding: 0 22px;
-  text-shadow: none;
-  white-space: nowrap;
+input.form-submit{
+    background-color: #999999;
+    background-image: none;
+    color: #FFFFFF;
+    font-family:lato;
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    padding: 0 22px;
+    text-shadow: none;
+    white-space:nowrap;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 .inscripcion_oferta a:hover,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a:hover,
-.more-link a:hover,
 .visitorinfoid a:hover,
-input.form-submit:hover {
-  background-color: #666;
+input.form-submit:hover{
+    background-color:#666;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-.more-link a,
-.visitorinfoid a {
-  background-repeat: no-repeat;
-  background-image: url('../images/more-info-gray.png');
-  background-position: right center;
-  line-height: 30px;
+.visitorinfoid a{
+    background-repeat:no-repeat;
+    background-image:url('../images/more-info-gray.png');
+    background-position: right center;
+    line-height:30px;
 }
-#block-hospiten-generic-informacion-visitante .visitorinfoid a {
-  height: auto;
-  line-height: 20px;
-  padding: 6px 22px;
-  white-space: normal;
-  float: none;
-  padding-right: 32px;
-}
+#block-hospiten-generic-informacion-visitante .visitorinfoid a{
+    height: auto;
+    line-height: 20px;
+    padding: 6px 22px;
+    white-space: normal;
+    float: none;
+    padding-right: 32px;
+}*/
 #slideshownav_home {
   bottom: 17px;
   height: 15px;
@@ -2241,8 +2325,7 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-.inscripcion_oferta a,
-.more-link a {
+.inscripcion_oferta a {
   float: none;
   text-align: left;
   width: auto;
@@ -2333,9 +2416,6 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd {
 }
 body.page-node-informacion-visitante .view .attachment .views-row-even {
   float: right;
-}
-.more-link a {
-  font-family: lato;
 }
 .more-link-blue a {
   background-color: #2dc6d6;
@@ -2637,6 +2717,10 @@ body.page-nuestros-profesionales h1 {
   top: 222px;
   width: 100%;
 }
+body.page-especialidades-y-servicios h1,
+body.page-nuestros-profesionales h1 {
+  top: 202px;
+}
 body.page-especialidades-y-servicios h1 {
   padding-bottom: 48px;
 }
@@ -2646,6 +2730,9 @@ body.page-nuestros-profesionales .contextual-links-region > h1 {
   top: -103px;
   width: 930px;
   left: -241px;
+}
+body.page-nuestros-profesionales .contextual-links-region > h1 {
+  top: -76px;
 }
 body.page-hospitales-cita-previa #page h1 {
   top: -81px;
@@ -2870,7 +2957,7 @@ body.page-especialidades-y-servicios h2.page-title {
   left: 0;
   margin: 0;
   position: absolute;
-  top: 278px;
+  top: 262px;
   font-size: 20px;
 }
 body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title {
@@ -3238,7 +3325,8 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
 .show_oferta {
   background-position: 0 6px;
   background-repeat: no-repeat;
-  color: #2CC5D6;
+  /*color: #2CC5D6;*/
+
   cursor: pointer;
   padding-left: 1em;
   background-image: url('/misc/menu-collapsed.png');

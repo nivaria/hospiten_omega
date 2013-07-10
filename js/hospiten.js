@@ -74,11 +74,13 @@ jQuery(document).ready(function($){
     jQuery(".pager-last.last a").text("»");
     jQuery(".pager-first.first a").text("«");
     
-    $("#region-sidebar-second img").hover(
+    $(".views-field-field-imagen-slideshow-portada,#region-sidebar-second .block-views .views-row,#region-sidebar-second .block-nodeblock, body.front #region-postscript-third .block").hover(
     function() {
-    $(this).stop().animate({"opacity": "0.5"}, "slow");
+    $(this).find("img").stop().animate({"opacity": "0.5"}, "slow");
+    $(this).find("a").css("text-decoration","underline");
     },
     function() {
-    $(this).stop().animate({"opacity": "1"}, "slow");
+    $(this).find("img").stop().animate({"opacity": "1"}, "slow");
+    $(this).find("a").css("text-decoration","none");
     });
 })
