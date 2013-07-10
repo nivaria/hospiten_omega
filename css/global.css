@@ -55,6 +55,24 @@
   padding: 0;
 }
 /* END mixins*/
+#block-nodeblock-1736 {
+  position: relative;
+}
+#block-nodeblock-1736 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
 #block-nodeblock-1164 {
   position: relative;
 }
@@ -544,7 +562,6 @@ h2.grouping-title {
 }*/
 /* block menu superior */
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
@@ -590,7 +607,6 @@ input.form-submit,
   font-weight: bold;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .more-link a,
 .visitorinfoid a,
@@ -2168,7 +2184,6 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
   padding: 0;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
@@ -2188,7 +2203,6 @@ input.form-submit {
   white-space: nowrap;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 .inscripcion_oferta a:hover,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a:hover,
@@ -2198,7 +2212,6 @@ input.form-submit:hover {
   background-color: #666;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
@@ -2225,7 +2238,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
   width: 100%;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a {
