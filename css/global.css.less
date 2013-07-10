@@ -2,6 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* BEGIN mixins*/
+@link_color: #00b27a;
 .button_light_green{
     border-radius:20px;
     border:0 none;
@@ -71,6 +72,16 @@
     }
 }
 /* END bloque pedir cita */
+
+/* BEGIN bloque subscribete */
+#block-nodeblock-35{
+    .field-name-field-enlace-bloque a{
+        font-size:18px;
+        text-decoration:underline;
+        padding:0.4em 0;
+    }
+}
+/* END bloque subscribete */
 
 body{
     background-color:#fff;
@@ -410,7 +421,6 @@ h2.grouping-title{
 }*/
 /* block menu superior */
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -690,10 +700,16 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya{
     float:right;
 }
 .views-slideshow-controls-text-next a{
-    background-position: -58px -26px;
+    background-position: -58px -347px;
 }
 .views-slideshow-controls-text-previous a{
-    background-position: -31px -26px;
+    background-position: -31px -347px;
+}
+.views-slideshow-controls-text-next a:hover{
+    background-position: -72px -347px;
+}
+.views-slideshow-controls-text-previous a:hover{
+    background-position: -45px -347px;
 }
 .views-slideshow-controls-text-pause{
     display:none;
@@ -883,69 +899,123 @@ body.front h1,
 .site-name-slogan{
     display:none;
 }
-.home-apartados ul{
-    list-style:none;
-    padding:0;
-    margin:0;
-    overflow:hidden;
+#block-views-apartados-de-la-home-block{
+    background-color: #f4f3f1;
+    padding: 18px 0;
+    
+    .home-apartados ul{
+        list-style:none;
+        padding:0;
+        margin:0;
+        overflow:hidden;
+        
+        li{
+            list-style:none;
+            padding:0;
+            margin:0;
+            width:238px;
+            height:156px;
+            display:block;
+            float:left;
+            position:relative;
+            overflow:hidden;
+            border:0 none;
+            border-left:1px solid #fff;
+            padding-top:24px;
+        }
+        li:hover{
+            background-color:#fff;
+        }
+        .home-campanyas-icon{
+            display:block;
+            background-repeat:no-repeat;
+            background-image:url('../images/sprites.png');
+            margin:0 auto 12px;
+        }
+        li.views-row-1 .home-campanyas-icon{
+            background-position:0 -408px;
+            width:63px;
+            height:65px;
+        }
+        li.views-row-1:hover .home-campanyas-icon{
+        }
+        li.views-row-2 .home-campanyas-icon{
+            background-position:-68px -408px;
+            width:69px;
+            height:69px;
+        }
+        li.views-row-2:hover .home-campanyas-icon{
+            background-position:-68px -484px;
+        }
+        li.views-row-3 .home-campanyas-icon{
+            background-position:-144px -408px;
+            width:67px;
+            height:67px;
+        }
+        li.views-row-3:hover .home-campanyas-icon{
+        }
+        li.views-row-4 .home-campanyas-icon{
+            background-position:-218px -408px;
+            width:65px;
+            height:70px;
+        }
+        li.views-row-4:hover .home-campanyas-icon{
+        }
+        .views-field-view-node a{
+            background-color: transparent;
+            border: 0 none;
+            float: none;
+            height: 100%;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+            text-indent:-9999px;
+        }
+        li.views-row-first{
+            margin-left:0;
+            border-left:0 none;
+        }
+        .views-field-field-imagen-campanya{
+            overflow: hidden;
+            margin-bottom:12px;
+            text-align:center;
+            min-height: 72px;
+        }
+        .views-field-field-enlace-bloque a{
+            width:24px;
+            background-position: -31px -374px;
+        }
+        .views-field-title-field{
+            height:28px;
+            line-height:38px;
+            
+            .field-content{
+                color:#2dc6d6;
+                font-size:16px;
+                line-height:120%;
+                font-weight:bold;
+                width:100%;
+                text-align:center;
+                display:block;
+            }
+        }
+        li:hover{
+            .field-content{
+                color:#8cd600;
+            }
+            .views-field-field-enlace-bloque a{
+                background-position: -68px -374px;
+            }
+        }
+    }
 }
-.home-apartados ul li{
-    list-style:none;
-    padding:0;
-    margin:0;
-    width:238px;
-    height:186px;
-    display:block;
-    float:left;
-    position:relative;
-    overflow:hidden;
-    border:1px solid #f9f9f9;
-    border-left:1px solid #e0e0e0;
-    padding-top:24px;
-}
-.home-apartados ul li:hover{
-    border:1px solid #e0e0e0;
-    background-color:#fff;
-}
+
 #views_slideshow_cycle_main_slideshow_portada-block{
     overflow:hidden;
-}
-.home-apartados ul li .views-field-view-node a{
-    background-color: transparent;
-    border: 0 none;
-    float: none;
-    height: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    text-indent:-9999px;
-}
-.home-apartados ul li.views-row-first{
-    margin-left:0;
-    border-left:0 none;
-}
-.home-apartados .views-field-field-imagen-campanya{
-    overflow: hidden;
-    margin-bottom:12px;
-    text-align:center;
-    min-height: 72px;
-}
-.home-apartados .views-field-title-field{
-    height:38px;
-    line-height:38px;
-}
-.home-apartados .views-field-title-field .field-content{
-    color:#00B27A;
-    font-size:16px;
-    line-height:120%;
-    font-weight:normal;
-    width:100%;
-    text-align:center;
-    display:block;
 }
 body.front #zone-postscript-wrapper{
     padding: 18px 15px;
@@ -2010,7 +2080,6 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     padding: 0;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2034,7 +2103,6 @@ input.form-submit{
     white-space:nowrap;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
-#block-nodeblock-35 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
@@ -2048,7 +2116,6 @@ input.form-submit:hover{
     background-color:#666;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2079,7 +2146,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
     width: 100%;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
@@ -2181,16 +2247,11 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
 .more-link a{
     font-family:lato;
 }
-#block-nodeblock-35 .field-name-field-enlace-bloque a,
 .more-link-blue a{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
 }
-#block-nodeblock-35 .field-name-field-enlace-bloque a{
-    margin-bottom:1em;
-}
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
@@ -2806,10 +2867,6 @@ body.front #section-content{
        background-color: #FFFFFF;
     padding: 0;
     width: 960px;
-}
-body.front #block-views-apartados-de-la-home-block{
-        background-color: #F9F9F9;
-    padding: 18px 0;
 }
 body.page-cursos-y-eventos .view-eventos-node-index .group-left{
         margin-right: 1em;
