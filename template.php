@@ -265,3 +265,8 @@ function hospiten_omega_facetapi_link_active($variables) {
 function hospiten_omega_facetapi_count($variables) {
   return '';
 }
+function hospiten_omega_preprocess_zone(&$vars) {
+  if ($vars['zone'] == 'content' ) {
+    $vars['theme_hook_suggestions'][] = 'zone__content__especialidades';
+  }
+}

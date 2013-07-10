@@ -48,8 +48,85 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
 }
 /* END mixins*/
+#block-nodeblock-1164 {
+  position: relative;
+}
+#block-nodeblock-1164 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+#block-nodeblock-1166 {
+  position: relative;
+}
+#block-nodeblock-1166 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+#block-nodeblock-1728 {
+  position: relative;
+}
+#block-nodeblock-1728 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+#page #block-views-campanyas-block-3 .views-row {
+  position: relative;
+}
+#page #block-views-campanyas-block-3 .views-row .more-link a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
 /* BEGIN bloque pedir cita */
 #block-nodeblock-34 {
   border: 2px solid #8cd600;
@@ -81,6 +158,11 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  background-color: transparent;
+  background-image: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
 }
 #block-nodeblock-34 h2 {
   color: #FFFFFF;
@@ -464,9 +546,6 @@ h2.grouping-title {
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a,
@@ -513,9 +592,6 @@ input.form-submit,
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -665,14 +741,19 @@ input.form-submit,
   font-size: 18px;
   margin-bottom: 0;
   padding-top: 0.5em;
+  color: #00B27A;
 }
+#region-sidebar-second .block,
 #region-sidebar-second .view-campanyas .views-row {
   margin-bottom: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ccc;
 }
+#region-sidebar-second .block:last-child,
 #region-sidebar-second .view-campanyas .views-row-last {
-  margin: 0;
+  margin-bottom: 0;
+  border: 0 none;
+  padding-bottom: 0;
 }
 body.front .view-especialidades-y-unidades .views-field-title,
 body.front .view-noticias h2 {
@@ -951,7 +1032,7 @@ body.front h1,
   padding: 0;
   margin: 0;
   width: 238px;
-  height: 186px;
+  height: 156px;
   display: block;
   float: left;
   position: relative;
@@ -967,7 +1048,7 @@ body.front h1,
   display: block;
   background-repeat: no-repeat;
   background-image: url('../images/sprites.png');
-  margin: 24px auto;
+  margin: 0 auto 12px;
 }
 #block-views-apartados-de-la-home-block .home-apartados ul li.views-row-1 .home-campanyas-icon {
   background-position: 0 -408px;
@@ -1021,7 +1102,7 @@ body.front h1,
   background-position: -31px -374px;
 }
 #block-views-apartados-de-la-home-block .home-apartados ul .views-field-title-field {
-  height: 38px;
+  height: 28px;
   line-height: 38px;
 }
 #block-views-apartados-de-la-home-block .home-apartados ul .views-field-title-field .field-content {
@@ -1332,6 +1413,9 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper {
   overflow: hidden;
   width: 45%;
   border-bottom: 1px solid #E0E0E0;
+}
+body.page-hospitales-y-centros .view-centros .views-row {
+  width: 42%;
 }
 .view-centros .views-row.views-row-odd {
   float: left;
@@ -2086,9 +2170,6 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a,
@@ -2109,9 +2190,6 @@ input.form-submit {
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a:hover,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a:hover,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a:hover,
 .inscripcion_oferta a:hover,
 .node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a:hover,
 .more-link a:hover,
@@ -2122,9 +2200,6 @@ input.form-submit:hover {
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a,
 .visitorinfoid a {
@@ -2152,9 +2227,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
-#block-nodeblock-1166 .field-name-field-enlace-bloque a,
-#block-nodeblock-1164 .field-name-field-enlace-bloque a,
-#block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
 .more-link a {
   float: none;
@@ -3159,4 +3231,8 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
 }
 .show_oferta.hide_oferta {
   background-image: url('/misc/menu-expanded.png');
+}
+#page_banner {
+  margin: 0 auto;
+  width: 940px;
 }
