@@ -2629,7 +2629,7 @@ body.page-especialidades-y-servicios h1 {
 body.page-hospitales-cita-previa .contextual-links-region > h1,
 body.page-especialidades-y-servicios .contextual-links-region > h1,
 body.page-nuestros-profesionales .contextual-links-region > h1 {
-  top: -96px;
+  top: -103px;
   width: 930px;
   left: -241px;
 }
@@ -2861,7 +2861,7 @@ body.page-especialidades-y-servicios h2.page-title {
 }
 body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title {
   left: -240px;
-  top: -38px;
+  top: -45px;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul {
   margin: 0;
@@ -3235,4 +3235,8 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
 #page_banner {
   margin: 0 auto;
   width: 940px;
+}
+body.page-nuestros-profesionales #breadcrumb,
+body.page-node-1158 #breadcrumb {
+  border: 0 none;
 }
