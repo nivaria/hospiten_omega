@@ -1,6 +1,103 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-/* omega default overwritten test */
+/* BEGIN mixins*/
+.button_light_green {
+  border-radius: 20px;
+  border: 0 none;
+  background-color: #8cd600;
+  color: #fff;
+  font-size: 15px;
+  font-family: lato;
+  padding: 10px 22px;
+}
+.light_green_arrow {
+  background-image: url('../images/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -31px -308px;
+  width: 23px;
+  height: 24px;
+  display: block;
+}
+.bloque_pedir_cita {
+  border: 2px solid #8cd600;
+  color: #fff;
+  background-color: #8cd600;
+  position: relative;
+}
+.bloque_pedir_cita h2 {
+  position: relative;
+}
+.bloque_pedir_cita h2:after {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url('../images/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -31px -308px;
+  width: 23px;
+  height: 24px;
+  display: block;
+}
+.link_wrapper {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* END mixins*/
+/* BEGIN bloque pedir cita */
+#block-nodeblock-34 {
+  border: 2px solid #8cd600;
+  color: #fff;
+  background-color: #8cd600;
+  position: relative;
+}
+#block-nodeblock-34 h2 {
+  position: relative;
+}
+#block-nodeblock-34 h2:after {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url('../images/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -31px -308px;
+  width: 23px;
+  height: 24px;
+  display: block;
+}
+#block-nodeblock-34 .field-name-field-enlace-bloque a {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+#block-nodeblock-34 h2 {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+#block-nodeblock-34 .field-name-body {
+  padding: 12px 8px 8px;
+}
+#block-nodeblock-34 .field-name-field-imagen-bloque {
+  background-color: #fff;
+  padding: 8px 12px;
+}
+#block-nodeblock-34 .field-name-field-imagen-bloque img {
+  max-width: 100%;
+  height: auto;
+}
+/* END bloque pedir cita */
 body {
   background-color: #fff;
   font-family: arial;
@@ -358,7 +455,6 @@ h2.grouping-title {
 }*/
 /* block menu superior */
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -366,7 +462,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -381,6 +476,18 @@ input.form-submit,
   overflow: hidden;
   padding: 8px 22px;
   margin-top: 9px;
+}
+#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a {
+  border-radius: 20px;
+  border: 0 none;
+  background-color: #8cd600;
+  color: #fff;
+  font-size: 15px;
+  font-family: lato;
+  padding: 10px 22px;
+  position: absolute;
+  bottom: 68px;
+  left: 0;
 }
 #block-menu-menu-menu-superior li {
   border-left: 1px solid #FFFFFF;
@@ -403,7 +510,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 #block-nodeblock-1166 .field-name-field-enlace-bloque a,
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit,
@@ -447,7 +553,6 @@ input.form-submit,
   color: #80D9BD;
 }
 .region-sidebar-second h2 {
-  color: #2cc5d6;
   padding-bottom: 8px;
   font-size: 18px;
 }
@@ -553,6 +658,7 @@ input.form-submit,
 #region-sidebar-second .view-campanyas h2 {
   font-size: 18px;
   margin-bottom: 0;
+  padding-top: 0.5em;
 }
 #region-sidebar-second .view-campanyas .views-row {
   margin-bottom: 32px;
@@ -581,31 +687,68 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya {
 .slideshow-nav {
   height: 15px;
   margin-top: -27px;
-  text-align: center;
+  text-align: right;
+  margin-right: 24px;
 }
 .slideshow-nav a {
-  background-color: #FFFFFF;
+  background-color: #ccc;
   border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
   cursor: pointer;
   display: inline-block;
-  height: 9px;
+  height: 10px;
   margin-left: 6px;
-  text-indent: -9999px;
-  width: 9px;
-  border: 4px solid #fff;
-}
-.slideshow-nav a.activeSlide {
-  background-color: #999999;
-}
-#region-branding .slideshow-nav a.activeSlide {
-  background-color: #46C3D2;
-}
-#region-branding .slideshow-nav a {
-  background-color: #e6e6e6;
-  border-color: #e6e6e6;
+  text-indent: 9999px;
+  width: 10px;
+  border: 0 none;
   position: relative;
   z-index: 100;
+}
+.slideshow-nav a:first-child {
+  margin-left: 0;
+}
+.slideshow-nav a.activeSlide {
+  background-color: #00b27a;
+}
+.views-slideshow-controls-text-next a,
+.views-slideshow-controls-text-previous a {
+  background-repeat: no-repeat;
+  background-image: url('../images/sprites.png');
+  display: block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+  text-indent: 9999px;
+  border: 0 none;
+  text-shadow: none;
+  z-index: 10;
+  float: left;
+  width: 13px;
+  height: 23px;
+  position: relative;
+}
+.views-slideshow-controls-text-next a {
+  float: right;
+}
+.views-slideshow-controls-text-next a {
+  background-position: -58px -26px;
+}
+.views-slideshow-controls-text-previous a {
+  background-position: -31px -26px;
+}
+.views-slideshow-controls-text-pause {
+  display: none;
+}
+.views-slideshow-controls-bottom {
+  position: relative;
+}
+.views-slideshow-controls-text {
+  bottom: 7px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 92px;
 }
 body.front .view-especialidades-y-unidades .views-slideshow-cycle-main-frame-row {
   width: 310px;
@@ -677,45 +820,12 @@ body.front .view-noticias .field-name-field-imagenes-article {
   font-size: 12px;
   font-weight: normal;
 }
-.views-slideshow-controls-text-next a,
-.views-slideshow-controls-text-previous a {
-  background-repeat: no-repeat;
-  background-image: url('../images/sprites.png');
-  display: block;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-  overflow: hidden;
-  text-indent: -9999px;
-  border: 0 none;
-  text-shadow: none;
-  z-index: 10;
-  float: left;
-}
-.views-slideshow-controls-text-next a {
-  float: right;
-}
-#region-branding .views-slideshow-controls-text-next a,
-#region-branding .views-slideshow-controls-text-previous a {
-  width: 19px;
-  height: 23px;
-  position: absolute;
-  bottom: 32px;
-}
-#region-branding .views-slideshow-controls-text-next a {
-  background-position: -231px -86px;
-  left: 392px;
-}
-#region-branding .views-slideshow-controls-text-previous a {
-  background-position: -231px -54px;
-  left: 32px;
-}
-.views-slideshow-controls-text-pause {
-  display: none;
-}
 #region-branding .views-slideshow-controls-text {
-  background-color: transparent;
-  border: 0 none;
+  bottom: 35px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 12%;
 }
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame {
@@ -749,39 +859,6 @@ body.front .block-views-cursos-y-eventos-block-4 .views-field-field-fecha-texto-
 body.front .block-views-cursos-y-eventos-block-4 .views-field-title a {
   font-size: 14px;
   font-weight: bold;
-}
-.views-slideshow-controls-text {
-  position: static;
-  border: 4px solid #E6E6E6;
-  border-radius: 24px;
-  -webkit-border-radius: 24px;
-  overflow: hidden;
-  background-color: #999999;
-  background-image: none;
-  color: #FFFFFF;
-  display: block;
-  font-size: 14px;
-  font-weight: normal;
-  height: 30px;
-  line-height: 30px;
-  padding: 0;
-  text-shadow: none;
-}
-.views-slideshow-controls-text-previous a {
-  width: 19px;
-  height: 18px;
-  margin: 5px 0 0 5px;
-}
-.views-slideshow-controls-text-next a {
-  width: 19px;
-  height: 18px;
-  margin: 5px 5px 0 0;
-}
-.views-slideshow-controls-text-next a {
-  background-position: -197px -20px;
-}
-.views-slideshow-controls-text-previous a {
-  background-position: -197px -60px;
 }
 /* layout corners */
 .layout_corner {
@@ -1953,7 +2030,6 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
   padding: 0;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -1961,7 +2037,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a,
 input.form-submit {
@@ -1979,7 +2054,6 @@ input.form-submit {
   white-space: nowrap;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
-#block-nodeblock-34 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-35 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a:hover,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
@@ -1994,7 +2068,6 @@ input.form-submit:hover {
   background-color: #666;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -2002,7 +2075,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a,
 .visitorinfoid a {
   background-repeat: no-repeat;
@@ -2019,15 +2091,14 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
   padding-right: 32px;
 }
 #slideshownav_home {
-  bottom: 5px;
+  bottom: 40px;
   height: 15px;
   margin: 0;
   position: absolute;
   text-align: center;
-  width: 454px;
+  width: 100%;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-34 .field-name-field-enlace-bloque a,
 #block-nodeblock-35 .field-name-field-enlace-bloque a,
 #block-nodeblock-1736 .field-name-field-enlace-bloque a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
@@ -2035,7 +2106,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
 #block-nodeblock-1164 .field-name-field-enlace-bloque a,
 #block-nodeblock-1728 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a {
   float: none;
   text-align: left;
@@ -2077,9 +2147,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
   background-repeat: no-repeat;
   background-image: url('../images/sprites.png');
   background-position: -317px -168px;
-}
-#block-nodeblock-1166 .field-name-title h2 {
-  color: #2cc5d6;
 }
 #block-nodeblock-1728 .field-name-title {
   background-repeat: no-repeat;
@@ -2131,12 +2198,10 @@ body.page-node-informacion-visitante .view .attachment .views-row-odd {
 body.page-node-informacion-visitante .view .attachment .views-row-even {
   float: right;
 }
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link a {
   font-family: lato;
 }
 #block-nodeblock-35 .field-name-field-enlace-bloque a,
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a,
 .more-link-blue a {
   background-color: #2dc6d6;
   background-image: url('../images/more-info-blue.png');
@@ -2145,7 +2210,6 @@ body.page-node-informacion-visitante .view .attachment .views-row-even {
   margin-bottom: 1em;
 }
 body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-34 .field-name-field-enlace-bloque a,
 .more-link-green a {
   background-color: #00b27a;
   background-image: url('../images/more-info-green.png');
@@ -2162,9 +2226,6 @@ body.node-type-cursos-y-eventos .field .field-label {
   padding-bottom: 0.5em;
   font-weight: normal;
   display: inline-block;
-}
-#block-nodeblock-34 .field-name-field-enlace-bloque a {
-  margin-bottom: 1em;
 }
 .views-field-field-zona .views-label {
   font-weight: bold;
@@ -2840,14 +2901,6 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
   position: absolute;
   right: 0;
   top: 0;
-}
-#block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a {
-  bottom: 24px;
-  left: 38px;
-  position: absolute;
-  width: 258px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .node-article.view-mode-teaser .group-left {
   margin-right: 1em;
