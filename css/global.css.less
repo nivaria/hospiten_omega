@@ -55,6 +55,11 @@
     padding:0;
     text-align:left;
 }
+.museo-300 { 
+    font-family: Museo-300;
+    font-weight: normal;
+    font-style: normal;
+}
 
 #page #block-block-1{
     border: 0 none;
@@ -146,6 +151,9 @@
 
 body{
     background-color:#fff;
+    background-image:url('../images/body-bg_repeat.png');
+    background-repeat:repeat-x;
+    background-position:0 0;
     font-family:arial;
     color:#333;
     font-size:12px;
@@ -344,7 +352,7 @@ hr{
     margin-right:1em;
 }
 .logo-img{
-    margin-left:10px;
+    margin-left:30px;
 }
 /* layout */
 #zone-menu{
@@ -353,11 +361,12 @@ hr{
 #page{
     background-image:url('../images/body-bg.png');
     background-repeat:no-repeat;
-    background-position:right top;
-    width:1030px;
+    background-position:0 0;
+    width:1296px;
     margin:0 auto;
     position:relative;
     padding-top:454px;
+    padding-top:537px;
 }
 body.not-front #page{
     padding-top:185px;
@@ -369,6 +378,12 @@ body.not-front #page{
     position:absolute;
     top:0;
     left:25px;
+    
+    background-color:#fff;
+    left:157px;
+    background-image:url('../images/hospiten_header_bg.png');
+    background-repeat:no-repeat;
+    background-position:right top;
 }
 body.not-front #section-header{
     height:185px;
@@ -494,22 +509,20 @@ input.form-submit,
 }
 #block-menu-menu-menu-superior{
     background-color: #00B27A;
-    border: 4px solid #E6E6E6;
-    border-radius: 24px;
-    -webkit-border-radius: 24px;
-    overflow:hidden;
+    border-radius: 24px 24px 24px 24px;
     height: 11px;
     line-height: 11px;
+    margin-right: 4px;
+    margin-top: 13px;
     overflow: hidden;
     padding: 8px 22px;
-    margin-top:9px;
 }
 
 #block-views-slideshow-portada-block .views-field.views-field-field-enlace-bloque-1 a{
     .button_light_green;
     
     position:absolute;
-    bottom:24px;
+    bottom:68px;
     left:0;
 }
 
@@ -869,7 +882,7 @@ body.front .view-noticias .field-name-field-imagenes-article{
 #region-branding .views-slideshow-cycle-main-frame-row,
 #region-branding .views-slideshow-cycle-main-frame{
     width:914px !important;
-    height: 240px !important;
+    height: 322px !important;
 }
 #region-branding .views-slideshow-cycle-main-frame-row .group-right{
     float:right;
@@ -912,6 +925,7 @@ body.front .block-views-cursos-y-eventos-block-4 .views-field-title a{
     background-position:-101px -1px;
     right:0px;
     bottom:-13px;
+    bottom:-96px;
 }
 body.not-front .top_right_layout_corner{
     background-position:-208px -3px;
@@ -919,6 +933,7 @@ body.not-front .top_right_layout_corner{
 .top_left_layout_corner{
     background-position:-88px -1px;
     bottom:-13px;
+    bottom:-96px;
     left:0px;
 }
 body.not-front .top_left_layout_corner{
@@ -936,7 +951,7 @@ body.not-front .top_left_layout_corner{
 }
 #block-views-slideshow-portada-block{
     border: 1px solid #E0E0E0;
-    height: 240px;
+    height: 322px;
     background-color:#fff;
     padding-top:28px;
     position:relative;
@@ -1084,6 +1099,14 @@ body.front h1,
 
 #views_slideshow_cycle_main_slideshow_portada-block{
     overflow:hidden;
+    overflow:visible;
+    
+    .views-field-field-imagen-slideshow-portada img{
+        display: block;
+        position: absolute;
+        right: -32px;
+        top: -28px;
+    }
 }
 body.front #zone-postscript-wrapper{
     padding: 18px 15px;
@@ -2347,6 +2370,7 @@ body.node-type-cursos-y-eventos .node-cursos-y-eventos .field-name-slideshow-ima
 .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section{
     margin:0 auto;
     overflow:hidden;
+    overflow:visible;
 }
 /*cv*/
 body.page-node-add .block-system-main{
@@ -2974,11 +2998,12 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-title-field a{
     color: #666666;
-    font-family: Museo;
+    font-family: museo-300;
     font-size: 40px;
  line-height: 100%;
     padding-bottom: 0.4em;
     display:block;
+    margin-top:38px;
 }
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada a,
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p,

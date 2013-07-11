@@ -6,7 +6,7 @@
     <?
       $banner=null;
       
-      if ( $_REQUEST["q"]!=null ){
+      if ( isset($_REQUEST["q"]) && $_REQUEST["q"]!=null ){
         if ( $_REQUEST["q"]=="es/especialidades-y-servicios" ){
           $banner = "/sites/default/files/especialidades-y-servicios-medicos.png";
         }

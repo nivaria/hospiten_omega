@@ -35,6 +35,7 @@ zones[postscript] = 'Postscript'
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
+stylesheets[screen][] = museo/MyFontsWebfontsKit.css
 scripts[] = js/hospiten.js
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
