@@ -1,4 +1,8 @@
 jQuery(document).ready(function($){
+    
+    jQuery("#edit-search-api-views-fulltext").bind("click",function(){
+       jQuery(this).val(""); 
+    });
     var size=688;
     var number_of_normal_tabs=jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").not(".active").length;
     size=size-183;
@@ -66,6 +70,28 @@ jQuery(document).ready(function($){
             i=i+3;
         }
     }
+    
+    if( jQuery("body.node-type-hospitales #page #block-views-especialidades-node-index-block .view-content li.views-row").length >0 ){
+        var i=1;
+        var j=jQuery("body.node-type-hospitales #page #block-views-especialidades-node-index-block .view-content li.views-row").length;
+        while(i<j){
+            jQuery("body.node-type-hospitales #page #block-views-especialidades-node-index-block .view-content li.views-row:nth-child("+i+")").css("background-color","#F9F9F9");
+            i=i+1;
+            jQuery("body.node-type-hospitales #page #block-views-especialidades-node-index-block .view-content li.views-row:nth-child("+i+")").css("background-color","#F9F9F9"); 
+            i=i+3;
+        }
+    }
+    jQuery("body.node-type-hospitales #page #block-views-especialidades-node-index-block .view-content li.views-row-odd").each( function(){
+        var current=jQuery(this);
+        var next=current.next();
+        
+        if(current.height()>next.height()){
+            next.css("height",current.height()+"px");
+        } else {
+            current.css("height",next.height()+"px");
+        }
+    });
+    
     jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2").addClass("page-title");
     jQuery("body.page-especialidades-y-servicios h1").after( jQuery("body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header h2") );
     jQuery("#block-locale-language .language-switcher-locale-url li").removeClass("first");
