@@ -296,6 +296,11 @@ body {
   font-size: 12px;
   line-height: 160%;
 }
+#body_bottom {
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-image: url('../images/body-foot-bg.png');
+}
 h1,
 h2,
 h3,
@@ -773,8 +778,6 @@ input.form-submit,
 #block-views-exp-busqueda-general-page h2 {
   display: none;
 }
-/*#edit-submit-especialidades-node-index,*/
-.quicktabs-tabpage #edit-submit-profesionales-node-index,
 #block-search-api-page-solr-search .form-submit,
 #block-views-exp-busqueda-general-page .form-submit {
   background-repeat: no-repeat;
@@ -1266,7 +1269,7 @@ body.front h1,
   display: block;
   position: absolute;
   right: -32px;
-  top: -28px;
+  top: -29px;
 }
 body.front #zone-postscript-wrapper {
   padding: 18px 15px;
@@ -1599,10 +1602,24 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .group-cita-previa {
   padding: 0px;
   width: 230px;
+  position: relative;
 }
 .group-cita-previa legend {
   display: none;
 }
+/*.node-type-especialidades .block-views-profesionales-block-3 .views-row .grouping-content{
+    position:relative;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row .grouping-content:before{
+    content:' ';
+    display:block;
+    width:690px;
+    left:-16px;
+    top:-16px;
+    height:88px;
+    position:absolute;
+    background-color:#f4f5f6;
+}*/
 .block-informacion-visitante {
   position: relative;
 }
@@ -1629,7 +1646,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .pedircitatelefono {
   color: #FFFFFF;
   display: block;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 40px;
   margin: 0;
   min-height: 40px;
@@ -1698,7 +1715,8 @@ body.page-hospitales-y-centros .view-centros .views-row {
   margin-left: 0;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row {
-  background-color: #FAFAFA;
+  /*background-color: #FAFAFA;*/
+
   border-left: 1px solid #E0E0E0;
   border-right: 1px solid #E0E0E0;
   padding: 16px;
@@ -1710,7 +1728,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
   padding-bottom: 21px;
   position: relative;
 }
-.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title:before {
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title:after {
   content: ' ';
   display: block;
   border-top: 1px solid #e0e0e0;
@@ -1721,6 +1739,16 @@ body.page-hospitales-y-centros .view-centros .views-row {
   top: -65px;
   width: 690px;
   background-color: #fff;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title:before {
+  content: ' ';
+  display: block;
+  width: 690px;
+  left: -16px;
+  top: -16px;
+  height: 88px;
+  position: absolute;
+  background-color: #f4f5f6;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row legend {
   float: left;
@@ -1737,7 +1765,10 @@ body.page-hospitales-y-centros .view-centros .views-row {
   border-top: 1px solid #E0E0E0;
   padding: 16px 0 0 0;
 }
-.node-type-especialidades .block-views-profesionales-block-3 .views-row:first-child h2.grouping-title:before {
+.node-type-especialidades .block-views-profesionales-block-3 .views-row h2.grouping-title + .view-mode-profesionales_listado {
+  border: 0 none;
+}
+.node-type-especialidades .block-views-profesionales-block-3 .views-row:first-child h2.grouping-title:after {
   border-top: 0 none;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row.views-row-last {
@@ -1751,7 +1782,8 @@ body.page-hospitales-y-centros .view-centros .views-row {
   margin: 0;
 }
 h2.grouping-title {
-  background-color: #FAFAFA;
+  /*background-color: #FAFAFA;*/
+
   margin: 0;
   padding: 16px 16px 0;
 }
@@ -1764,6 +1796,7 @@ h2.grouping-title {
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .field-type-taxonomy-term-reference a,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left .field-type-taxonomy-term-reference a {
   color: #333;
+  font-family: arial;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row h2 .group-right,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row h2 .group-right {
@@ -1808,7 +1841,7 @@ h2.grouping-title {
   font-size: 16px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-right .field-name-field-especialidades a {
-  color: #666;
+  color: #2DC6D6;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales:first-child .group-right {
   top: 0;
@@ -2230,6 +2263,11 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
 .quicktabs-tabpage #block-views-especialidades-node-index-block .item-list li {
   float: left;
   width: 302px;
+  width: 310px;
+}
+.quicktabs-tabpage .view-profesionales-node-index .item-list li.views-row-even,
+.quicktabs-tabpage #block-views-especialidades-node-index-block .item-list li.views-row-even {
+  float: right;
 }
 .view-filters .views-exposed-widgets div,
 .view-filters label {
@@ -2697,8 +2735,9 @@ body.node-type-especialidades .field-name-field-imagenes-article {
   display: inline;
 }
 #block-views-especialidades-node-index-block .item-list li a {
-  font-size: 13px;
+  font-size: 12px;
   line-height: normal;
+  font-family: arial;
 }
 body.page-especialidades-y-servicios #region-content .view-filters,
 body.page-especialidades-y-servicios #region-sidebar-first,
@@ -2897,14 +2936,14 @@ body.page-nuestros-profesionales .view-nuestros-profesionales h2.node-title a {
   letter-spacing: -1px;
 }
 body.node-type-especialidades .pruebas_especialidad h3 span {
-  background-image: url('../images/more-info-blue.png');
+  background-image: url('../images/more-info-green.png');
   background-repeat: no-repeat;
-  background-position: right center;
-  color: #00c6d7;
+  background-position: right 2px;
+  color: #00b27a;
   font-size: 18px;
   cursor: pointer;
   display: inline-block;
-  padding-right: 83px;
+  padding-right: 36px;
 }
 body.node-type-especialidades .pruebas_especialidad h3 span.show_pruebas {
   display: none;
@@ -2925,6 +2964,10 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row {
   float: left;
   width: 298px;
+  width: 302px;
+}
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row.views-row-even {
+  float: right;
 }
 .quicktabs-tabpage .view-profesionales-node-index .item-list li .views-field-title {
   display: inline;
@@ -3186,7 +3229,7 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada p,
 body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-field-field-texto-slideshow-portada h3 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   color: #999;
   line-height: 140%;
 }
@@ -3425,6 +3468,12 @@ body.page-nuestros-profesionales #breadcrumb,
 body.page-node-1158 #breadcrumb {
   border: 0 none;
 }
+.quicktabs-tabpage #edit-submit-profesionales-node-index {
+  margin-left: 1em;
+  margin-top: 0px;
+  font-size: 13px;
+  padding: 5px 10px;
+}
 body.node-type-hospitales #page #section-content {
   background-image: url('../images/centro-hospitales-bg.png');
   background-repeat: repeat-x;
@@ -3451,7 +3500,7 @@ body.node-type-hospitales #page #views-exposed-form-especialidades-node-index-bl
 }
 body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper {
   float: left;
-  margin-right: 3em;
+  margin-right: 1em;
 }
 body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper label {
   float: none;
@@ -3460,9 +3509,13 @@ body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-blo
 body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper input {
   float: none;
   min-width: 0;
+  width: 260px;
+}
+body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block .form-text {
+  width: 260px;
 }
 body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-submit-profesionales-node-index {
-  margin-top: -1em;
+  margin-top: -2em;
   position: static;
   float: right;
 }
@@ -3531,4 +3584,18 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 }
 .pedircitatexto .telefono:before {
   left: 0;
+}
+.view-mode-resultado_busqueda .field-name-title h2 {
+  font-size: 18px;
+}
+body.page-hospitales-y-centros .block-views-centros-block-4 {
+  border: 0 none;
+}
+body.node-type-especialidades #block-views-profesionales-block-3 h2.block-title {
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+body.node-type-especialidades #block-views-profesionales-block-3 .content {
+  margin-top: 1px;
 }
