@@ -3591,6 +3591,17 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 body.page-hospitales-y-centros .block-views-centros-block-4 {
   border: 0 none;
 }
+body.page-hospitales-y-centros .pedircitacorreo:after {
+  display: none;
+}
+body.page-hospitales-y-centros .pedircitacorreo:hover {
+  background-color: #8CD600 !important;
+}
+body.page-hospitales-y-centros .pedircitacorreo {
+  height: auto;
+  min-height: 0;
+  line-height: normal;
+}
 body.node-type-especialidades #block-views-profesionales-block-3 h2.block-title {
   border-bottom: 1px solid #E0E0E0;
   padding-bottom: 30px;
