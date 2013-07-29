@@ -695,6 +695,8 @@ input.form-submit,
 .view-campanyas h2{
     font-size:40px;
 }
+#region-sidebar-second .views-field-title span,
+#region-sidebar-second .views-field-title span a,
 #region-sidebar-second .view-campanyas h2 a,
 #region-sidebar-second .view-campanyas h2{
     font-size: 18px;
@@ -2878,23 +2880,38 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
     list-style:none;
     padding-bottom:1em;
 }
-.field-name-informaci-n-relacionada .item-list li,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li{
     margin:0;
 }
-.field-name-informaci-n-relacionada .item-list ul{
-    margin:0;
-    padding:0;
+.field-name-informaci-n-relacionada{
+    
+    h2.block-title{
+        color: #9D8C84;
+        cursor: pointer;
+        font-size: 18px;
+        margin-bottom:0.5em;
+    }
+    
+    .item-list ul{
+        margin:0;
+        padding:0;
+        li{
+            margin:0;
+            div{
+                display:inline;
+            }
+        }
+    }
+    .views-row a{
+        display:block;
+        padding-bottom:0.4em;
+    }
+    .views-row a:before{
+        content:'- ';
+    }
 }
-.field-name-informaci-n-relacionada .item-list li div,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 .item-list li div{
     display:inline;
-}
-.field-name-informaci-n-relacionada h2.block-title{
-    color: #00C6D7;
-    cursor: pointer;
-    font-size: 18px;
-    margin-bottom:0.5em;
 }
 #block-views-especialidades-node-index-block .item-list li{
     padding:0;
