@@ -3086,11 +3086,6 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
   display: inline-block;
   padding: 0 14px;
 }
-body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo:hover,
-body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo:hover,
-body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo:hover {
-  background-color: #666666;
-}
 body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo a,
 body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo a,
 body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo a {
@@ -3461,6 +3456,13 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-prof
   margin-top: 20px;
   position: static;
   float: left;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-otros-centros-zona .view-centros .cita-previa.pedircitacorreo {
+  height: auto;
+  min-height: 0;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-otros-centros-zona .view-centros .cita-previa.pedircitacorreo:after {
+  display: none;
 }
 body.node-type-hospitales #page .node-hospitales .field-name-field-direccion {
   position: relative;

@@ -2990,11 +2990,6 @@ body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedirci
     display:inline-block;
     padding: 0 14px;
 }
-body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo:hover,
-body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo:hover,
-body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo:hover{
-       background-color: #666666;
-}
 body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo a,
 body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo a,
 body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo a{
@@ -3377,6 +3372,17 @@ body.node-type-hospitales #page{
                     margin-top:20px;
                     position:static;
                     float:left;
+                }
+            }
+        }
+        .field-name-otros-centros-zona{
+            .view-centros{
+                .cita-previa.pedircitacorreo{
+                    height:auto;
+                    min-height:0;
+                }
+                .cita-previa.pedircitacorreo:after{
+                    display:none;
                 }
             }
         }
