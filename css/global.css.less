@@ -1333,6 +1333,7 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters{
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-header{
     width:252px;
+    white-space:nowrap;
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-filters{
     width:422px;
@@ -1388,6 +1389,7 @@ body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
 #block-block-2 img{
     vertical-align:middle;
 }
+#block-views-centros-block-9 h2.block-title,
 .view-centros h3{
     border-bottom: 1px solid #E0E0E0;
     color: #666666;
@@ -1951,8 +1953,8 @@ span.date-display-single {
     padding:0;
 }
 .quicktabs-wrapper ul.quicktabs-tabs li a{
-    font-family:arial !important;
-    font-size:12px !important;
+    font-family:lato !important;
+    font-size:14px !important;
     color:#00b27a !important;
     font-weight: normal !important;
     
@@ -1984,6 +1986,7 @@ span.date-display-single {
     background-position:-3px -178px;
     background-repeat:no-repeat;
     background-image:url('../images/sprites.png');
+    background-color:transparent;
     border:0 none;
     height: 78px;
     padding: 0 20px; 
@@ -2983,16 +2986,14 @@ body.node-type-cursos-y-eventos .view-profesionales-relacionados .group-left{
     width:auto;
 }
 body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo,
-body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo,
-body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo{
+body.page-hospitales-y-centros .view-centros .cita-previa.pedircitacorreo{
     border-radius: 20px 20px 20px 20px;
     margin-top: 1em;
     display:inline-block;
     padding: 0 14px;
 }
 body.node-type-hospitales .field-name-otros-centros-zona .cita-previa.pedircitacorreo a,
-body.page-hospitales-y-centros #block-views-centros-block-5 .cita-previa.pedircitacorreo a,
-body.page-hospitales-y-centros #block-views-centros-block-4 .cita-previa.pedircitacorreo a{
+body.page-hospitales-y-centros .view-centros .cita-previa.pedircitacorreo a{
         display: block;
     font-family: lato;
     font-size: 14px;
@@ -3048,19 +3049,51 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     float: none;
     width: auto;
 }
+.view-noticias-node-index .views-row{
+    border-top: 1px solid #E0E0E0;
+    margin-top: 1em;
+    padding-top: 1em;
+    
+    .field-name-title{
+        h2{
+            font-size:18px;
+        }
+    }
+    
+    .group-left {
+        float: left;
+        width: 580px;
+        margin:0;
+    }
+    .group-right {
+        float: right;
+        width: 100px;
+        img{
+            max-width:100%;
+            height:auto;
+        }
+    }
+}
 .view-busqueda-general .views-row{
     border-top: 1px solid #E0E0E0;
     margin-top: 1em;
     padding-top: 1em;
-}
-.view-busqueda-general .views-row .group-left {
-    float: left;
-    width: 580px;
-    margin:0;
-}
-.view-busqueda-general .views-row .group-right {
-       float: right;
-    width: 100px; 
+
+    .field-name-title{
+        h2{
+            font-size:18px;
+        }
+    }
+    
+    .group-left {
+        float: left;
+        width: 580px;
+        margin:0;
+    }
+    .group-right {
+           float: right;
+        width: 100px; 
+    }
 }
 .view-revista-humana .view-header{
     padding:0;
@@ -3310,6 +3343,13 @@ body.node-type-hospitales #page{
             position:relative;
             top:3em;
             #block-views-especialidades-node-index-block{
+                .view-filters{
+                    background-color: #F4F3F1;
+                    margin-left: -16px;
+                    margin-right: -16px;
+                    margin-top: -45px;
+                    padding-top: 24px;
+                }
                 .views-exposed-widgets{
                     #edit-search-api-views-fulltext-wrapper{
                         .form-item{
@@ -3342,8 +3382,12 @@ body.node-type-hospitales #page{
             }
             #block-views-profesionales-node-index-block{
                 .view-filters{
-                    padding-left:0;
-                    padding-right:0;
+                    background-color: #F4F3F1;
+                    margin-left: -16px;
+                    margin-right: -16px;
+                    margin-top: -45px;
+                    padding-top: 24px;
+                
                 }
                 #edit-search-api-views-fulltext-wrapper{
                     float:left;
@@ -3526,13 +3570,6 @@ body.node-type-hospitales #page{
     }
     .telefono:before{
         left:0;
-    }
-}
-.view-mode-resultado_busqueda{
-    .field-name-title{
-        h2{
-            font-size:18px;
-        }
     }
 }
 body.page-hospitales-y-centros{
@@ -3764,4 +3801,9 @@ body.page-nuestros-profesionales{
             }
         }
     }
+}
+#region-sidebar-second .block-views .views-row:hover h2,
+#region-sidebar-second .block-nodeblock:hover h2,
+body.front #region-postscript-third .block:hover h2{
+    text-decoration:underline;
 }
