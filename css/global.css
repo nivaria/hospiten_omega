@@ -3559,6 +3559,7 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 }
 .openlayers-container #popup .olPopupCloseBox {
   top: 20px !important;
+  background-image: url('../images/markers/close.gif');
 }
 .pedircitaimagen {
   background-color: #FFFFFF;
