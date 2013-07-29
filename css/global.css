@@ -674,10 +674,6 @@ input.form-submit,
   text-shadow: none;
   box-shadow: none !important;
 }
-.visitorinfoid a {
-  display: block;
-  padding-top: 1em;
-}
 #block-menu-menu-menu-superior {
   background-color: #00B27A;
   border-radius: 24px 24px 24px 24px;
@@ -1630,7 +1626,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
   font-size: 18px;
   min-height: 36px;
 }
-.visitorinfoimage {
+.block-informacion-visitante .visitorinfoimage {
   background-repeat: no-repeat;
   background-image: url('../images/sprites.png');
   background-position: -269px -3px;
@@ -1639,6 +1635,17 @@ body.page-hospitales-y-centros .view-centros .views-row {
   left: 0;
   position: absolute;
   top: 5px;
+}
+.block-informacion-visitante .visitorinfoid a {
+  display: block;
+  height: 100%;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 .telefono,
 .group-cita-previa .field,
