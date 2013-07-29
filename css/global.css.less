@@ -2256,49 +2256,6 @@ span.date-display-single {
 .pager-expand .item-list .pager li{
     padding: 0;
 }
-/*body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1737 .field-name-field-enlace-bloque a,
-.inscripcion_oferta a,
-.visitorinfoid a,
-input.form-submit{
-    background-color: #999999;
-    background-image: none;
-    color: #FFFFFF;
-    font-family:lato;
-    display: block;
-    float: right;
-    font-size: 14px;
-    font-weight: normal;
-    height: 30px;
-    padding: 0 22px;
-    text-shadow: none;
-    white-space:nowrap;
-}
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a:hover,
-#block-nodeblock-1737 .field-name-field-enlace-bloque a:hover,
-.inscripcion_oferta a:hover,
-.node-slideshow-portada.view-mode-teaser .field-name-field-enlace-bloque a:hover,
-.visitorinfoid a:hover,
-input.form-submit:hover{
-    background-color:#666;
-}
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
-#block-nodeblock-1737 .field-name-field-enlace-bloque a,
-.inscripcion_oferta a,
-.visitorinfoid a{
-    background-repeat:no-repeat;
-    background-image:url('../images/more-info-gray.png');
-    background-position: right center;
-    line-height:30px;
-}
-#block-hospiten-generic-informacion-visitante .visitorinfoid a{
-    height: auto;
-    line-height: 20px;
-    padding: 6px 22px;
-    white-space: normal;
-    float: none;
-    padding-right: 32px;
-}*/
 #slideshownav_home{
     bottom: 17px;
     height: 15px;
@@ -2307,7 +2264,6 @@ body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcio
     text-align: center;
     width: 100%;
 }
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 #block-nodeblock-1737 .field-name-field-enlace-bloque a,
 .inscripcion_oferta a{
     float: none;
@@ -2405,14 +2361,9 @@ body.page-node-informacion-visitante .view .attachment .views-row-even{
     background-color:#2dc6d6;
     background-image:url('../images/more-info-blue.png');
 }
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a,
 .more-link-green a{
     background-color:#00b27a;
     background-image:url('../images/more-info-green.png');
-}
-body.node-type-cursos-y-eventos .inscripcion_a_un_evento_field_evento_inscripcion a{
-    display:inline-block;
-    padding-right:38px;
 }
 body.node-type-cursos-y-eventos a.fieldset-title,
 body.node-type-cursos-y-eventos .field .field-label{
@@ -3049,29 +3000,59 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     float: none;
     width: auto;
 }
-.view-noticias-node-index .views-row{
-    border-top: 1px solid #E0E0E0;
-    margin-top: 1em;
-    padding-top: 1em;
-    
-    .field-name-title{
-        h2{
-            font-size:18px;
+.view-noticias-node-index{
+    .view-filters{
+        background-color: #F4F3F1;
+        padding: 20px;
+        #edit-search-api-views-fulltext-wrapper{
+            label{
+                margin-left:0;
+            }
+        }
+        .form-submit{
+            font-size: 13px;
+            margin-left: 1em;
+            margin-top: 2px;
+            padding: 5px 10px;
         }
     }
+    .views-row{
+        border-top: 1px solid #E0E0E0;
+        margin-top: 1em;
+        padding-top: 1em;
     
-    .group-left {
-        float: left;
-        width: 580px;
-        margin:0;
+        .field-name-title{
+            h2{
+                font-size:18px;
+            }
+        }
+        
+        .group-left {
+            float: left;
+            width: 580px;
+            margin:0;
+        }
+        .group-right {
+            float: right;
+            width: 100px;
+            img{
+                max-width:100%;
+                height:auto;
+            }
+        }
     }
-    .group-right {
+}
+body.node-type-article{
+    .views-slideshow-controls-text{
+        bottom:-3px;
+    }
+    .slideshow-nav{
         float: right;
-        width: 100px;
-        img{
-            max-width:100%;
-            height:auto;
-        }
+        height: 15px;
+        margin-right: 0;
+        margin-top: 9px;
+        text-align: center;
+        width: 92px;
     }
 }
 .view-busqueda-general .views-row{
@@ -3143,7 +3124,7 @@ body.front #views_slideshow_cycle_teaser_section_slideshow_portada-block .views-
     width:auto;
 }
 .view-eventos-node-index .group-right{
-    float:left;
+    float:none;
     width:auto;
 }
 #page #block-nodeblock-1728,
@@ -3272,25 +3253,8 @@ body.page-node-22 #block-hospiten-generic-info-centro .field-name-field-direccio
     width:288px;
     float:left;
 }
-.view-ofertas-de-empleo .views-row{
-    background-color: #F9F9F9;
-    margin-bottom: 1em;
-    overflow: hidden;
-    padding: 16px 22px;   
-}
 #node_cursos_y_eventos_full_group_lugar_evento{
     margin-top:1em;
-}
-.show_oferta{
-    background-position: 0 6px;
-    background-repeat: no-repeat;
-    /*color: #2CC5D6;*/
-    cursor: pointer;
-    padding-left: 1em;
-    background-image: url('/misc/menu-collapsed.png');
-}
-.show_oferta.hide_oferta{
-    background-image: url('/misc/menu-expanded.png');
 }
 #page_banner{
     margin: 0 auto;
@@ -3806,4 +3770,83 @@ body.page-nuestros-profesionales{
 #region-sidebar-second .block-nodeblock:hover h2,
 body.front #region-postscript-third .block:hover h2{
     text-decoration:underline;
+}
+body.page-cursos-y-eventos{
+    #block-views-eventos-node-index-block-1{
+        .view-filters{
+            background-color: #F4F3F1;
+            padding: 20px;
+            #edit-search-api-views-fulltext-wrapper{
+                label{
+                    margin-left:0;
+                }
+            }
+            .form-submit{
+                font-size: 13px;
+                margin-left: 1em;
+                margin-top: 2px;
+                padding: 5px 10px;
+            }
+        }
+    }
+}
+body.node-type-cursos-y-eventos{
+    ul.links,
+    ul.links li{
+        margin:0;
+        padding:0;
+    }
+    .inscripcion_a_un_evento_field_evento_inscripcion a{
+        font-size: 13px;
+        margin-left: 0;
+        margin-top: 2px;
+        padding: 5px 10px;
+    }
+}
+body.page-ofertas-de-empleo{
+
+    .show_oferta{
+        background-position: 0 6px;
+        background-repeat: no-repeat;
+        color: #00B27A;
+        cursor: pointer;
+        padding-left: 1em;
+        background-image: url('/misc/menu-collapsed.png');
+    }
+    .show_oferta.hide_oferta{
+        background-image: url('/misc/menu-expanded.png');
+    }
+    
+    .view-ofertas-de-empleo{
+        .views-field-title span{
+            color:#B3A66C;
+            display:block;
+            padding-bottom:0.5em;
+        }
+        .views-row{
+            background-color: #F9F9F9;
+            margin-bottom: 1em;
+            overflow: hidden;
+            padding: 16px 22px;   
+        }
+    }
+}
+body.page-node-add-cv{
+    .block-system-main{
+        background-color:transparent;
+        padding:0;
+    }
+    .horizontal-tabs ul.horizontal-tabs-list{
+        background-color:transparent;
+    }
+    #edit-field-puesto{
+        label{
+            font-size:18px;
+        }
+    }
+    #edit-field-centro{
+        label{
+            font-size:18px;
+        }
+    }
 }
