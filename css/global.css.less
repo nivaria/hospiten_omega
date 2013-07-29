@@ -692,9 +692,9 @@ input.form-submit,
     height:auto;
     padding:0;
 }
-.view-campanyas h2{
+/*.view-campanyas h2{
     font-size:40px;
-}
+}*/
 #region-sidebar-second .views-field-title span,
 #region-sidebar-second .views-field-title span a,
 #region-sidebar-second .view-campanyas h2 a,
@@ -1354,19 +1354,8 @@ body.page-todos-cv .view-filters #edit-created-wrapper{
        border-bottom: 1px solid #E0E0E0;
     padding-bottom: 20px;
 }
-.especialidades .view-filters{
-    background-color: #F9F9F9;
-    color: #666666;
-    height: auto;
-    padding: 20px;
-    line-height:12px;
-}
-
 body.page-node-add-cv .tabledrag-toggle-weight-wrapper{
     display:none;
-}
-.especialidades .view-filters .views-exposed-form label{
-    padding-bottom:1em;
 }
 .view-content{
     clear:both;
@@ -1771,51 +1760,95 @@ body.node-type-profesionales #region-sidebar-second #block-views-profesionales-b
 #block-views-b437bbbba6fd98cfc4762e9bc1c132af .views-field-title a{
     font-size:12px;
 }
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .view-content{
-    float: left;
-    margin-right: 1em;
-    width: 222px;
+
+#region-sidebar-second{
+    .view-profesionales{
+        .views-field-title a {
+            color: #666;;
+            font-family: arial;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .views-field-field-centro a{
+            display:block;
+        }
+        .views-field-field-centro a:before{
+            content:'- ';
+        }
+        .views-field-field-especialidades a{
+            display:block;
+        }
+        .views-field-field-especialidades a:before{
+            content:'- ';
+        }
+        .views-row{
+            margin-bottom:0.5em;
+        }
+        .views-row-last{
+            margin-bottom:0;
+        }
+    }
 }
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment .view-content{
-    float:none;
-    margin:0;
-    width:auto;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment{
-    float: left;
-    margin: 0;
-    width: 454px;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row{
-    border:0 none;
-    border-bottom:1px solid #e0e0e0;
-    margin: 0 0 16px;
-    padding: 0 0 16px;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right{
-    float: right;
-    margin: 0;
-    width: auto;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset{
-    border: 2px solid #E0E0E0;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset legend{
-  color: #666666;
-    float: left;
-    font-family: lato;
-    font-size: 16px;
-    margin-bottom: 0.5em;
-    text-transform: capitalize;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper{
-    clear:both;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro{
-    background-color: #2DC6D6;
-}
-body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro .field-label{
-    display:none;
+
+body.node-type-profesionales{
+    #region-sidebar-second{
+        margin-top:72px;
+    }
+    .node-profesionales{
+        .group-footer{
+            .field-name-bloque-centros-relacionados{
+                .view-content{
+                    float: left;
+                    margin-right: 1em;
+                    width: 222px;
+                }
+                .attachment{
+                    float: left;
+                    margin: 0;
+                    width: 454px;
+                    
+                    .view-content{
+                        float:none;
+                        margin:0;
+                        width:auto;
+                    }
+                    
+                    li.views-row{
+                        border:0 none;
+                        border-bottom:1px solid #e0e0e0;
+                        margin: 0 0 16px;
+                        padding: 0 0 16px;
+                        
+                        .group-right{
+                            float: right;
+                            margin: 0;
+                            width: auto;
+                            
+                            fieldset{
+                                legend{
+                                    color: #666666;
+                                    float: left;
+                                    font-family: lato;
+                                    font-size: 16px;
+                                    margin-bottom: 0.5em;
+                                    text-transform: capitalize;
+                                }
+                                .fieldset-wrapper{
+                                    clear:both;
+                                    .field-name-field-tfno-cp-centro{
+                                        background-color: #2DC6D6;
+                                        .field-label{
+                                            display:none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 .view-nuestros-profesionales .node-profesionales .group-left{
     width:auto;
@@ -2158,14 +2191,6 @@ body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-it
     margin: 0;
     padding: 0;
     clear:none;
-}
-.especialidades .view-filters .views-exposed-widgets div,
-.especialidades .view-filters label {
-    float:none;
-}
-.especialidades .view-filters label {
-    margin:0;
-    padding-top:1em;
 }
 .view-filters label {
     margin-left: 1.4em;
@@ -2623,7 +2648,6 @@ body.node-type-especialidades .field-name-field-imagenes-article{
     line-height:normal;
     font-family:arial;
 }
-body.page-especialidades-y-servicios #region-content .view-filters,
 body.page-especialidades-y-servicios #region-sidebar-first,
 body.page-especialidades-y-servicios #region-sidebar-second,
 body.page-nuestros-profesionales #region-content .view-filters,
@@ -2644,47 +2668,6 @@ body.page-nuestros-profesionales #region-sidebar-second {
     top:101px;
     background-color:#fff;
     z-index:10;
-}*/
-body.page-especialidades-y-servicios #region-content .view-filters{
-    margin-top: 0;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades{
-    background-color: #fff;
-    border: 1px solid #E1E1E1;
-    padding: 0;
-    min-height:400px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty,
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{
-    overflow:hidden;
-    padding:20px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-empty{
-    padding-left: 26px;
-    /*padding-top: 80px;*/
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{ 
-    /*padding-top: 80px;*/
-}
-body.page-especialidades-y-servicios #zone-content,
-body.page-nuestros-profesionales #zone-content {
-    position:relative;
-}
-body.page-especialidades-y-servicios #region-content{
-    position:static;
-}
-body.page-especialidades-y-servicios #region-content .views-exposed-form{
-    position:relative;
-}
-body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-search-api-views-fulltext{
-    width:408px;
-}
-/*body.page-especialidades-y-servicios #region-content .views-exposed-form #edit-submit-especialidades-node-index{
-    left: 382px;
-    position: absolute;
-    top: 42px;
 }*/
 body.page-nuestros-profesionales #region-content {
     width: 450px;
@@ -2839,21 +2822,6 @@ body.node-type-especialidades .pruebas_especialidad .field-name-field-pru-ser-es
 #views-exposed-form-nuestros-profesionales-page .form-text{
     width:100%;
 }
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row .views-field-title{
-    display:inline;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row .views-field-title span{
-    font-size:12px;
-    font-family: arial;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row{
-    float:left;
-    width:298px;
-    width:302px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row.views-row-even{
-    float:right;
-}
 .quicktabs-tabpage .view-profesionales-node-index .item-list li .views-field-title{
     display:inline;
 }
@@ -2956,36 +2924,6 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 .block-facetapi li li:before,
 .views-field-field-zona li:before{
     content: "-  ";
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades{
-    position:relative;
-    margin-top:20px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header{
-    left: 6px;
-    position: absolute;
-    top: 83px;
-    left:285px;
-}
-body.page-especialidades-y-servicios h2.page-title{
-    left: 0;
-    margin: 0;
-    position: absolute;
-    top: 262px;
-    font-size:20px;
-}
-body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title{
-    left: -240px;
-    top: -45px;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content ul{
-    margin:0;
-    padding-top:0;
-}
-body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content li.views-row{
-    list-style:none;
-    padding:0.5em;
-    margin:0;
 }
 
 .bulleted_list_row{
@@ -3524,6 +3462,159 @@ body.node-type-especialidades{
         }
         .content{
             margin-top:1px;
+        }
+    }
+}
+#block-views-7a9e68cc65273113cf9b494dd5efca64{
+    h2.block-title{
+        font-size:18px;
+    }
+}
+#block-views-especialidades-y-unidades-block{
+    h2.block-title{
+        font-size:18px;
+    }
+}
+#region-sidebar-first{
+    img{
+        max-width:100%;
+        height:auto;
+    }
+    .view-campanyas{
+        border:0 none;
+        height:auto;
+        padding:0;
+    }
+}
+body.page-nuestros-profesionales{
+    #zone-content {
+        position:relative;
+    }
+}
+
+body.page-especialidades-y-servicios{
+    #zone-content{
+        position:relative;
+        .view.especialidades{
+            
+            position:relative;
+            margin-top:20px;
+            background-color: #fff;
+            padding: 0;
+            min-height:400px;
+    
+            .view-filters{
+                background-color: #F9F9F9;
+                color: #666666;
+                height: auto;
+                line-height:12px;
+                margin-top:20px;
+                padding:10px 20px 14px 72px;
+
+                .views-exposed-widgets div{
+                    float:none;
+                }
+                label {
+                    float:none;
+                    margin:0;
+                    padding-top:1em;
+                }
+
+                #edit-search-api-views-fulltext-wrapper{
+                    label{
+                        color:#9D8C84;
+                        font-size:18px;
+                        font-weight:normal;
+                        position:relative;
+                        padding-bottom:0.5em;
+                    }
+                    label:before{
+                        position:absolute;
+                        left:-60px;
+                        top:14px;
+                        content:' ';
+                        width:48px;
+                        height:44px;
+                        background-image: url('../images/sprites.png');
+                        background-position: -398px 0;
+                        background-repeat: no-repeat;
+                    }
+                }
+                #edit-search-api-views-fulltext{
+                    width:408px;
+                    margin:12px 0;
+                }
+                #edit-field-centro{
+                    min-height: 28px;
+                    padding-top: 5px;
+                    width: 408px;
+                }
+                .views-exposed-form{
+                    position:relative;
+                    label{
+                        padding-bottom:1em;
+                    }
+                }
+                
+                .form-submit{
+                    float:right;
+                }
+            }
+            .view-header{
+                left: 0;
+                position: absolute;
+                top: 276px;
+                background-color:#F9F9F9;
+                padding:16px 20px;
+                width:650px;
+            }
+            .view-empty{
+                overflow:hidden;
+                padding:20px 20px 20px 26px;
+                margin-top:76px;
+            }
+            .view-content{
+                overflow:hidden;
+                margin-top:76px;
+                
+                ul{
+                    margin:0;
+                    padding-top:0;
+                    
+                    li.views-row{
+                        float:left;
+                        width:302px;
+                        list-style:none;
+                        padding:0.5em 20px;
+                        margin:0;
+                        
+                        .views-field-title{
+                            display:inline;
+                            
+                            span{
+                                font-size:12px;
+                                font-family: arial;
+                            }
+                        }
+                    }
+                }
+                li.views-row.views-row-even{
+                    float:right;
+                }
+            }
+        }
+    }
+    h2.page-title{
+        left: 0;
+        margin: 0;
+        position: absolute;
+        top: 262px;
+        font-size:20px;
+    }
+    .region-inner.contextual-links-region{
+        h2.page-title{
+            left: -240px;
+            top: -45px;
         }
     }
 }
