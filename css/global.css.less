@@ -1914,65 +1914,7 @@ span.date-display-single {
     padding-bottom: 0.4em;
 }
 
-/*detalle hospitales*/
-body.node-type-hospitales .node-hospitales .group-left{
-    overflow: hidden;
-    padding-right: 16px;
-    width: 220px; 
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-left{
-    width:auto;
-}
-body.node-type-hospitales .node-hospitales .group-right{
-    margin-bottom:2em;
-    width:454px;
-}
 
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-right{
-    margin:0;
-    width:auto;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row{
-    border-bottom: 1px solid #E0E0E0;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row a{
-    color:#1EB890;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a{
-    color: #666666;
-    font-size: 16px;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row .field-name-field-especialidades a{
-    color:#2CC5D6;
-}
-body.node-type-hospitales .node-hospitales .group-footer{
-    padding-top:2em;
-}
-body.node-type-hospitales .node-hospitales .group-left .locality{
-    display:block;
-    float:left;
-    padding-right:0.5em;
-}
-body.node-type-hospitales .node-hospitales .group-left .state{
-    display:block;
-}
-/*body.node-type-hospitales .node-hospitales .group-left .field{
-    padding-left:46px;
-}*/
-body.node-type-hospitales .node-hospitales .group-left .field.field-name-field-imagenes-article{
-    padding-left:0;
-}
-body.node-type-hospitales .node-hospitales .field-name-field-direccion{
-    /*background-repeat:no-repeat;
-    background-image:url('../images/sprites.png');
-    background-position:-269px -3px;*/
-    margin-top:16px;
-}
-body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-item{
-    background-color:#fff;
-}
 
 #edit-submitted-prefiere-que-contactemos-cita-previa .form-item{
     float:left;
@@ -3337,6 +3279,7 @@ body.page-node-1158 #breadcrumb{
     padding:5px 10px;    
 }
 body.node-type-hospitales #page{
+
     #section-content{
         background-image:url('../images/centro-hospitales-bg.png');
         background-repeat:repeat-x;
@@ -3345,45 +3288,158 @@ body.node-type-hospitales #page{
     #region-sidebar-second{
         margin-top:90px;
     }
-    #views-exposed-form-especialidades-node-index-block{    
-        .views-exposed-widgets label{
-            margin-right:1em;
-        }
-        #edit-search-api-views-fulltext{
-            float:left;
-            min-width:0;
-        }
-        .views-exposed-widget.views-submit-button{
-            float:left;
-            input{
-                margin-left:1em;
-                margin-top:0px;
-                font-size:13px;
-                padding:5px 10px;
+
+    .node-hospitales{
+        .group-left{
+            overflow: hidden;
+            padding-right: 16px;
+            width: 220px;
+            .locality{
+                display:block;
+                float:left;
+                padding-right:0.5em;
+            }
+            .state{
+                display:block;
+            }
+            .field.field-name-field-imagenes-article{
+                padding-left:0;
             }
         }
-    }
-    #views-exposed-form-profesionales-node-index-block{
-        #edit-search-api-views-fulltext-wrapper{
-            float:left;
-            margin-right:1em;
-            label{
-                float:none;
+        .group-right{
+            margin-bottom:2em;
+            width:454px;
+        }
+        .group-footer{
+            padding-top:2em;
+            position:relative;
+            top:3em;
+            #block-views-especialidades-node-index-block{
+                .views-exposed-widgets{
+                    #edit-search-api-views-fulltext-wrapper{
+                        .form-item{
+                            float:right;
+                        }
+                        .views-widget{
+                            clear:both;
+                        }
+                    }
+                }
+                .views-exposed-widgets label{
+                    margin-right:1em;
+                    margin-left:0;
+                }
+                #edit-search-api-views-fulltext{
+                    float:left;
+                    min-width:0;
+                    margin-left:1em;
+                    margin-top:-14px;
+                }
+                .views-exposed-widget.views-submit-button{
+                    float:left;
+                    input{
+                        margin-left:1em;
+                        margin-top:14px;
+                        font-size:13px;
+                        padding:5px 10px;
+                    }
+                }
+            }
+            #block-views-profesionales-node-index-block{
+                .view-filters{
+                    padding-left:0;
+                    padding-right:0;
+                }
+                #edit-search-api-views-fulltext-wrapper{
+                    float:left;
+                    margin-right:1em;
+                    width:262px;
+                    label{
+                        float:none;
+                        margin:0;
+                    }
+                    input{
+                        float:none;
+                        min-width:0;
+                        width:260px;
+                    }
+                }
+                #edit-search-api-views-fulltext-1-wrapper{
+                    width:262px;
+                    label{
+                        margin:0;
+                    }
+                }
+                .form-text{
+                    width:260px;
+                }
+                #edit-submit-profesionales-node-index{
+                    margin-top:20px;
+                    position:static;
+                    float:left;
+                }
+            }
+        }
+        .field-name-field-direccion{
+            position:relative;
+            margin-top:16px;
+            padding-left:43px;
+            .field-item{
+                background-color:#fff;
+            }
+        }
+        .field-name-field-direccion:before{
+            background-repeat:no-repeat;
+            background-image:url('../images/sprites.png');
+            background-position:-269px -3px;
+            position:absolute;
+            left:0;
+            top:0;
+            content:' ';
+            width:33px;
+            height:33px;
+        }
+        .field-name-field-telefono{
+            padding-left:43px;
+            .field-label{
+                font-weight:normal;
+            }
+        }
+        .field-name-field-fax-centro{
+            padding-left:43px;
+            .field-label{
+                font-weight:normal;
+            }
+        }
+        .field-name-field-email{
+            padding-left:43px;
+            .field-label{
+                font-weight:normal;
+            }
+        }
+        .block-views-profesionales-node-index-block{
+            .group-left{
+                width:auto;
+            }
+            .group-right{
                 margin:0;
+                width:auto;
             }
-            input{
-                float:none;
-                min-width:0;
-                width:260px;
+            .views-row{
+                border-bottom: 1px solid #E0E0E0;
+                margin-bottom: 1em;
+                padding-bottom: 1em;
+                a{
+                    color:#1EB890;
+                }
+                h2 a{
+                    color: #666666;
+                    font-size: 16px;
+                }
+                .field-name-field-especialidades a{
+                    color:#2CC5D6;
+                }
             }
-        }
-        .form-text{
-            width:260px;
-        }
-        #edit-submit-profesionales-node-index{
-            margin-top:-2em;
-            position:static;
-            float:right;
         }
     }
     #quicktabs-tabpage-informacion_adicional_centro-4 .views-field-field-organigrama-centro{
@@ -3435,6 +3491,16 @@ body.node-type-hospitales #page{
         a{
             font-size:18px;
         }
+    }
+    a.popup{
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        text-indent: -9999px;
+        top: 0;
+        width: 100%;
+        z-index: 100;
     }
 }
 .pedircitatexto{

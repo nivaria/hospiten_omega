@@ -2023,65 +2023,6 @@ span.date-display-single {
   display: block;
   padding-bottom: 0.4em;
 }
-/*detalle hospitales*/
-body.node-type-hospitales .node-hospitales .group-left {
-  overflow: hidden;
-  padding-right: 16px;
-  width: 220px;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-left {
-  width: auto;
-}
-body.node-type-hospitales .node-hospitales .group-right {
-  margin-bottom: 2em;
-  width: 454px;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .group-right {
-  margin: 0;
-  width: auto;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row {
-  border-bottom: 1px solid #E0E0E0;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row a {
-  color: #1EB890;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a {
-  color: #666666;
-  font-size: 16px;
-}
-body.node-type-hospitales .node-hospitales .block-views-profesionales-node-index-block .views-row .field-name-field-especialidades a {
-  color: #2CC5D6;
-}
-body.node-type-hospitales .node-hospitales .group-footer {
-  padding-top: 2em;
-}
-body.node-type-hospitales .node-hospitales .group-left .locality {
-  display: block;
-  float: left;
-  padding-right: 0.5em;
-}
-body.node-type-hospitales .node-hospitales .group-left .state {
-  display: block;
-}
-/*body.node-type-hospitales .node-hospitales .group-left .field{
-    padding-left:46px;
-}*/
-body.node-type-hospitales .node-hospitales .group-left .field.field-name-field-imagenes-article {
-  padding-left: 0;
-}
-body.node-type-hospitales .node-hospitales .field-name-field-direccion {
-  /*background-repeat:no-repeat;
-    background-image:url('../images/sprites.png');
-    background-position:-269px -3px;*/
-
-  margin-top: 16px;
-}
-body.node-type-hospitales .node-hospitales .field-name-field-direccion .field-item {
-  background-color: #fff;
-}
 #edit-submitted-prefiere-que-contactemos-cita-previa .form-item {
   float: left;
 }
@@ -3439,42 +3380,146 @@ body.node-type-hospitales #page #section-content {
 body.node-type-hospitales #page #region-sidebar-second {
   margin-top: 90px;
 }
-body.node-type-hospitales #page #views-exposed-form-especialidades-node-index-block .views-exposed-widgets label {
-  margin-right: 1em;
+body.node-type-hospitales #page .node-hospitales .group-left {
+  overflow: hidden;
+  padding-right: 16px;
+  width: 220px;
 }
-body.node-type-hospitales #page #views-exposed-form-especialidades-node-index-block #edit-search-api-views-fulltext {
+body.node-type-hospitales #page .node-hospitales .group-left .locality {
+  display: block;
+  float: left;
+  padding-right: 0.5em;
+}
+body.node-type-hospitales #page .node-hospitales .group-left .state {
+  display: block;
+}
+body.node-type-hospitales #page .node-hospitales .group-left .field.field-name-field-imagenes-article {
+  padding-left: 0;
+}
+body.node-type-hospitales #page .node-hospitales .group-right {
+  margin-bottom: 2em;
+  width: 454px;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer {
+  padding-top: 2em;
+  position: relative;
+  top: 3em;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widgets #edit-search-api-views-fulltext-wrapper .form-item {
+  float: right;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widgets #edit-search-api-views-fulltext-wrapper .views-widget {
+  clear: both;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widgets label {
+  margin-right: 1em;
+  margin-left: 0;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block #edit-search-api-views-fulltext {
   float: left;
   min-width: 0;
+  margin-left: 1em;
+  margin-top: -14px;
 }
-body.node-type-hospitales #page #views-exposed-form-especialidades-node-index-block .views-exposed-widget.views-submit-button {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widget.views-submit-button {
   float: left;
 }
-body.node-type-hospitales #page #views-exposed-form-especialidades-node-index-block .views-exposed-widget.views-submit-button input {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widget.views-submit-button input {
   margin-left: 1em;
-  margin-top: 0px;
+  margin-top: 14px;
   font-size: 13px;
   padding: 5px 10px;
 }
-body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block .view-filters {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper {
   float: left;
   margin-right: 1em;
+  width: 262px;
 }
-body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper label {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper label {
   float: none;
   margin: 0;
 }
-body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper input {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper input {
   float: none;
   min-width: 0;
   width: 260px;
 }
-body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block .form-text {
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-1-wrapper {
+  width: 262px;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-1-wrapper label {
+  margin: 0;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block .form-text {
   width: 260px;
 }
-body.node-type-hospitales #page #views-exposed-form-profesionales-node-index-block #edit-submit-profesionales-node-index {
-  margin-top: -2em;
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-submit-profesionales-node-index {
+  margin-top: 20px;
   position: static;
-  float: right;
+  float: left;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-direccion {
+  position: relative;
+  margin-top: 16px;
+  padding-left: 43px;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-direccion .field-item {
+  background-color: #fff;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-direccion:before {
+  background-repeat: no-repeat;
+  background-image: url('../images/sprites.png');
+  background-position: -269px -3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: ' ';
+  width: 33px;
+  height: 33px;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-telefono {
+  padding-left: 43px;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-telefono .field-label {
+  font-weight: normal;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-fax-centro {
+  padding-left: 43px;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-fax-centro .field-label {
+  font-weight: normal;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-email {
+  padding-left: 43px;
+}
+body.node-type-hospitales #page .node-hospitales .field-name-field-email .field-label {
+  font-weight: normal;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .group-left {
+  width: auto;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .group-right {
+  margin: 0;
+  width: auto;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .views-row {
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .views-row a {
+  color: #1EB890;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .views-row h2 a {
+  color: #666666;
+  font-size: 16px;
+}
+body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node-index-block .views-row .field-name-field-especialidades a {
+  color: #2CC5D6;
 }
 body.node-type-hospitales #page #quicktabs-tabpage-informacion_adicional_centro-4 .views-field-field-organigrama-centro {
   padding-left: 1.2em;
@@ -3526,6 +3571,16 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 }
 #page #block-hospiten-generic-pedir-cita .pedircitacorreo a {
   font-size: 18px;
+}
+#page #block-hospiten-generic-pedir-cita a.popup {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 .pedircitatexto {
   background-color: #2CC7D7;
