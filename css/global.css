@@ -1943,10 +1943,24 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
   margin: 0 0 16px;
   padding: 0 0 16px;
 }
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-left .field-name-field-imagenes-article {
+  float: left;
+  margin-right: 1em;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-left .field-name-field-imagenes-article img {
+  width: 70px;
+  height: auto;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-left .field-name-field-zona li {
+  white-space: nowrap;
+}
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right {
   float: right;
   margin: 0;
   width: auto;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset {
+  width: 200px;
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset legend {
   color: #666666;
@@ -1964,6 +1978,12 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro .field-label {
   display: none;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro {
+  padding-right: 0;
+}
+body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-campo-pedir-cita-hospital {
+  padding-right: 0;
 }
 .view-nuestros-profesionales .node-profesionales .group-left {
   width: auto;
@@ -3675,4 +3695,47 @@ body.page-especialidades-y-servicios h2.page-title {
 body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.page-title {
   left: -240px;
   top: -45px;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales h2 {
+  margin-bottom: 0;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters {
+  padding: 20px 20px 20px 72px;
+  background-color: #f9f9f9;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters div {
+  float: none;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-text,
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-select {
+  margin-bottom: 1em;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-select {
+  min-height: 28px;
+  padding-top: 5px;
+  width: 358px;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters label {
+  font-weight: normal;
+  float: none;
+  margin: 0;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-views-fulltext-wrapper label {
+  color: #9D8C84;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 0.5em;
+  margin: 0;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-views-fulltext-wrapper label:before {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  content: ' ';
+  width: 48px;
+  height: 44px;
+  background-image: url('../images/sprites.png');
+  background-position: -398px 0;
+  background-repeat: no-repeat;
 }

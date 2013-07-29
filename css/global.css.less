@@ -1819,12 +1819,31 @@ body.node-type-profesionales{
                         margin: 0 0 16px;
                         padding: 0 0 16px;
                         
+                        .group-left{
+                            .field-name-field-imagenes-article{
+                                float:left;
+                                margin-right:1em;
+                                img{
+                                    width:70px;
+                                    height:auto;
+                                }
+                            }
+                            .field-name-field-zona{
+                                li{
+                                    white-space:nowrap;
+                                }
+                            }
+                        }
+                        
                         .group-right{
                             float: right;
                             margin: 0;
                             width: auto;
                             
                             fieldset{
+                                
+                                width:200px;
+                                
                                 legend{
                                     color: #666666;
                                     float: left;
@@ -1840,6 +1859,12 @@ body.node-type-profesionales{
                                         .field-label{
                                             display:none;
                                         }
+                                    }
+                                    .field-name-field-tfno-cp-centro{
+                                        padding-right:0;
+                                    }
+                                    .field-name-campo-pedir-cita-hospital{
+                                        padding-right:0;
                                     }
                                 }
                             }
@@ -3615,6 +3640,55 @@ body.page-especialidades-y-servicios{
         h2.page-title{
             left: -240px;
             top: -45px;
+        }
+    }
+}
+body.page-nuestros-profesionales{
+    .view-nuestros-profesionales{
+        h2{
+            margin-bottom:0;
+        }
+        .view-filters{
+            padding:20px 20px 20px 72px;
+            background-color:#f9f9f9;
+            div{
+                float:none;
+            }
+            .form-text,
+            .form-select{
+                margin-bottom:1em;
+            }
+            .form-select{
+                min-height:28px;
+                padding-top:5px;
+                width:358px;
+            }
+            label{
+                font-weight:normal;
+                float:none;
+                margin:0;
+            }
+        }
+        #edit-search-api-views-fulltext-wrapper{
+            label{
+                color:#9D8C84;
+                font-size:18px;
+                font-weight:normal;
+                position:relative;
+                padding-bottom:0.5em;
+                margin:0;
+            }
+            label:before{
+                position:absolute;
+                left:-60px;
+                top:0;
+                content:' ';
+                width:48px;
+                height:44px;
+                background-image: url('../images/sprites.png');
+                background-position: -398px 0;
+                background-repeat: no-repeat;
+            }
         }
     }
 }
