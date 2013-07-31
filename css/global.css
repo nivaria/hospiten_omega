@@ -3843,15 +3843,6 @@ body.page-ofertas-de-empleo .view-ofertas-de-empleo .views-row .centros_oferta a
   margin-bottom: 0.3em;
   font-size: 18px;
 }
-body.page-node-add-cv #page select {
-  width: 100%;
-  min-height: 150px;
-  font-size: 12px;
-  font-family: arial;
-}
-body.page-node-add-cv #page select option {
-  padding: 0.3em;
-}
 body.page-node-add-cv #page .block-system-main {
   background-color: transparent;
   padding: 0;
@@ -3862,6 +3853,24 @@ body.page-node-add-cv #page .horizontal-tabs ul.horizontal-tabs-list {
 body.page-node-add-cv #page #edit-field-puesto label {
   font-size: 18px;
 }
+body.page-node-add-cv #page #edit-field-puesto select {
+  width: 100%;
+  min-height: 150px;
+  font-size: 12px;
+  font-family: arial;
+}
+body.page-node-add-cv #page #edit-field-puesto select option {
+  padding: 0.3em;
+}
 body.page-node-add-cv #page #edit-field-centro label {
   font-size: 18px;
+}
+body.page-node-add-cv #page #edit-field-centro select {
+  width: 100%;
+  min-height: 150px;
+  font-size: 12px;
+  font-family: arial;
+}
+body.page-node-add-cv #page #edit-field-centro select option {
+  padding: 0.3em;
 }
