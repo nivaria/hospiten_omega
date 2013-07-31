@@ -1334,9 +1334,15 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters{
 body.page-hospitales-y-centros .view-mapa-centros .view-header{
     width:252px;
     white-space:nowrap;
+    
+    width:462px;
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-filters{
     width:422px;
+    
+    float:right;
+    width:212px;
+    
     #edit-field-zona-tid{
         width:140px;
     }
@@ -2268,7 +2274,6 @@ span.date-display-single {
     float: none;
     text-align: left;
     width: auto;
-    line-height:30px;
 }
 .field-name-field-archivos .field-item{
     padding: 0.5em 0 1em;
@@ -2281,7 +2286,6 @@ span.date-display-single {
     z-index: 488;
 }
 .inscripcion_oferta a{
-    padding-right:44px;
     float:right;
 }
 #quicktabs-informacion_adicional{
@@ -3826,11 +3830,28 @@ body.page-ofertas-de-empleo{
             background-color: #F9F9F9;
             margin-bottom: 1em;
             overflow: hidden;
-            padding: 16px 22px;   
+            padding: 16px 22px;
+            .centros_oferta{
+                a{
+                    display:block;
+                    margin-top:0.5em;
+                    margin-bottom:0.3em;
+                    font-size:18px;
+                }
+            }
         }
     }
 }
-body.page-node-add-cv{
+body.page-node-add-cv #page{
+    select{
+        width:100%;
+        min-height:150px;
+        font-size:12px;
+        font-family:arial;
+        option{
+            padding:0.3em;
+        }
+    }
     .block-system-main{
         background-color:transparent;
         padding:0;

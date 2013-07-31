@@ -1479,9 +1479,12 @@ body.page-hospitales-y-centros .view-mapa-centros .view-filters {
 body.page-hospitales-y-centros .view-mapa-centros .view-header {
   width: 252px;
   white-space: nowrap;
+  width: 462px;
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-filters {
   width: 422px;
+  float: right;
+  width: 212px;
 }
 body.page-hospitales-y-centros .view-mapa-centros .view-filters #edit-field-zona-tid {
   width: 140px;
@@ -2369,7 +2372,6 @@ span.date-display-single {
   float: none;
   text-align: left;
   width: auto;
-  line-height: 30px;
 }
 .field-name-field-archivos .field-item {
   padding: 0.5em 0 1em;
@@ -2382,7 +2384,6 @@ span.date-display-single {
   z-index: 488;
 }
 .inscripcion_oferta a {
-  padding-right: 44px;
   float: right;
 }
 #quicktabs-informacion_adicional {
@@ -3836,16 +3837,31 @@ body.page-ofertas-de-empleo .view-ofertas-de-empleo .views-row {
   overflow: hidden;
   padding: 16px 22px;
 }
-body.page-node-add-cv .block-system-main {
+body.page-ofertas-de-empleo .view-ofertas-de-empleo .views-row .centros_oferta a {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  font-size: 18px;
+}
+body.page-node-add-cv #page select {
+  width: 100%;
+  min-height: 150px;
+  font-size: 12px;
+  font-family: arial;
+}
+body.page-node-add-cv #page select option {
+  padding: 0.3em;
+}
+body.page-node-add-cv #page .block-system-main {
   background-color: transparent;
   padding: 0;
 }
-body.page-node-add-cv .horizontal-tabs ul.horizontal-tabs-list {
+body.page-node-add-cv #page .horizontal-tabs ul.horizontal-tabs-list {
   background-color: transparent;
 }
-body.page-node-add-cv #edit-field-puesto label {
+body.page-node-add-cv #page #edit-field-puesto label {
   font-size: 18px;
 }
-body.page-node-add-cv #edit-field-centro label {
+body.page-node-add-cv #page #edit-field-centro label {
   font-size: 18px;
 }
