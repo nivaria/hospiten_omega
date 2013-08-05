@@ -100,7 +100,7 @@ jQuery(document).ready(function($){
     jQuery(".pager-last.last a").text("»");
     jQuery(".pager-first.first a").text("«");
     
-    $(".views-field-field-imagen-slideshow-portada,#region-sidebar-second .block-views .views-row,#region-sidebar-second .block-nodeblock, body.front #region-postscript-third .block").hover(
+    $(".views-field-field-imagen-slideshow-portada,#region-sidebar-first .block-views .views-row,#region-sidebar-second .block-views .views-row,#region-sidebar-second .block-nodeblock, body.front #region-postscript-third .block").hover(
     function() {
     $(this).find("img").stop().animate({"opacity": "0.5"}, "slow");
     $(this).find("a").css("text-decoration","underline");
