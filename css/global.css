@@ -1619,7 +1619,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .block-informacion-visitante h2 {
   padding-bottom: 6px;
   padding-left: 40px;
-  color: #82817B;
+  color: #00B27A;
   font-size: 18px;
   min-height: 36px;
 }
@@ -2145,7 +2145,7 @@ span.date-display-single {
 }
 .tab_icon_1 {
   width: 23px;
-  height: 15px;
+  height: 20px;
   background-position: -3px -276px;
 }
 .tab_icon_2 {
@@ -3421,6 +3421,18 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-prof
   margin-top: -45px;
   padding-top: 24px;
 }
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-title-wrapper {
+  width: 42%;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-title-wrapper label {
+  margin: 0;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-field-especialidades-title-wrapper {
+  width: 42%;
+}
+body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-field-especialidades-title-wrapper label {
+  margin: 0;
+}
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-search-api-views-fulltext-wrapper {
   float: left;
   margin-right: 1em;
@@ -3873,4 +3885,11 @@ body.page-node-add-cv #page #edit-field-centro select {
 }
 body.page-node-add-cv #page #edit-field-centro select option {
   padding: 0.3em;
+}
+html.js input.form-autocomplete {
+  background-position: 100% 7px;
+}
+#autocomplete li div {
+  float: none;
+  padding: 2px 4px;
 }
