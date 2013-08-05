@@ -2647,32 +2647,39 @@ body.page-hospitales-cita-previa .view-centros-node-index .views-row:first-child
     border: 0 none;
     padding: 0;
 }
-body.node-type-campanya .view-centros .views-row{
-       border: 0 none;
-    margin-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 24px;
-    width: 100%;
-    float:none;
-    border-top:1px solid #E0E0E0;
-    height:auto !important;
-}
-body.node-type-campanya .view-centros .views-row .field-name-field-tfno-cp-centro .field-label{
-    display: none;
-}
-body.node-type-campanya .view-profesionales .views-row{
-        border-top: 1px solid #E0E0E0;
-    margin-top: 1em;
-    padding-top: 1em;
-}
-body.node-type-campanya .view-profesionales .views-row:first-child{
-    border:0 none;
-    margin-top: 0;
-    padding-top: 0;
-}
-body.node-type-campanya .view-centros .views-row:first-child{
-    border:0 none;
+body.node-type-campanya{
+    .view-centros{
+        .views-row{
+            border: 0 none;
+            margin-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 24px;
+            width: 100%;
+            float:none;
+            border-top:1px solid #E0E0E0;
+            height:auto !important;
+            
+            .field-name-field-tfno-cp-centro .field-label{
+                display: none;
+            }
+        }
+        .views-row:first-child{
+            border:0 none;
+        }
+    }
+    .view-profesionales{
+        .views-row{
+            border-top: 1px solid #E0E0E0;
+            margin-top: 1em;
+            padding-top: 1em;
+        }
+        .views-row:first-child{
+            border:0 none;
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
 }
 body.node-type-campanya .view-centros .views-row .field-name-field-imagenes-article,
 body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-field-imagenes-article{
@@ -2690,13 +2697,15 @@ body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name
 body.node-type-campanya .view-centros .views-row .group-left{
     
 }
-body.node-type-campanya .view-centros .views-row .group-right,
+body.node-type-campanya .view-centros .views-row .group-right{
+    width:auto;
+    float:right;
+}
 body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right{
     float: right;
     overflow: hidden;
     width: 166px;
 }
-body.node-type-campanya .view-centros .views-row .group-right fieldset,
 body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset{
     width: auto;
 }
