@@ -3788,7 +3788,8 @@ body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters div 
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-text,
 body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-select {
-  margin-bottom: 1em;
+  /*margin-bottom:1em;*/
+
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters .form-select {
   min-height: 28px;
@@ -3799,6 +3800,9 @@ body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters labe
   font-weight: normal;
   float: none;
   margin: 0;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-views-fulltext-wrapper {
+  margin-bottom: 1em;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-views-fulltext-wrapper label {
   color: #b4a76c;
@@ -3818,6 +3822,24 @@ body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-v
   background-image: url('../images/sprites.png');
   background-position: -398px 0;
   background-repeat: no-repeat;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper {
+  margin-bottom: 1em;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper label {
+  padding-bottom: 4px;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper .chosen-container {
+  width: 100% !important;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-centro-wrapper {
+  margin-bottom: 1em;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-centro-wrapper label {
+  padding-bottom: 4px;
+}
+body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-centro-wrapper .chosen-container {
+  width: 100% !important;
 }
 #region-sidebar-second .block-views .views-row:hover h2,
 #region-sidebar-second .block-nodeblock:hover h2,
