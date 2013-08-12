@@ -3825,9 +3825,13 @@ body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-v
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper {
   margin-bottom: 1em;
+  color: #999;
+  font-size: 11px;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper label {
   padding-bottom: 4px;
+  color: #666;
+  font-size: 12px;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales #edit-field-especialidades-wrapper .chosen-container {
   width: 100% !important;
