@@ -671,8 +671,8 @@ input.form-submit,
   background-color: #8cd600 !important;
   color: #fff;
   font-size: 15px;
-  font-family: lato;
-  padding: 10px 22px;
+  /*font-family: lato;*/
+  padding: 7px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
@@ -3947,4 +3947,8 @@ html.js input.form-autocomplete {
 
 .region-sidebar-first h2{
     font-size: 18px;
+}
+
+#cita_previa_form #webform-component-comentarios-cita-previa{
+    clear: both;
 }
