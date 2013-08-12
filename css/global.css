@@ -1908,6 +1908,17 @@ body.node-type-profesionales .node-profesionales > .group-right:after{
     visibility: hidden;
 }
 
+body .view-mapa-centros .item-list .node-hospitales > .group-left {
+    width: 50% !important;
+}
+
+body .view-mapa-centros .item-list .node-hospitales .group-left .field-name-field-imagenes-article{
+    min-height: 90px
+}
+body .view-mapa-centros .item-list .node-hospitales .group-left h2{
+    min-height: 90px
+}
+
 #block-views-b437bbbba6fd98cfc4762e9bc1c132af,
 body.node-type-profesionales #region-sidebar-second #block-views-profesionales-block-4 {
   background-color: #F9F9F9;
