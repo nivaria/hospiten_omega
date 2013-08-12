@@ -2562,6 +2562,7 @@ form .field-multiple-table th.field-label {
   min-height: 30px;
   position: relative;
   line-height: 30px;
+  margin-bottom: 2px;
 }
 #region-sidebar-first .block {
   margin-bottom: 2em;
@@ -3362,7 +3363,7 @@ body.page-node-1158 #breadcrumb {
   margin-left: 1em;
   margin-top: 0px;
   font-size: 13px;
-  padding: 5px 10px;
+  padding: 7px 10px;
 }
 body.node-type-hospitales #page #section-content {
   background-image: url('../images/centro-hospitales-bg.png');
@@ -3438,7 +3439,7 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-prof
   padding-top: 24px;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-title-wrapper {
-  width: 42%;
+  width: 45%;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-title-wrapper label {
   margin: 0;
@@ -3470,7 +3471,7 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-prof
   margin: 0;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block .form-text {
-  width: 260px;
+  width: 278px;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block #edit-submit-profesionales-node-index {
   margin-top: 20px;
