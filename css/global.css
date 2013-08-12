@@ -1830,6 +1830,7 @@ h2.grouping-title {
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-left {
   margin: 0 1em 0 0;
   width: auto;
+  padding-left: 0px;
 }
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .node-profesionales .group-left h2 a {
   color: #666;
