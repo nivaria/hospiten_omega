@@ -1885,17 +1885,19 @@ h2.grouping-title {
   font-family: lato;
 }
 .node-profesionales .group-left {
-  margin-right: 1em;
+  margin-left: 1em;
   width: auto;
 }
 body.node-type-profesionales .node-profesionales > .group-left {
   background-color: #F9F9F9;
-  padding: 16px 0;
+  padding-top: 16px;
 }
 body.node-type-profesionales .node-profesionales > .group-right {
   background-color: #F9F9F9;
   padding: 16px 44px 16px 0;
   width: auto;
+  margin-left: 1em;
+  height: auto !important;
 }
 #block-views-b437bbbba6fd98cfc4762e9bc1c132af,
 body.node-type-profesionales #region-sidebar-second #block-views-profesionales-block-4 {
@@ -3491,7 +3493,7 @@ body.node-type-hospitales #page .node-hospitales .field-name-field-direccion {
   padding-left: 43px;
 }
 body.node-type-hospitales #page .node-hospitales .field-name-field-direccion .field-item {
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 body.node-type-hospitales #page .node-hospitales .field-name-field-direccion:before {
   background-repeat: no-repeat;
