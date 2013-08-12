@@ -3418,6 +3418,7 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-espe
   min-width: 0;
   margin-left: 1em;
   margin-top: -14px;
+  width: 260px;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widget.views-submit-button {
   float: left;
@@ -3426,7 +3427,7 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-espe
   margin-left: 1em;
   margin-top: 14px;
   font-size: 13px;
-  padding: 5px 10px;
+  padding: 10px;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-profesionales-node-index-block .view-filters {
   background-color: #F4F3F1;
