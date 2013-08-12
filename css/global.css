@@ -1885,7 +1885,8 @@ h2.grouping-title {
   font-family: lato;
 }
 .node-profesionales .group-left {
-  margin-left: 1em;
+  padding-left: 1em;
+  margin-right: 1em;
   width: auto;
 }
 body.node-type-profesionales .node-profesionales > .group-left {
@@ -1894,11 +1895,19 @@ body.node-type-profesionales .node-profesionales > .group-left {
 }
 body.node-type-profesionales .node-profesionales > .group-right {
   background-color: #F9F9F9;
-  padding: 16px 44px 16px 0;
+  padding: 16px 44px 16px 16px;
   width: auto;
-  margin-left: 1em;
   height: auto !important;
 }
+
+body.node-type-profesionales .node-profesionales > .group-right:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 #block-views-b437bbbba6fd98cfc4762e9bc1c132af,
 body.node-type-profesionales #region-sidebar-second #block-views-profesionales-block-4 {
   background-color: #F9F9F9;
