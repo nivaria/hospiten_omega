@@ -7,16 +7,19 @@
       $banner=null;
       
       if ( isset($_REQUEST["q"]) && $_REQUEST["q"]!=null ){
-        if ( $_REQUEST["q"]=="es/especialidades-y-servicios" ){
+        if ( $_REQUEST["q"]=="es/especialidades-y-servicios" || $_REQUEST["q"]=="en/specialities-and-services" ){
           $banner = "/sites/default/files/especialidades-y-servicios-medicos.png";
         }
-        if ( $_REQUEST["q"]=="es/hospitales-y-centros" ){
+        if ( $_REQUEST["q"]=="es/hospitales-y-centros"  || $_REQUEST["q"]=="en/hospitals-and-centres" ){
           $banner = "/sites/default/files/centros-y-hospitales.png";
         }
         if ( $_REQUEST["q"]=="es/content/grupo-hospiten" || $_REQUEST["q"]=="es/cita-previa" ){
           $banner = "/sites/default/files/grupo-hospiten.png";
         }
-        if ( $_REQUEST["q"]=="es/nuestros-profesionales" ){
+        if ( $_REQUEST["q"]=="en/content/hospiten-group" || $_REQUEST["q"]=="en/cita-previa" ){
+          $banner = "/sites/default/files/grupo-hospiten.png";
+        }
+        if ( $_REQUEST["q"]=="es/nuestros-profesionales" || $_REQUEST["q"]=="en/our-professionals" ){
           $banner = "/sites/default/files/nuestros-profesionales.png";
         }
       }
