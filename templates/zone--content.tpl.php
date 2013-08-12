@@ -13,7 +13,7 @@
         if ( $_REQUEST["q"]=="es/hospitales-y-centros" ){
           $banner = "/sites/default/files/centros-y-hospitales.png";
         }
-        if ( $_REQUEST["q"]=="es/content/grupo-hospiten" ){
+        if ( $_REQUEST["q"]=="es/content/grupo-hospiten" || $_REQUEST["q"]=="es/cita-previa" ){
           $banner = "/sites/default/files/grupo-hospiten.png";
         }
         if ( $_REQUEST["q"]=="es/nuestros-profesionales" ){
