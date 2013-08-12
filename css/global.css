@@ -3804,6 +3804,7 @@ body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.pa
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales h2 {
   margin-bottom: 0;
+  margin-top: -8px;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales .view-filters {
   padding: 20px 20px 20px 72px;
