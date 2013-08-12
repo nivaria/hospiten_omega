@@ -2598,10 +2598,11 @@ form .field-multiple-table th.field-label {
   line-height: 140%;
 }
 #page .block-facetapi .content .item-list li .facet_active_title {
-  background-color: #C6EFEB;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  color: #00B27A;
+  background-color: #999999;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  color: #ffffff;
   display: block;
   position: relative;
   white-space: nowrap;
@@ -3812,6 +3813,7 @@ body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-v
   position: relative;
   padding-bottom: 0.5em;
   margin: 0;
+  font-family: lato;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales #edit-search-api-views-fulltext-wrapper label:before {
   position: absolute;
@@ -3940,4 +3942,8 @@ html.js input.form-autocomplete {
 #autocomplete li div {
   float: none;
   padding: 2px 4px;
+}
+
+.region-sidebar-first h2{
+    font-size: 18px;
 }
