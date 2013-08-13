@@ -8,7 +8,7 @@
   color: #fff;
   font-size: 15px;
   font-family: lato;
-  padding: 10px 22px;
+  padding: 6px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
@@ -74,7 +74,7 @@
   color: #fff;
   font-size: 15px;
   font-family: lato;
-  padding: 10px 22px;
+  padding: 6px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
@@ -671,8 +671,8 @@ input.form-submit,
   background-color: #8cd600 !important;
   color: #fff;
   font-size: 15px;
-  /*font-family: lato;*/
-  padding: 7px 22px;
+  font-family: lato;
+  padding: 6px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
@@ -694,7 +694,7 @@ input.form-submit,
   color: #fff;
   font-size: 15px;
   font-family: lato;
-  padding: 10px 22px;
+  padding: 6px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
