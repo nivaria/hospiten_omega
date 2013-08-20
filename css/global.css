@@ -2051,12 +2051,15 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
   font-size: 16px;
   color: #666;
 }
-.view-nuestros-profesionales .node-profesionales .field-name-field-especialidades a
+.view-nuestros-profesionales .node-profesionales .field-name-field-especialidades a,
 .view-profesionales .node-profesionales .field-name-field-especialidades a{
   color: #2CC5D6;
 }
 .view-nuestros-profesionales .node-profesionales a {
   color: #1EB890;
+}
+.view-profesionales .node-profesionales img{
+    margin-top: 5px;
 }
 .field-name-bloque-centros-relacionados .attachment {
   margin-top: 2em;
@@ -3829,7 +3832,8 @@ body.page-especialidades-y-servicios .region-inner.contextual-links-region h2.pa
   left: -240px;
   top: -45px;
 }
-body.page-nuestros-profesionales .view-nuestros-profesionales h2 {
+body.page-nuestros-profesionales .view-nuestros-profesionales h2,
+.view-profesionales h2{
   margin-bottom: 0;
   margin-top: -5px;
 }
