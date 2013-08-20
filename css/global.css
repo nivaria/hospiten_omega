@@ -2652,7 +2652,6 @@ form .field-multiple-table th.field-label {
   line-height: 140%;
 }
 #page .block-facetapi .content .item-list li .facet_active_title {
-  background-color: #999999;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -2661,6 +2660,7 @@ form .field-multiple-table th.field-label {
   position: relative;
   white-space: nowrap;
   margin-bottom: 12px;
+  background: #999999 url('../images/close-x.png') 95% 50% no-repeat;
 }
 #page .block-facetapi .content .item-list li a.facetapi-active {
   color: #fff;
@@ -4026,6 +4026,6 @@ html.js input.form-autocomplete {
     clear: both;
 }
 
-html.js fieldset.collapsed{
+body.node-type-cursos-y-eventos a.fieldset-title fieldset.collapsed{
     height: 3em;
 }
