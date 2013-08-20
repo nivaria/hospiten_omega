@@ -4025,3 +4025,7 @@ html.js input.form-autocomplete {
 #cita_previa_form #webform-component-comentarios-cita-previa{
     clear: both;
 }
+
+html.js fieldset.collapsed{
+    height: 3em;
+}
