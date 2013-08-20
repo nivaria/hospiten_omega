@@ -695,7 +695,7 @@ input.form-submit,
   color: #fff;
   font-size: 15px;
   font-family: lato;
-  padding: 6px 22px;
+  padding: 10px 22px;
   background-image: none !important;
   text-shadow: none;
   box-shadow: none !important;
@@ -758,6 +758,7 @@ input.form-submit,
   padding: 0 20px;
   width: auto;
   color: #80D9BD;
+  margin-top: 15px;
 }
 .region-sidebar-second h2 {
   padding-bottom: 8px;
