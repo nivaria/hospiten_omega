@@ -2609,6 +2609,9 @@ form .field-multiple-table th.field-label {
   padding: 0;
   border: 0 none;
 }
+#page .block-facetapi .content .item-list li{
+    color: #00B27A
+}
 #page .block-facetapi .content .item-list li.facetapi-active-holder:before {
   content: none;
 }
@@ -2630,6 +2633,7 @@ form .field-multiple-table th.field-label {
   display: block;
   position: relative;
   white-space: nowrap;
+  margin-bottom: 12px;
 }
 #page .block-facetapi .content .item-list li a.facetapi-active {
   color: #fff;
