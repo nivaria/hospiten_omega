@@ -2064,7 +2064,7 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
 span.date-display-single {
   color: #9D8C84;
   display: block;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.4em; 
 }
 #edit-submitted-prefiere-que-contactemos-cita-previa .form-item {
   float: left;
