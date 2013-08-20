@@ -2660,7 +2660,7 @@ form .field-multiple-table th.field-label {
   position: relative;
   white-space: nowrap;
   margin-bottom: 12px;
-  background: #999999 url('../images/close-x.png') 95% 50% no-repeat;
+  background: #999999 url('../images/close-x.png') 96% 50% no-repeat;
 }
 #page .block-facetapi .content .item-list li a.facetapi-active {
   color: #fff;
