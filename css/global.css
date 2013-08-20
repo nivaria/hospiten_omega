@@ -2517,6 +2517,23 @@ body.node-type-cursos-y-eventos .field .field-label {
   font-weight: normal;
   display: inline-block;
 }
+
+body.node-type-cursos-y-eventos a.fieldset-title{
+    color: #9D8C84;
+    font-size: 24px;
+}
+
+body.node-type-cursos-y-eventos fieldset legend{
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body.node-type-cursos-y-eventos fieldset legend .fieldset-legend{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
 .views-field-field-zona .views-label {
   font-weight: bold;
 }
