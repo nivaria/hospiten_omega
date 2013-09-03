@@ -4017,6 +4017,13 @@ html.js input.form-autocomplete {
   float: none;
   padding: 2px 4px;
 }
+#autocomplete {
+    height: 200px;
+    max-height: 200px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 .region-sidebar-first h2{
     font-size: 18px;
