@@ -270,3 +270,15 @@ function hospiten_omega_preprocess_zone(&$vars) {
     $vars['theme_hook_suggestions'][] = 'zone__content__especialidades';
   }
 }
+
+function hospiten_omega_webform_element_text($variables) {
+  $element = $variables['element'];
+  $value = $variables['element']['#children'];
+ 
+    // Check if there is any value to print out at all, if not, return an empty string.
+  if (strlen(trim($value)) == 0) {
+    return '';
+  }
+  // Call the default theme function if there is a value.
+  return theme_webform_element_text($variables);
+}
