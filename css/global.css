@@ -909,6 +909,7 @@ body.front .view-especialidades-y-unidades .views-field-field-imagen-campanya {
 .slideshow-nav {
   height: 15px;
   text-align: right;
+  overflow:hidden;
   margin-right: 17px;
 }
 .slideshow-nav a {
@@ -4025,7 +4026,7 @@ html.js input.form-autocomplete {
 body.node-type-cursos-y-eventos a.fieldset-title fieldset.collapsed{
     height: 3em;
 }
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1295px) {
   #page {
     width: 980px;
   }
