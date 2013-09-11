@@ -2983,11 +2983,6 @@ body.node-type-especialidades .pruebas_especialidad .field-name-field-pru-ser-es
 .views-display-top .ctools-button-processed {
   top: -36px;
 }
-@media only screen and (max-width: 1030px) {
-  #page {
-    width: 100%;
-  }
-}
 .field-name-informaci-n-relacionada .item-list li.views-row:before,
 #block-views-7a9e68cc65273113cf9b494dd5efca64 li:before,
 .block.block-facetapi .content li li:before,
@@ -4029,4 +4024,12 @@ html.js input.form-autocomplete {
 
 body.node-type-cursos-y-eventos a.fieldset-title fieldset.collapsed{
     height: 3em;
+}
+@media only screen and (max-width: 1030px) {
+  #page {
+    width: 980px;
+  }
+  #section-header{
+    left:0;
+  }
 }
