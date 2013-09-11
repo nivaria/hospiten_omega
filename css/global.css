@@ -2770,7 +2770,6 @@ body.page-nuestros-profesionales #inner_page_banner {
 body.page-especialidades-y-servicios #inner_page_banner {
   margin-bottom: 96px;
 }
-body.page-hospitales-cita-previa h1,
 body.page-especialidades-y-servicios h1,
 body.page-nuestros-profesionales h1 {
   border-bottom: 1px solid #E0E0E0;
@@ -2796,12 +2795,6 @@ body.page-nuestros-profesionales .contextual-links-region > h1 {
 }
 body.page-nuestros-profesionales .contextual-links-region > h1 {
   top: -76px;
-}
-body.page-hospitales-cita-previa #page h1 {
-  top: -81px;
-  width: 930px;
-  left: -241px;
-  padding-bottom: 20px;
 }
 body.page-hospitales-cita-previa .view-centros-node-index .views-row {
   border-top: 1px solid #E0E0E0;
@@ -2859,7 +2852,7 @@ body.node-type-campanya .view-centros .views-row .group-right {
 body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right {
   float: right;
   overflow: hidden;
-  width: 166px;
+  width: 206px;
 }
 body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset {
   width: auto;
