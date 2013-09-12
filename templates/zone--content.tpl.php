@@ -23,7 +23,7 @@
           $banner = "/sites/default/files/nuestros-profesionales.png";
         }
         if ( $_REQUEST["q"]=="es/hospitales-cita-previa" || $_REQUEST["q"]=="en/hospitales-cita-previa" ){
-          $banner = "/sites/default/files/nuestros-profesionales.png";
+          $banner = "/sites/default/files/cita_previa.png";
         }
       }
       

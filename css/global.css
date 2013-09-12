@@ -1793,6 +1793,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .node-type-especialidades .block-views-profesionales-block-3 .views-row.views-row-last {
   border-bottom: 1px solid #E0E0E0;
 }
+body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-title h2,
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .group-left h2,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left h2 {
   white-space: nowrap;
