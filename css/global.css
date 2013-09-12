@@ -3674,14 +3674,12 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
   bottom: -2px;
 }
 
-.pedircitatexto h2{
-  background: none !important;
+.pedircitatexto h2:after{
+  display: none !important;
 }
 
 .pedircitatexto .horarioatencion{
-  background-image: url('../images/sprites.png');
-  background-repeat: no-repeat;
-  background-position: -31px -308px;
+  background-image: url('../images/arrow.png')center right no-repeat;
 }
 .pedircitatexto strong {
   display: block;
