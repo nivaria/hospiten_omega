@@ -3673,7 +3673,10 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
   left: -10px;
   bottom: -2px;
 }
-
+.pedircitatexto h2:after {
+  margin-top: 8px;
+  left: 149px;
+}
 .pedircitatexto strong {
   display: block;
 }
