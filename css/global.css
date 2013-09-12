@@ -3666,21 +3666,14 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 .pedircitatexto {
   background-color: #2CC7D7;
   margin: 0px;
-  padding: 8px 16px 0;
+  padding: 8px 23px 0;
   position: relative;
-  width: 188px;  
+  width: 174px;  
   padding-bottom: 8px;
   left: -10px;
   bottom: -2px;
 }
 
-.pedircitatexto h2:after{
-  display: none !important;
-}
-
-.pedircitatexto .horarioatencion{
-  background-image: url('../images/arrow.png')center right no-repeat;
-}
 .pedircitatexto strong {
   display: block;
 }
