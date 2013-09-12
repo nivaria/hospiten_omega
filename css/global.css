@@ -4048,3 +4048,7 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field{
 body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-name-field-imagenes-article{
     margin-left: 0px;
 }
+
+body.front .field-name-field-enlace-bloque{
+    display: none;
+}
