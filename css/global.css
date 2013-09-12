@@ -4036,3 +4036,11 @@ body.node-type-cursos-y-eventos a.fieldset-title fieldset.collapsed{
     left:0;
   }
 }
+
+body.page-hospitales-cita-previa .view-centros-node-index .group-left .field{
+    margin-left: 92px;
+}
+
+body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-name-field-imagenes-article{
+    margin-left: 0px;
+}
