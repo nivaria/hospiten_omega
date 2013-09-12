@@ -259,7 +259,7 @@
 #page .block-pedir-cita h2,
 #block-nodeblock-34 h2 {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
 }
 #page .block-pedir-cita .field-name-body,
 #block-nodeblock-34 .field-name-body {
@@ -3672,9 +3672,6 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
   padding-bottom: 8px;
   left: -10px;
   bottom: -2px;
-}
-.pedircitatexto h2{
-  font-size: 16px;  
 }
 .pedircitatexto h2:after {
   top: 43px !important;
