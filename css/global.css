@@ -263,7 +263,7 @@
 }
 #page .block-pedir-cita .field-name-body,
 #block-nodeblock-34 .field-name-body {
-  padding: 12px 8px 8px;
+  padding: 12px 8px 0px 8px;
 }
 #page .block-pedir-cita .field-name-field-imagen-bloque,
 #block-nodeblock-34 .field-name-field-imagen-bloque {
@@ -381,9 +381,11 @@ input[type="week"] {
   font-size: 11px;
   min-height: 28px;
 }
+/*
 select {
   -webkit-appearance: menulist-button;
 }
+*/
 .node-webform {
   background-color: #F9F9F9;
   padding: 20px;
@@ -3663,8 +3665,23 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 }
 .pedircitatexto {
   background-color: #2CC7D7;
-  margin: 0 -2px -2px;
+  margin: 0px;
   padding: 8px 16px 0;
+  position: relative;
+  width: 188px;  
+  padding-bottom: 8px;
+  left: -10px;
+  bottom: -2px;
+}
+
+.pedircitatexto h2{
+  background: none !important;
+}
+
+.pedircitatexto .horarioatencion{
+  background-image: url('../images/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -31px -308px;
 }
 .pedircitatexto strong {
   display: block;
@@ -4051,4 +4068,8 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
 
 body.front .field-name-field-enlace-bloque{
     display: none;
+}
+
+.chosen-container .chosen-results li.group-option {
+    color: #333;
 }
