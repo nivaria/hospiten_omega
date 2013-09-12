@@ -22,6 +22,9 @@
         if ( $_REQUEST["q"]=="es/nuestros-profesionales" || $_REQUEST["q"]=="en/our-professionals" ){
           $banner = "/sites/default/files/nuestros-profesionales.png";
         }
+        if ( $_REQUEST["q"]=="es/hospitales-cita-previa" || $_REQUEST["q"]=="en/hospitales-cita-previa" ){
+          $banner = "/sites/default/files/nuestros-profesionales.png";
+        }
       }
       
       if ( $banner!=null ){
