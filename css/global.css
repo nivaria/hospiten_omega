@@ -2764,7 +2764,7 @@ body.page-nuestros-profesionales #region-content {
   width: 450px;
   position: static;
 }
-body.page-hospitales-cita-previa #inner_page_banner,
+/*body.page-hospitales-cita-previa #inner_page_banner,*/
 body.page-especialidades-y-servicios #inner_page_banner,
 body.page-nuestros-profesionales #inner_page_banner {
   margin-bottom: 84px;
