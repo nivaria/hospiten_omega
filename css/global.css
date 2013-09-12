@@ -3673,6 +3673,9 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
   left: -10px;
   bottom: -2px;
 }
+.pedircitatexto h2{
+  font-size: 16px;  
+}
 .pedircitatexto h2:after {
   top: 43px !important;
 }
