@@ -3679,6 +3679,9 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
     padding-left: 16px;
     width: 181px;
 }
+.pedircitatexto a{
+    color: #ffffff !important;
+}
 .pedircitatexto h2:after {
   top: 50px !important;
 }
