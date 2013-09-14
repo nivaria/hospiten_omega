@@ -1,3 +1,9 @@
+p {
+    color: #666666;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 160%;
+}
 /* BEGIN ckeditor styles */
 .text {
     font-family:Arial, Helvetica, sans-serif;

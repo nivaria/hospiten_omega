@@ -239,6 +239,9 @@
   height: 24px;
   display: block;
 }
+#block-nodeblock-34 .field-name-field-enlace-bloque{
+  display:none !important;
+}
 #page .block-pedir-cita .field-name-field-enlace-bloque a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a {
   display: block;
@@ -263,7 +266,21 @@
 }
 #page .block-pedir-cita .field-name-body,
 #block-nodeblock-34 .field-name-body {
-  padding: 12px 8px 0px 8px;
+  /*padding: 12px 8px 0px 8px;*/
+  padding:0;
+}
+#block-nodeblock-34 .pedircitatexto{
+  left: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    padding:8px 14px;
+    width:auto;
+}
+#block-nodeblock-34 .pedircitatexto h2{
+  padding-bottom:0;
+}
+#block-nodeblock-34 .field-name-body p{
+  margin:0;
 }
 #page .block-pedir-cita .field-name-field-imagen-bloque,
 #block-nodeblock-34 .field-name-field-imagen-bloque {
@@ -1675,6 +1692,12 @@ body.page-hospitales-y-centros .view-centros .views-row {
   white-space: nowrap;
   position: relative;
 }
+.group-cita-previa .field.field-name-field-tfno-cp-centro{
+    line-height: 24px;
+    padding-top: 8px;
+    white-space: normal;
+    min-height:32px;
+}
 .pedircitacorreo {
   padding-left: 14px;
 }
@@ -2027,7 +2050,7 @@ body.node-type-profesionales .node-profesionales .group-footer .field-name-bloqu
   display: none;
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-field-tfno-cp-centro {
-  padding-right: 0;
+  /*padding-right: 0;*/
 }
 body.node-type-profesionales .node-profesionales .group-footer .field-name-bloque-centros-relacionados .attachment li.views-row .group-right fieldset .fieldset-wrapper .field-name-campo-pedir-cita-hospital {
   padding-right: 0;
@@ -3701,6 +3724,7 @@ body.front .pedircitatexto h2:after{
 .pedircitatexto .horarioatencion{
     display: block;
     width: 145px;
+    line-height:14px;
 }
 body.page-hospitales-y-centros .block-views-centros-block-4 {
   border: 0 none;
@@ -4074,11 +4098,6 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field{
 body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-name-field-imagenes-article{
     margin-left: 0px;
 }
-
-body.front .field-name-field-enlace-bloque{
-    display: none;
-}
-
 .chosen-container .chosen-results li.group-option {
     color: #333;
 }
