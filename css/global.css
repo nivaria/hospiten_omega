@@ -242,6 +242,7 @@
 #block-nodeblock-34 .field-name-field-enlace-bloque{
   display:none !important;
 }
+
 #page .block-pedir-cita .field-name-field-enlace-bloque a,
 #block-nodeblock-34 .field-name-field-enlace-bloque a {
   display: block;
@@ -268,6 +269,12 @@
 #block-nodeblock-34 .field-name-body {
   /*padding: 12px 8px 0px 8px;*/
   padding:0;
+}
+#block-nodeblock-34 .pedircitacorreo{
+	white-space: normal;
+line-height: 28px;
+	min-height:32px;
+padding: 8px 22px 4px 14px;
 }
 #block-nodeblock-34 .pedircitatexto{
   left: 0;
