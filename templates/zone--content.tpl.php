@@ -19,11 +19,19 @@
         if ( $_REQUEST["q"]=="es/nuestros-profesionales" || $_REQUEST["q"]=="en/our-professionals" ){
           $banner = "/sites/default/files/nuestros-profesionales.png";
         }
-        if ( $_REQUEST["q"]=="es/hospitales-cita-previa" || $_REQUEST["q"]=="es/cita-previa" ){
+        
+        if ( $_REQUEST["q"]=="es/hospitales-cita-previa" ){
           $banner = "/sites/default/files/cita_previa.png";
         }
-        if ( $_REQUEST["q"]=="en/hospitales-cita-previa" || $_REQUEST["q"]=="en/cita-previa" ){
+        if ( $_REQUEST["q"]=="en/hospitales-cita-previa"  ){
           $banner = "/sites/default/files/cita_previa.png";
+        }
+        
+        if ( $_REQUEST["q"]=="es/cita-previa" ){
+          $banner = "/sites/default/files/Solicita-cita-previaonline.png";
+        }
+        if ( $_REQUEST["q"]=="en/cita-previa" ){
+          $banner = "/sites/default/files/Solicita-cita-previaonline.png";
         }
       }
       
