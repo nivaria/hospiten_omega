@@ -103,10 +103,10 @@ jQuery(document).ready(function($){
     $(".views-field-field-imagen-slideshow-portada,#region-sidebar-first .block-views .views-row,#region-sidebar-second .block-views .views-row,#region-sidebar-second .block-nodeblock, body.front #region-postscript-third .block").hover(
     function() {
     $(this).find("img").stop().animate({"opacity": "0.5"}, "slow");
-    $(this).find("a").css("text-decoration","underline");
+    /*$(this).find("a.field-name-field-enlace-bloque").css("text-decoration","underline");*/
     },
     function() {
     $(this).find("img").stop().animate({"opacity": "1"}, "slow");
-    $(this).find("a").css("text-decoration","none");
+    /*$(this).find("a.field-name-field-enlace-bloque").css("text-decoration","none");*/
     });
 })
