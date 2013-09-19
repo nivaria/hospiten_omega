@@ -113,7 +113,7 @@ jQuery(document).ready(function($){
     
     jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
         var path = jQuery(this).attr('href');
-        var image = jQuery(this).parent().parent().parent().parent().parent().parent();
+        var image = jQuery(this).parent().parent().parent().parent().parent().parent().find('img');
         
         var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image.attr('src') + '" width="' + image.attr('width') + '" height="' + image.attr('height') + '"/></a>';
         
