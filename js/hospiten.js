@@ -115,7 +115,7 @@ jQuery(document).ready(function($){
         var path = jQuery(this).attr('href');
         var image = jQuery(this).parent().parent().parent().parent().parent().parent().find('img');
         
-        var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image[0].attr('src') + '" width="' + image[0].attr('width') + '" height="' + image[0].attr('height') + '"/></a>';
+        var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image[0].src + '" width="' + image[0].width + '" height="' + image[0].height + '"/></a>';
         
         jQuery(this).parent().parent().parent().parent().parent().parent().find('.field-name-field-imagenes-article .field-items .field-item').append(res);
     });
