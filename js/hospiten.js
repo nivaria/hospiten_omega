@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
     
     jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
         var path = jQuery(this).attr('href');
-        var image = jQuery(this).parent('.node-hospitales').children('img');
+        var image = jQuery(this).parent('.node-hospitales').children('img').html();
         
         var res = '<a href="' + path + '">' + image + '</a>';
         
