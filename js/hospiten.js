@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
     size=size-183;
     /*size=size-(number_of_normal_tabs*40);*/
     
-    jQuery('.page-hospitales-cita-previa .group-cita-previa h2 a').each(function (){
+    jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
         var path = jQuery(this).attr('href');
         var image = jQuery(this).parent('.node-hospitales').children('img');
         
