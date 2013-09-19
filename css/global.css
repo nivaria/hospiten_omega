@@ -3727,7 +3727,7 @@ body.front .pedircitatexto h2:after{
     top: 31px !important;
     right: 3px !important;
 }
-.i18n-en .pedircitatexto h2:after{
+body.front.i18n-en .pedircitatexto h2:after{
     top: 52px !important;
 }
 .pedircitatexto strong {
