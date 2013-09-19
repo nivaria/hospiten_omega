@@ -4170,8 +4170,5 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
 }
 
 .page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
-    margin-top: -10px;
-}
-.i18n-en.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
     margin-top: 5px;
 }
