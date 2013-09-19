@@ -8,6 +8,15 @@ jQuery(document).ready(function($){
     size=size-183;
     /*size=size-(number_of_normal_tabs*40);*/
     
+    jQuery('.page-hospitales-cita-previa .group-cita-previa h2 a').each(function (){
+        var path = jQuery(this).attr('href');
+        var image = jQuery(this).parent('.node-hospitales').children('img');
+        
+        var res = '<a href="' + path + '">' + image + '</a>';
+        
+        jQuery(this).parent('.node-hospitales').children('img').html(res);
+    });
+    
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").css("width",size/number_of_normal_tabs+"px");
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li a").each( function(index,element){
         jQuery(this).append( jQuery("<span class='tab_icon tab_icon_"+index+"' ></span>") );
@@ -109,4 +118,6 @@ jQuery(document).ready(function($){
     $(this).find("img").stop().animate({"opacity": "1"}, "slow");
     /*$(this).find("a.field-name-field-enlace-bloque").css("text-decoration","none");*/
     });
+    
+    
 })
