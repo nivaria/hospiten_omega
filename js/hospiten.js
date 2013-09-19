@@ -8,16 +8,6 @@ jQuery(document).ready(function($){
     size=size-183;
     /*size=size-(number_of_normal_tabs*40);*/
     
-    jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
-        var path = jQuery(this).attr('href');
-        var image = jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-item').html();
-        
-        var res = '<a href="' + path + '">' + image + '</a>';
-        
-        alert(res);
-        
-        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-item').html(res);
-    });
     
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").css("width",size/number_of_normal_tabs+"px");
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li a").each( function(index,element){
@@ -121,5 +111,14 @@ jQuery(document).ready(function($){
     /*$(this).find("a.field-name-field-enlace-bloque").css("text-decoration","none");*/
     });
     
-    
+    jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
+        var path = jQuery(this).attr('href');
+        var image = jQuery(this).parent('.node-hospitales').children('img');
+        
+        var res = '<a href="' + path + '">' + jQuery(this).parent('.node-hospitales').children('img') + '</a>';
+        
+        alert(res);
+        
+        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-item').html(res);
+    });
 })
