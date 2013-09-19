@@ -113,10 +113,10 @@ jQuery(document).ready(function($){
     
     jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
         var path = jQuery(this).attr('href');
-        var image = jQuery(this).parent('.node-hospitales').children('img');
+        var image = jQuery(this).parent('.node-hospitales').find('img');
         
         var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image.attr('src') + '" width="' + image.attr('width') + '" height="' + image.attr('height') + '"/></a>';
         
-        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-items .field-item').append(res);
+        jQuery(this).parent('.node-hospitales').find('.field-name-field-imagenes-article .field-items .field-item').append(res);
     });
 })
