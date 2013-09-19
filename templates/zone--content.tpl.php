@@ -23,14 +23,14 @@
         if ( $_REQUEST["q"]=="es/hospitales-cita-previa" ){
           $banner = "/sites/default/files/cita_previa.png";
         }
-        if ( $_REQUEST["q"]=="en/hospitales-cita-previa"  ){
+        if ( $_REQUEST["q"]=="en/request-appointment-hospitals"  ){
           $banner = "/sites/default/files/cita_previa-en.png";
         }
         
         if ( $_REQUEST["q"]=="es/cita-previa" ){
           $banner = "/sites/default/files/Solicita-cita-previaonline.png";
         }
-        if ( $_REQUEST["q"]=="en/cita-previa" ){
+        if ( $_REQUEST["q"]=="en/request-appointment" ){
           $banner = "/sites/default/files/Solicita-cita-previaonline-en.png";
         }
       }

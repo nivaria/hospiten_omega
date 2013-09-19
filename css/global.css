@@ -4121,3 +4121,11 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
 .chosen-container .chosen-results li.group-option {
     color: #333;
 }
+
+.page-hospitales-cita-previa .group-cita-previa .field-type-ds:before{
+    background: none;
+}
+.page-hospitales-cita-previa .group-cita-previa .field{
+    padding-left: 0px;
+    white-space: normal;
+}
