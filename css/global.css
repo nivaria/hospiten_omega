@@ -271,10 +271,13 @@
   padding:0;
 }
 #block-nodeblock-34 .pedircitacorreo{
-	white-space: normal;
-line-height: 28px;
-	min-height:32px;
-padding: 8px 22px 4px 14px;
+    white-space: normal;
+    line-height: 28px;
+    min-height:32px;
+    padding: 8px 22px 4px 14px;
+}
+.i18n-en .pedircitacorreo{
+    line-height: 20px !important;
 }
 #block-nodeblock-34 .pedircitatexto{
   left: 0;
@@ -1733,6 +1736,10 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .pedircitacorreo:after {
   left: auto;
   right: 16px;
+}
+
+.i18n-en .pedircitacorreo:after{
+    top: 16px;
 }
 .telefono,
 .group-cita-previa .field-name-field-tfno-cp-centro,
@@ -3715,6 +3722,9 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
 .pedircitatexto h2:after {
   top: 33px !important;
   right: 4px !important;
+}
+.i18n-en .pedircitatexto h2:after{
+    top: 52px !important;
 }
 body.front .pedircitatexto h2:after{
     top: 31px !important;
