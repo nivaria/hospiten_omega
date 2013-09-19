@@ -4126,6 +4126,27 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     background: none;
 }
 .page-hospitales-cita-previa .group-cita-previa .field{
-    padding-left: 0px;
+    padding: 0px;
     white-space: normal;
+    width: 206px;
+}
+
+.page-hospitales-cita-previa .group-cita-previa .field .cita-previa{
+    padding: 5px 14px;
+    white-space: normal;
+    display: block;
+    line-height: 20px;
+}
+
+.page-hospitales-cita-previa .group-cita-previa .field .cita-previa a{
+    display: block;
+    content: ' ';
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 23px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url('../images/sprites.png');
+    background-position: -31px -308px;
 }
