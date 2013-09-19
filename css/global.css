@@ -4122,6 +4122,11 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     color: #333;
 }
 
+.i18n-en.node-type-hospitales .pedircitacorreo {
+    white-space: normal;
+    padding: 5px 14px;
+}
+
 .page-hospitales-cita-previa .group-cita-previa .field-type-ds:before{
     background: none;
 }
