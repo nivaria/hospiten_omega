@@ -14,7 +14,9 @@ jQuery(document).ready(function($){
         
         var res = '<a href="' + path + '">' + image + '</a>';
         
-        jQuery(this).parent('.node-hospitales').children('img').html(res);
+        alert(res);
+        
+        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-item').html(res);
     });
     
     jQuery(".quicktabs-wrapper ul.quicktabs-tabs li").css("width",size/number_of_normal_tabs+"px");
