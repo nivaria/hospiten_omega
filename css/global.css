@@ -4138,7 +4138,7 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     line-height: 20px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .cita-previa a{
+.page-hospitales-cita-previa .group-cita-previa .field .cita-previa:after{
     display: block;
     content: ' ';
     position: absolute;
