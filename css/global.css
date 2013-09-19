@@ -3641,9 +3641,11 @@ body.node-type-hospitales #page .node-hospitales .block-views-profesionales-node
 body.node-type-hospitales #page #quicktabs-tabpage-informacion_adicional_centro-4 .views-field-field-organigrama-centro {
   padding-left: 1.2em;
 }
+/*
 body.node-type-hospitales #page #quicktabs-tabpage-informacion_adicional_centro-4 .views-field-field-organigrama-centro p {
   display: none;
 }
+*/
 body.node-type-hospitales #page #quicktabs-tabpage-informacion_adicional_centro-4 .views-field-field-organigrama-centro .field-content div {
   list-style: none;
   background-image: url('../images/bullet.png');
