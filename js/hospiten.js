@@ -115,10 +115,8 @@ jQuery(document).ready(function($){
         var path = jQuery(this).attr('href');
         var image = jQuery(this).parent('.node-hospitales').children('img');
         
-        var res = '<a href="' + path + '">' + jQuery(this).parent('.node-hospitales').children('img') + '</a>';
+        var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image.attr('src') + '" width="' + image.attr('width') + '" height="' + image.attr('height') + '"/></a>';
         
-        alert(res);
-        
-        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-item').html(res);
+        jQuery(this).parent('.node-hospitales').children('.field-name-field-imagenes-article .field-items .field-item').append(res);
     });
 })
