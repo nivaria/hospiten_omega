@@ -4160,12 +4160,18 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     font-weight: bold;
     padding-top: 0px;
 }
+.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto{
+    line-height: 15px;
+    padding-top: 10px;
+}
 
 .page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto span{
     font-weight: normal;
 }
 
 .page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
-    font-weight: normal;
     margin-top: -10px;
+}
+.i18n-en.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
+    margin-top: 5px;
 }
