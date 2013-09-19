@@ -3723,12 +3723,12 @@ body.node-type-hospitales #page #block-views-especialidades-node-index-block .vi
   top: 33px !important;
   right: 4px !important;
 }
-.i18n-en .pedircitatexto h2:after{
-    top: 52px !important;
-}
 body.front .pedircitatexto h2:after{
     top: 31px !important;
     right: 3px !important;
+}
+.i18n-en .pedircitatexto h2:after{
+    top: 52px !important;
 }
 .pedircitatexto strong {
   display: block;
