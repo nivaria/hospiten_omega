@@ -113,9 +113,9 @@ jQuery(document).ready(function($){
     
     jQuery('.page-hospitales-cita-previa .node-hospitales h2 a').each(function (){
         var path = jQuery(this).attr('href');
-        var image = jQuery(this).parent().parent().parent().parent();
+        var image = jQuery(this).parent().parent().parent().parent().parent().parent();
         
-        //var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image.attr('src') + '" width="' + image.attr('width') + '" height="' + image.attr('height') + '"/></a>';
+        var res = '<a href="' + path + '"><img typeof="foaf:Image" src="' + image.attr('src') + '" width="' + image.attr('width') + '" height="' + image.attr('height') + '"/></a>';
         
         //jQuery(this).parent('.node-hospitales').find('.field-name-field-imagenes-article .field-items .field-item').append(res);
     });
