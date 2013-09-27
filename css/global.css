@@ -3491,6 +3491,7 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-espe
   margin-right: -16px;
   margin-top: -45px;
   padding-top: 24px;
+  height: 70px;
 }
 body.node-type-hospitales #page .node-hospitales .group-footer #block-views-especialidades-node-index-block .views-exposed-widgets #edit-search-api-views-fulltext-wrapper .form-item {
   float: right;
@@ -4183,4 +4184,10 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
 .node-profesionales .group-footer .field-name-field-exp-profesional {
     clear: both;
     padding-top: 1em;
+}
+
+.view-especialidades-node-index .view-id-especialidades_node_index .view-display-id-block .view-header {
+  position: absolute;
+  padding: 16px 20px;
+  top: 56px;
 }
