@@ -3806,7 +3806,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-fi
   height: auto;
   line-height: 12px;
   margin-top: 20px;
-  padding: 10px 20px 14px 72px;
+  padding: 10px 20px 7px 72px;
 }
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-filters .views-exposed-widgets div {
   float: none;
@@ -4191,4 +4191,38 @@ body.node-type-hospitales #page .node-hospitales .group-footer #block-views-espe
   position: absolute;
   padding: 16px 20px;
   top: 56px;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-header {
+    top: 349px;
+    background: none;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content{
+    margin-top: 25px;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list{
+    border: 1px solid #cccccc;
+    padding-bottom: 60px;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list h3{
+    font-size: 14px;
+    padding: 15px 17px;
+    background: #f9f9f9;
+    font-weight: bold;
+    font-family: lato;
+}
+
+body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list ul{
+    margin-top: 60px;
 }
