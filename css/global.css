@@ -1919,6 +1919,7 @@ h2.grouping-title {
   border-bottom: 1px solid #E0E0E0;
   margin-bottom: 1em;
   padding-bottom: 1em;
+  clear: both;
 }
 .field-name-bloque-centros-relacionados h2.block-title {
   padding-top: 1em;
