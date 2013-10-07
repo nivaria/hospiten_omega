@@ -4216,7 +4216,7 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 }
 
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list h3{
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px 17px;
     background: #f9f9f9;
     font-weight: bold;
@@ -4234,7 +4234,4 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
   padding-left: 12px;
   padding-bottom: 1em;
   padding-top: 2px;
-}
-h3 {
-  font-size: 16px;
 }
