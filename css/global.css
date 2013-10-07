@@ -4226,3 +4226,15 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
 body.page-especialidades-y-servicios #zone-content .view.especialidades .view-content .item-list ul{
     margin-top: 60px;
 }
+.bulleted_list_row_especialidades {
+  list-style: none;
+  background-image: url('../images/bullet.png');
+  background-position: left 6px;
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  padding-bottom: 1em;
+  padding-top: 2px;
+}
+h3 {
+  font-size: 16px;
+}
