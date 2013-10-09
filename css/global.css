@@ -4131,27 +4131,27 @@ body.page-cita-telefonos-direcciones .view-centros-node-index .group-left .field
     padding: 5px 14px;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field-type-ds:before{
+.page-hospitales-cita-previa .group-cita-previa .field-type-ds:before{
     background: none;
 }
-.page-cita-telefonos-direcciones .group-cita-previa .field{
+.page-hospitales-cita-previa .group-cita-previa .field{
     padding: 0px;
     white-space: normal;
     width: 206px;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa{
+.page-hospitales-cita-previa .group-cita-previa .field .cita-previa{
     padding: 5px 14px;
     white-space: normal;
     display: block;
     line-height: 20px;
 }
 
-.i18n-es.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa{
+.i18n-es.page-hospitales-cita-previa .group-cita-previa .field .cita-previa{
     padding-top: 11px;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa:after{
+.page-hospitales-cita-previa .group-cita-previa .field .cita-previa:after{
     display: block;
     content: ' ';
     position: absolute;
@@ -4164,21 +4164,21 @@ body.page-cita-telefonos-direcciones .view-centros-node-index .group-left .field
     background-position: -31px -308px;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto{
+.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto{
     font-size: 12px;
     font-weight: bold;
     padding-top: 0px;
 }
-.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto{
+.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto{
     line-height: 15px;
     padding-top: 10px;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto span{
+.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto span{
     font-weight: normal;
 }
 
-.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto .horarioatencion{
+.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
     margin-top: 5px;
 }
 
