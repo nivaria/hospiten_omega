@@ -1832,7 +1832,7 @@ body.page-hospitales-y-centros .view-centros .views-row {
 .node-type-especialidades .block-views-profesionales-block-3 .views-row.views-row-last {
   border-bottom: 1px solid #E0E0E0;
 }
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-title h2,
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .field-name-title h2,
 .node-type-especialidades .block-views-profesionales-block-3 .views-row .group-left h2,
 .view-id-mapa_centros.view-display-id-block_2 li.views-row .group-left h2 {
   white-space: nowrap;
@@ -2805,7 +2805,7 @@ body.page-nuestros-profesionales #region-content {
   width: 450px;
   position: static;
 }
-/*body.page-hospitales-cita-previa #inner_page_banner,*/
+/*body.page-cita-telefonos-direcciones #inner_page_banner,*/
 body.page-especialidades-y-servicios #inner_page_banner,
 body.page-nuestros-profesionales #inner_page_banner {
   margin-bottom: 84px;
@@ -2829,7 +2829,7 @@ body.page-nuestros-profesionales h1 {
 body.page-especialidades-y-servicios h1 {
   padding-bottom: 48px;
 }
-body.page-hospitales-cita-previa .contextual-links-region > h1,
+body.page-cita-telefonos-direcciones .contextual-links-region > h1,
 body.page-especialidades-y-servicios .contextual-links-region > h1,
 body.page-nuestros-profesionales .contextual-links-region > h1 {
   top: -103px;
@@ -2839,12 +2839,12 @@ body.page-nuestros-profesionales .contextual-links-region > h1 {
 body.page-nuestros-profesionales .contextual-links-region > h1 {
   top: -76px;
 }
-body.page-hospitales-cita-previa .view-centros-node-index .views-row {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row {
   border-top: 1px solid #E0E0E0;
   margin-top: 24px;
   padding-top: 24px;
 }
-body.page-hospitales-cita-previa .view-centros-node-index .views-row:first-child {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row:first-child {
   border: 0 none;
   padding: 0;
 }
@@ -2876,47 +2876,47 @@ body.node-type-campanya .view-profesionales .views-row:first-child {
   padding-top: 0;
 }
 body.node-type-campanya .view-centros .views-row .field-name-field-imagenes-article,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-field-imagenes-article {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .field-name-field-imagenes-article {
   float: left;
   margin-right: 1em;
 }
 body.node-type-campanya .view-centros .views-row .field-name-title a,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-title a {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .field-name-title a {
   font-size: 18px;
 }
 body.node-type-campanya .view-centros .views-row .field-name-field-zona li,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-field-zona li {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .field-name-field-zona li {
   white-space: nowrap;
 }
 body.node-type-campanya .view-centros .views-row .group-right {
   width: auto;
   float: right;
 }
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right {
   float: right;
   overflow: hidden;
   width: 206px;
 }
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right fieldset {
   width: auto;
 }
 body.node-type-campanya .view-centros .views-row .group-right fieldset legend,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset legend {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right fieldset legend {
   float: left;
   padding-bottom: 10px;
 }
 body.node-type-campanya .view-centros .views-row .group-right fieldset legend span,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset legend span {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right fieldset legend span {
   background-image: none;
   padding: 0;
 }
 body.node-type-campanya .view-centros .views-row .group-right fieldset legend span a,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset legend span a {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right fieldset legend span a {
   color: #666666;
   font-size: 16px;
 }
 body.node-type-campanya .view-centros .views-row .group-right fieldset .fieldset-wrapper,
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .group-right fieldset .fieldset-wrapper {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .group-right fieldset .fieldset-wrapper {
   clear: both;
 }
 body.page-nuestros-profesionales .view-nuestros-profesionales h2.node-title {
@@ -4111,15 +4111,15 @@ body.node-type-cursos-y-eventos a.fieldset-title fieldset.collapsed{
   }
 }
 
-body.page-hospitales-cita-previa .view-centros-node-index .views-row .field-name-title h2 {
+body.page-cita-telefonos-direcciones .view-centros-node-index .views-row .field-name-title h2 {
     margin-bottom: 8px;
 }
 
-body.page-hospitales-cita-previa .view-centros-node-index .group-left .field{
+body.page-cita-telefonos-direcciones .view-centros-node-index .group-left .field{
     margin-left: 92px;
 }
 
-body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-name-field-imagenes-article{
+body.page-cita-telefonos-direcciones .view-centros-node-index .group-left .field-name-field-imagenes-article{
     margin-left: 0px;
 }
 .chosen-container .chosen-results li.group-option {
@@ -4131,27 +4131,27 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     padding: 5px 14px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field-type-ds:before{
+.page-cita-telefonos-direcciones .group-cita-previa .field-type-ds:before{
     background: none;
 }
-.page-hospitales-cita-previa .group-cita-previa .field{
+.page-cita-telefonos-direcciones .group-cita-previa .field{
     padding: 0px;
     white-space: normal;
     width: 206px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .cita-previa{
+.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa{
     padding: 5px 14px;
     white-space: normal;
     display: block;
     line-height: 20px;
 }
 
-.i18n-es.page-hospitales-cita-previa .group-cita-previa .field .cita-previa{
+.i18n-es.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa{
     padding-top: 11px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .cita-previa:after{
+.page-cita-telefonos-direcciones .group-cita-previa .field .cita-previa:after{
     display: block;
     content: ' ';
     position: absolute;
@@ -4164,21 +4164,21 @@ body.page-hospitales-cita-previa .view-centros-node-index .group-left .field-nam
     background-position: -31px -308px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto{
+.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto{
     font-size: 12px;
     font-weight: bold;
     padding-top: 0px;
 }
-.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto{
+.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto{
     line-height: 15px;
     padding-top: 10px;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto span{
+.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto span{
     font-weight: normal;
 }
 
-.page-hospitales-cita-previa .group-cita-previa .field .pedircitatexto .horarioatencion{
+.page-cita-telefonos-direcciones .group-cita-previa .field .pedircitatexto .horarioatencion{
     margin-top: 5px;
 }
 
