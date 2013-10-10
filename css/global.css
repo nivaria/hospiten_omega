@@ -273,7 +273,8 @@
 #page .block-pedir-cita .field-name-body,
 #block-nodeblock-34 .field-name-body {
   /*padding: 12px 8px 0px 8px;*/
-  padding:0;
+  padding: 0px;
+  margin: 0px;
 }
 #block-nodeblock-34 .pedircitacorreo{
     white-space: normal;
