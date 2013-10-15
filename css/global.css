@@ -4242,8 +4242,3 @@ body.page-especialidades-y-servicios #zone-content .view.especialidades .view-co
   padding-bottom: 1em;
   padding-top: 2px;
 }
-
-#OpenLayers.Layer.Google_26_EventPane,
-#OpenLayers.Layer.Google_56_EventPane{
-   background: none !important;
-}
